@@ -1,0 +1,119 @@
+/home/hyohyeongjang/.conda/envs/commonRegion/lib/python3.10/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.3) doesn't match a supported version!
+  warnings.warn(
+[bloom-560m] loading model + SAE on cpu...
+target layers: [12, 20, 21, 22, 23]
+streaming probe corpus: ['en', 'fr', 'es', 'pt', 'zh', 'ar', 'vi', 'hi', 'id', 'bn', 'sw'] x 30...
+  en done (30 texts so far)
+  fr done (60 texts so far)
+  es done (90 texts so far)
+  pt done (120 texts so far)
+  zh done (150 texts so far)
+  ar done (180 texts so far)
+  vi done (210 texts so far)
+  hi done (240 texts so far)
+  id done (270 texts so far)
+  bn done (300 texts so far)
+  sw done (330 texts so far)
+
+=== layer 12: 15817 tokens ===
+  OD dims: [12, 269, 391, 544, 728, 785] (global top-1% threshold=1.826)
+  dominant latents (active in >=50% of tokens): [29168, 49429]
+  SAE FVE: standard=0.9886  robust(OD-excluded std)=0.9875183889067299
+    latent 29168: frac_active=0.518  corr_with_OD544=0.19472387433052063  enc_rank=7/1024  dec_rank=3/1024
+    latent 49429: frac_active=0.872  corr_with_OD544=-0.49749287962913513  enc_rank=0/1024  dec_rank=0/1024
+  primary OD dim 544 magnitude by language:
+    zh  : mean_abs=   6.793  median_abs=   6.690  frac_exceed=0.990  n=1440
+    id  : mean_abs=   6.471  median_abs=   6.632  frac_exceed=0.976  n=1440
+    sw  : mean_abs=   6.400  median_abs=   6.249  frac_exceed=0.988  n=1440
+    hi  : mean_abs=   6.037  median_abs=   6.097  frac_exceed=0.977  n=1440
+    en  : mean_abs=   5.751  median_abs=   5.655  frac_exceed=0.958  n=1440
+    fr  : mean_abs=   5.498  median_abs=   5.445  frac_exceed=0.947  n=1440
+    pt  : mean_abs=   5.495  median_abs=   5.421  frac_exceed=0.942  n=1440
+    bn  : mean_abs=   5.429  median_abs=   5.408  frac_exceed=0.945  n=1417
+    es  : mean_abs=   5.222  median_abs=   5.099  frac_exceed=0.938  n=1440
+    ar  : mean_abs=   5.162  median_abs=   5.092  frac_exceed=0.921  n=1440
+    vi  : mean_abs=   5.026  median_abs=   4.975  frac_exceed=0.907  n=1440
+
+=== layer 20: 15817 tokens ===
+  OD dims: [431, 544] (global top-1% threshold=4.817)
+  dominant latents (active in >=50% of tokens): [49429, 49791]
+  SAE FVE: standard=0.9662  robust(OD-excluded std)=0.9656405740324929
+    latent 49429: frac_active=0.738  corr_with_OD544=-0.6075324416160583  enc_rank=0/1024  dec_rank=0/1024
+    latent 49791: frac_active=0.610  corr_with_OD544=-0.10698752850294113  enc_rank=53/1024  dec_rank=19/1024
+  primary OD dim 544 magnitude by language:
+    zh  : mean_abs=  11.618  median_abs=  11.073  frac_exceed=0.991  n=1440
+    en  : mean_abs=  11.069  median_abs=  10.820  frac_exceed=0.932  n=1440
+    fr  : mean_abs=  10.339  median_abs=   9.622  frac_exceed=0.919  n=1440
+    ar  : mean_abs=   9.891  median_abs=   9.353  frac_exceed=0.838  n=1440
+    pt  : mean_abs=   9.830  median_abs=   9.162  frac_exceed=0.883  n=1440
+    sw  : mean_abs=   9.721  median_abs=   9.324  frac_exceed=0.926  n=1440
+    hi  : mean_abs=   9.430  median_abs=   9.165  frac_exceed=0.876  n=1440
+    es  : mean_abs=   9.306  median_abs=   8.859  frac_exceed=0.860  n=1440
+    vi  : mean_abs=   9.248  median_abs=   8.843  frac_exceed=0.874  n=1440
+    id  : mean_abs=   8.594  median_abs=   8.235  frac_exceed=0.830  n=1440
+    bn  : mean_abs=   8.511  median_abs=   8.151  frac_exceed=0.783  n=1417
+
+=== layer 21: 15817 tokens ===
+  OD dims: [105, 164, 188, 276, 431, 494, 544, 644, 721, 833, 927, 945, 1021] (global top-1% threshold=12.609)
+  dominant latents (active in >=50% of tokens): [36205, 44265, 44917, 49791]
+  SAE FVE: standard=0.9570  robust(OD-excluded std)=0.8818524234835909
+    latent 36205: frac_active=0.608  corr_with_OD833=0.6313529014587402  enc_rank=8/1024  dec_rank=5/1024
+    latent 44265: frac_active=0.553  corr_with_OD833=0.5902877449989319  enc_rank=37/1024  dec_rank=3/1024
+    latent 44917: frac_active=0.597  corr_with_OD833=0.668516993522644  enc_rank=3/1024  dec_rank=0/1024
+    latent 49791: frac_active=0.644  corr_with_OD833=0.6838782429695129  enc_rank=10/1024  dec_rank=1/1024
+  primary OD dim 833 magnitude by language:
+    id  : mean_abs=  53.669  median_abs=  65.089  frac_exceed=0.897  n=1440
+    zh  : mean_abs=  26.820  median_abs=  26.980  frac_exceed=0.999  n=1440
+    vi  : mean_abs=  24.281  median_abs=  24.771  frac_exceed=0.977  n=1440
+    pt  : mean_abs=  24.162  median_abs=  24.123  frac_exceed=0.988  n=1440
+    fr  : mean_abs=  24.044  median_abs=  24.287  frac_exceed=0.996  n=1440
+    es  : mean_abs=  23.676  median_abs=  23.845  frac_exceed=0.988  n=1440
+    en  : mean_abs=  23.063  median_abs=  23.341  frac_exceed=0.983  n=1440
+    sw  : mean_abs=  21.387  median_abs=  23.002  frac_exceed=0.767  n=1440
+    hi  : mean_abs=   2.698  median_abs=   2.198  frac_exceed=0.016  n=1440
+    ar  : mean_abs=   2.696  median_abs=   2.614  frac_exceed=0.007  n=1440
+    bn  : mean_abs=   1.766  median_abs=   1.609  frac_exceed=0.000  n=1417
+
+=== layer 22: 15817 tokens ===
+  OD dims: [35, 105, 164, 188, 431, 494, 644, 721, 833, 927, 945, 1021] (global top-1% threshold=17.532)
+  dominant latents (active in >=50% of tokens): [36205, 44265, 44917, 49791]
+  SAE FVE: standard=0.9412  robust(OD-excluded std)=0.8451239812282294
+    latent 36205: frac_active=0.623  corr_with_OD833=0.7362396717071533  enc_rank=8/1024  dec_rank=5/1024
+    latent 44265: frac_active=0.564  corr_with_OD833=0.637797474861145  enc_rank=37/1024  dec_rank=3/1024
+    latent 44917: frac_active=0.616  corr_with_OD833=0.7519212365150452  enc_rank=3/1024  dec_rank=0/1024
+    latent 49791: frac_active=0.636  corr_with_OD833=0.7581890821456909  enc_rank=10/1024  dec_rank=1/1024
+  primary OD dim 833 magnitude by language:
+    id  : mean_abs=  59.132  median_abs=  68.635  frac_exceed=0.915  n=1440
+    es  : mean_abs=  34.709  median_abs=  35.317  frac_exceed=0.986  n=1440
+    zh  : mean_abs=  34.698  median_abs=  34.644  frac_exceed=0.999  n=1440
+    pt  : mean_abs=  34.432  median_abs=  35.020  frac_exceed=0.989  n=1440
+    en  : mean_abs=  34.180  median_abs=  34.860  frac_exceed=0.982  n=1440
+    vi  : mean_abs=  33.900  median_abs=  34.882  frac_exceed=0.975  n=1440
+    fr  : mean_abs=  33.825  median_abs=  34.252  frac_exceed=0.991  n=1440
+    sw  : mean_abs=  28.526  median_abs=  31.860  frac_exceed=0.714  n=1440
+    hi  : mean_abs=   3.522  median_abs=   2.546  frac_exceed=0.024  n=1440
+    ar  : mean_abs=   2.428  median_abs=   2.206  frac_exceed=0.007  n=1440
+    bn  : mean_abs=   1.588  median_abs=   1.459  frac_exceed=0.001  n=1417
+
+=== layer 23: 15817 tokens ===
+  OD dims: [35, 105, 164, 188, 431, 494, 644, 721, 833, 945, 1021] (global top-1% threshold=18.514)
+  dominant latents (active in >=50% of tokens): [36205, 44265, 44917, 49791]
+  SAE FVE: standard=0.9289  robust(OD-excluded std)=0.8691039223195686
+    latent 36205: frac_active=0.623  corr_with_OD833=0.7420886754989624  enc_rank=8/1024  dec_rank=5/1024
+    latent 44265: frac_active=0.564  corr_with_OD833=0.6502431035041809  enc_rank=37/1024  dec_rank=3/1024
+    latent 44917: frac_active=0.592  corr_with_OD833=0.7296938896179199  enc_rank=3/1024  dec_rank=0/1024
+    latent 49791: frac_active=0.627  corr_with_OD833=0.7565325498580933  enc_rank=10/1024  dec_rank=1/1024
+  primary OD dim 833 magnitude by language:
+    id  : mean_abs=  60.449  median_abs=  69.278  frac_exceed=0.916  n=1440
+    es  : mean_abs=  35.773  median_abs=  36.085  frac_exceed=0.984  n=1440
+    en  : mean_abs=  35.752  median_abs=  36.359  frac_exceed=0.981  n=1440
+    pt  : mean_abs=  35.750  median_abs=  36.190  frac_exceed=0.984  n=1440
+    zh  : mean_abs=  35.564  median_abs=  35.469  frac_exceed=0.999  n=1440
+    fr  : mean_abs=  34.976  median_abs=  35.350  frac_exceed=0.985  n=1440
+    vi  : mean_abs=  34.965  median_abs=  35.614  frac_exceed=0.976  n=1440
+    sw  : mean_abs=  28.908  median_abs=  32.400  frac_exceed=0.705  n=1440
+    hi  : mean_abs=   3.764  median_abs=   2.564  frac_exceed=0.024  n=1440
+    ar  : mean_abs=   2.392  median_abs=   2.102  frac_exceed=0.008  n=1440
+    bn  : mean_abs=   1.872  median_abs=   1.739  frac_exceed=0.001  n=1417
+
+saved results/outlier_bridge_bloom560m.json

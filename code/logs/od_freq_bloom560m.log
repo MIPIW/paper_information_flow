@@ -1,0 +1,84 @@
+/home/hyohyeongjang/.conda/envs/commonRegion/lib/python3.10/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.3) doesn't match a supported version!
+  warnings.warn(
+[bloom-560m] loading model on cuda:0...
+primary OD dim at last layer: 833
+streaming probe corpus: ['en', 'fr', 'es', 'pt', 'zh', 'ar', 'vi', 'hi', 'id', 'bn', 'sw'] x 30...
+  en done (30 texts so far)
+  fr done (60 texts so far)
+  es done (90 texts so far)
+  pt done (120 texts so far)
+  zh done (150 texts so far)
+  ar done (180 texts so far)
+  vi done (210 texts so far)
+  hi done (240 texts so far)
+  id done (270 texts so far)
+  bn done (300 texts so far)
+  sw done (330 texts so far)
+signed OD mean activation by language: {'en': 35.56, 'fr': 34.78, 'es': 35.57, 'pt': 35.58, 'zh': 35.56, 'ar': -1.73, 'vi': 34.83, 'hi': 0.49, 'id': -49.83, 'bn': -1.48, 'sw': 25.97}
+
+top 30 tokens boosted by increasing the OD (global magnitude):
+    'ాలన్న'              logprob_shift=+17.281
+    'Masa'               logprob_shift=+16.490
+    'ాలనే'               logprob_shift=+16.479
+    '"Dia'               logprob_shift=+16.097
+    '"Di'                logprob_shift=+15.966
+    'Raja'               logprob_shift=+15.766
+    'Empat'              logprob_shift=+15.725
+    'Demi'               logprob_shift=+15.701
+    'Istr'               logprob_shift=+15.583
+    'Keh'                logprob_shift=+15.561
+    'Kali'               logprob_shift=+15.528
+    'Bek'                logprob_shift=+15.508
+    'ాలన'                logprob_shift=+15.476
+    'Kud'                logprob_shift=+15.463
+    'వచ్చ'               logprob_shift=+15.295
+    'ాలంటే'              logprob_shift=+15.242
+    'ాల్సింద'            logprob_shift=+15.074
+    'డమే'                logprob_shift=+15.025
+    'డంలో'               logprob_shift=+15.016
+    'Kak'                logprob_shift=+14.937
+    'او'                 logprob_shift=+14.935
+    'ాల్సిన'             logprob_shift=+14.925
+    'Rek'                logprob_shift=+14.911
+    'Tuan'               logprob_shift=+14.889
+    'ాల్సి'              logprob_shift=+14.882
+    'కుండా'              logprob_shift=+14.855
+    'چ'                  logprob_shift=+14.837
+    'Tata'               logprob_shift=+14.807
+    'టానికి'             logprob_shift=+14.800
+    'డానికి'             logprob_shift=+14.797
+
+en: OD mag=+35.56  jaccard(own-mag top10, global top10)=0.20
+  global-boosted tokens' frequency in en text (per 10k tokens): [('ాలన్న', 0.0), ('Masa', 0.0), ('ాలనే', 0.0), ('"Dia', 0.0), ('"Di', 0.0)]
+
+fr: OD mag=+34.78  jaccard(own-mag top10, global top10)=0.20
+  global-boosted tokens' frequency in fr text (per 10k tokens): [('ాలన్న', 0.0), ('Masa', 0.0), ('ాలనే', 0.0), ('"Dia', 0.0), ('"Di', 0.0)]
+
+es: OD mag=+35.57  jaccard(own-mag top10, global top10)=0.20
+  global-boosted tokens' frequency in es text (per 10k tokens): [('ాలన్న', 0.0), ('Masa', 0.0), ('ాలనే', 0.0), ('"Dia', 0.0), ('"Di', 0.0)]
+
+pt: OD mag=+35.58  jaccard(own-mag top10, global top10)=0.20
+  global-boosted tokens' frequency in pt text (per 10k tokens): [('ాలన్న', 0.0), ('Masa', 0.0), ('ాలనే', 0.0), ('"Dia', 0.0), ('"Di', 0.0)]
+
+zh: OD mag=+35.56  jaccard(own-mag top10, global top10)=0.20
+  global-boosted tokens' frequency in zh text (per 10k tokens): [('ాలన్న', 0.0), ('Masa', 0.0), ('ాలనే', 0.0), ('"Dia', 0.0), ('"Di', 0.0)]
+
+ar: OD mag=-1.73  jaccard(own-mag top10, global top10)=0.00
+  global-boosted tokens' frequency in ar text (per 10k tokens): [('ాలన్న', 0.0), ('Masa', 0.0), ('ాలనే', 0.0), ('"Dia', 0.0), ('"Di', 0.0)]
+
+vi: OD mag=+34.83  jaccard(own-mag top10, global top10)=0.20
+  global-boosted tokens' frequency in vi text (per 10k tokens): [('ాలన్న', 0.0), ('Masa', 0.0), ('ాలనే', 0.0), ('"Dia', 0.0), ('"Di', 0.0)]
+
+hi: OD mag=+0.49  jaccard(own-mag top10, global top10)=0.70
+  global-boosted tokens' frequency in hi text (per 10k tokens): [('ాలన్న', 0.0), ('Masa', 0.0), ('ాలనే', 0.0), ('"Dia', 0.0), ('"Di', 0.0)]
+
+id: OD mag=-49.83  jaccard(own-mag top10, global top10)=0.00
+  global-boosted tokens' frequency in id text (per 10k tokens): [('ాలన్న', 0.0), ('Masa', 13.889), ('ాలనే', 0.0), ('"Dia', 0.0), ('"Di', 0.0)]
+
+bn: OD mag=-1.48  jaccard(own-mag top10, global top10)=0.00
+  global-boosted tokens' frequency in bn text (per 10k tokens): [('ాలన్న', 0.0), ('Masa', 0.0), ('ాలనే', 0.0), ('"Dia', 0.0), ('"Di', 0.0)]
+
+sw: OD mag=+25.97  jaccard(own-mag top10, global top10)=0.20
+  global-boosted tokens' frequency in sw text (per 10k tokens): [('ాలన్న', 0.0), ('Masa', 0.0), ('ాలనే', 0.0), ('"Dia', 0.0), ('"Di', 0.0)]
+
+saved results/od_freq_bloom560m.json

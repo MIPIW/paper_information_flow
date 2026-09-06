@@ -1,0 +1,40 @@
+/home/hyohyeongjang/.conda/envs/commonRegion/lib/python3.10/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.3) doesn't match a supported version!
+  warnings.warn(
+[bloom-560m] loading model + SAE on cpu...
+streaming probe corpus: ['en', 'fr', 'es', 'pt', 'zh', 'ar', 'vi', 'hi', 'id', 'bn', 'sw'] x 40...
+  en done (40 texts so far)
+  fr done (80 texts so far)
+  es done (120 texts so far)
+  pt done (160 texts so far)
+  zh done (200 texts so far)
+  ar done (240 texts so far)
+  vi done (280 texts so far)
+  hi done (320 texts so far)
+  id done (360 texts so far)
+  bn done (400 texts so far)
+  sw done (440 texts so far)
+  layer  0: mean_norm=   12.73  top1_frac=0.1441  SAE FVE=0.7555
+  layer  1: mean_norm=   14.33  top1_frac=0.1545  SAE FVE=0.7848
+  layer  2: mean_norm=   15.71  top1_frac=0.1640  SAE FVE=0.7703
+  layer  3: mean_norm=   16.59  top1_frac=0.1547  SAE FVE=0.7604
+  layer  4: mean_norm=   24.34  top1_frac=0.1384  SAE FVE=0.9836
+  layer  5: mean_norm=   25.56  top1_frac=0.1313  SAE FVE=0.9869
+  layer  6: mean_norm=   26.69  top1_frac=0.1284  SAE FVE=0.9885
+  layer  7: mean_norm=   27.49  top1_frac=0.1292  SAE FVE=0.9898
+  layer  8: mean_norm=   27.65  top1_frac=0.1307  SAE FVE=0.9899
+  layer  9: mean_norm=   27.98  top1_frac=0.1328  SAE FVE=0.9895
+  layer 10: mean_norm=   28.41  top1_frac=0.1372  SAE FVE=0.9895
+  layer 11: mean_norm=   29.00  top1_frac=0.1390  SAE FVE=0.9891
+  layer 12: mean_norm=   29.79  top1_frac=0.1407  SAE FVE=0.9884
+  layer 13: mean_norm=   30.70  top1_frac=0.1432  SAE FVE=0.9875
+  layer 14: mean_norm=   31.85  top1_frac=0.1455  SAE FVE=0.9864
+  layer 15: mean_norm=   33.03  top1_frac=0.1512  SAE FVE=0.9851
+  layer 16: mean_norm=   34.69  top1_frac=0.1554  SAE FVE=0.9827
+  layer 17: mean_norm=   36.59  top1_frac=0.1521  SAE FVE=0.9803
+  layer 18: mean_norm=   39.07  top1_frac=0.1423  SAE FVE=0.9762
+  layer 19: mean_norm=   42.13  top1_frac=0.1289  SAE FVE=0.9717
+  layer 20: mean_norm=   51.30  top1_frac=0.1495  SAE FVE=0.9627
+  layer 21: mean_norm=   91.17  top1_frac=0.2443  SAE FVE=0.9193
+  layer 22: mean_norm=  105.90  top1_frac=0.2331  SAE FVE=0.7880
+  layer 23: mean_norm=  110.31  top1_frac=0.2217  SAE FVE=0.7588
+saved results/layer_stats_bloom560m.json

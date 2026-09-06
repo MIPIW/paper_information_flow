@@ -1,0 +1,27 @@
+/home/hyohyeongjang/.conda/envs/commonRegion/lib/python3.10/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.3) doesn't match a supported version!
+  warnings.warn(
+[google/gemma-2b] loading (cpu, float32)...
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|█████     | 1/2 [02:38<02:38, 158.83s/it]Fetching 2 files: 100%|██████████| 2/2 [02:38<00:00, 79.42s/it] 
+The following generation flags are not valid and may be ignored: ['output_hidden_states']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  1.48it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  2.93it/s]
+  en done (10 texts so far)
+  zh done (20 texts so far)
+  layer  0: mean_norm=  187.83  top1_frac=0.7415
+  layer  1: mean_norm=  179.74  top1_frac=0.7676
+  layer  2: mean_norm=  169.08  top1_frac=0.7745
+  layer  3: mean_norm=  165.86  top1_frac=0.7581
+  layer  4: mean_norm=  162.02  top1_frac=0.7274
+  layer  5: mean_norm=  163.18  top1_frac=0.7069
+  layer  6: mean_norm=  167.20  top1_frac=0.6658
+  layer  7: mean_norm=  182.94  top1_frac=0.6400
+  layer  8: mean_norm=  192.53  top1_frac=0.6207
+  layer  9: mean_norm=  199.74  top1_frac=0.5907
+  layer 10: mean_norm=  206.76  top1_frac=0.5668
+  layer 11: mean_norm=  213.85  top1_frac=0.5127
+  layer 12: mean_norm=  239.53  top1_frac=0.4734
+  layer 13: mean_norm=  264.52  top1_frac=0.4451
+  layer 14: mean_norm=  340.85  top1_frac=0.4861
+  layer 15: mean_norm=  444.55  top1_frac=0.5861
+  layer 16: mean_norm=  599.18  top1_frac=0.6305
+  layer 17: mean_norm=  106.12  top1_frac=0.4126
+saved results/norm_profile_gemma-2b.json

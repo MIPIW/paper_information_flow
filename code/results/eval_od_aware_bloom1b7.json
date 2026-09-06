@@ -1,0 +1,217 @@
+{
+  "model": "bloom-1b7",
+  "od_dims": [
+    20,
+    31,
+    203,
+    237,
+    283,
+    1044,
+    1369,
+    1440,
+    1625,
+    1853
+  ],
+  "results": [
+    {
+      "layer": 12,
+      "n_tokens": 15817,
+      "fve_original_standard": 0.993316993496062,
+      "fve_original_robust_frozen": 0.26339628945890514,
+      "fve_new_robust_finetuned": 0.986370075629368,
+      "dominant_latents_original": [
+        13057,
+        36475
+      ],
+      "dominant_latents_new": [
+        13057,
+        36475
+      ],
+      "new_dominant_latent_lang_profiles": {
+        "13057": {
+          "en": 0.58,
+          "fr": 0.603,
+          "es": 0.531,
+          "pt": 0.551,
+          "zh": 0.528,
+          "ar": 0.517,
+          "vi": 0.533,
+          "hi": 0.512,
+          "id": 0.512,
+          "bn": 0.5,
+          "sw": 0.558
+        },
+        "36475": {
+          "en": 0.979,
+          "fr": 0.979,
+          "es": 0.979,
+          "pt": 0.978,
+          "zh": 0.979,
+          "ar": 0.976,
+          "vi": 0.978,
+          "hi": 0.979,
+          "id": 0.978,
+          "bn": 0.979,
+          "sw": 0.978
+        }
+      }
+    },
+    {
+      "layer": 20,
+      "n_tokens": 15817,
+      "fve_original_standard": 0.9701557602466158,
+      "fve_original_robust_frozen": 0.9685145071146903,
+      "fve_new_robust_finetuned": 0.9634315836236167,
+      "dominant_latents_original": [
+        36475
+      ],
+      "dominant_latents_new": [
+        36475
+      ],
+      "new_dominant_latent_lang_profiles": {
+        "36475": {
+          "en": 0.976,
+          "fr": 0.975,
+          "es": 0.965,
+          "pt": 0.956,
+          "zh": 0.979,
+          "ar": 0.978,
+          "vi": 0.975,
+          "hi": 0.978,
+          "id": 0.979,
+          "bn": 0.979,
+          "sw": 0.973
+        }
+      }
+    },
+    {
+      "layer": 21,
+      "n_tokens": 15817,
+      "fve_original_standard": 0.9246593973515214,
+      "fve_original_robust_frozen": 0.9027144286331492,
+      "fve_new_robust_finetuned": 0.9163472877697787,
+      "dominant_latents_original": [
+        36475,
+        82678
+      ],
+      "dominant_latents_new": [
+        36475,
+        82678
+      ],
+      "new_dominant_latent_lang_profiles": {
+        "36475": {
+          "en": 0.967,
+          "fr": 0.967,
+          "es": 0.944,
+          "pt": 0.938,
+          "zh": 0.98,
+          "ar": 0.979,
+          "vi": 0.963,
+          "hi": 0.99,
+          "id": 0.98,
+          "bn": 0.967,
+          "sw": 0.978
+        },
+        "82678": {
+          "en": 0.996,
+          "fr": 0.982,
+          "es": 0.915,
+          "pt": 0.853,
+          "zh": 0.476,
+          "ar": 0.05,
+          "vi": 0.731,
+          "hi": 0.063,
+          "id": 0.376,
+          "bn": 0.064,
+          "sw": 0.254
+        }
+      }
+    },
+    {
+      "layer": 22,
+      "n_tokens": 15817,
+      "fve_original_standard": 0.8558033471209531,
+      "fve_original_robust_frozen": 0.8083397913651033,
+      "fve_new_robust_finetuned": 0.8583075923100656,
+      "dominant_latents_original": [
+        36475,
+        61298,
+        82678
+      ],
+      "dominant_latents_new": [
+        36475,
+        61298,
+        82678
+      ],
+      "new_dominant_latent_lang_profiles": {
+        "36475": {
+          "en": 0.892,
+          "fr": 0.721,
+          "es": 0.699,
+          "pt": 0.64,
+          "zh": 0.867,
+          "ar": 0.983,
+          "vi": 0.857,
+          "hi": 0.301,
+          "id": 0.988,
+          "bn": 0.16,
+          "sw": 0.971
+        },
+        "61298": {
+          "en": 0.874,
+          "fr": 0.81,
+          "es": 0.833,
+          "pt": 0.798,
+          "zh": 0.706,
+          "ar": 0.023,
+          "vi": 0.838,
+          "hi": 0.134,
+          "id": 0.56,
+          "bn": 0.018,
+          "sw": 0.144
+        },
+        "82678": {
+          "en": 0.991,
+          "fr": 0.976,
+          "es": 0.939,
+          "pt": 0.85,
+          "zh": 0.611,
+          "ar": 0.019,
+          "vi": 0.768,
+          "hi": 0.042,
+          "id": 0.298,
+          "bn": 0.055,
+          "sw": 0.21
+        }
+      }
+    },
+    {
+      "layer": 23,
+      "n_tokens": 15817,
+      "fve_original_standard": 0.8425334261335201,
+      "fve_original_robust_frozen": 0.8025289539776684,
+      "fve_new_robust_finetuned": 0.8461966038764872,
+      "dominant_latents_original": [
+        61298
+      ],
+      "dominant_latents_new": [
+        61298
+      ],
+      "new_dominant_latent_lang_profiles": {
+        "61298": {
+          "en": 0.89,
+          "fr": 0.829,
+          "es": 0.842,
+          "pt": 0.823,
+          "zh": 0.692,
+          "ar": 0.033,
+          "vi": 0.869,
+          "hi": 0.142,
+          "id": 0.58,
+          "bn": 0.025,
+          "sw": 0.124
+        }
+      }
+    }
+  ]
+}

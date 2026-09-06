@@ -1,0 +1,81 @@
+{
+  "model": "pythia-70m",
+  "n_neurons": 5,
+  "comparisons": [
+    {
+      "layer": 3,
+      "neuron": 329,
+      "language": "en",
+      "target_layer": 4,
+      "is_last_layer_forced": false,
+      "weight_vs_correlational_jaccard": 0.0,
+      "weight_vs_gradsae_jaccard": 0.0,
+      "correlational_vs_gradsae_jaccard": 0.0,
+      "weight_patch_shift": 2.2878284454345703,
+      "weight_n_patchable": 12,
+      "correlational_patch_shift": 9.624587983125821e-05,
+      "correlational_n_patchable": 1,
+      "gradsae_patch_shift": null
+    },
+    {
+      "layer": 4,
+      "neuron": 1820,
+      "language": "en",
+      "target_layer": 4,
+      "is_last_layer_forced": false,
+      "weight_vs_correlational_jaccard": 0.0,
+      "weight_vs_gradsae_jaccard": 0.0,
+      "correlational_vs_gradsae_jaccard": 0.0,
+      "weight_patch_shift": 3.7202024459838867,
+      "weight_n_patchable": 12,
+      "correlational_patch_shift": 5.099870204925537,
+      "correlational_n_patchable": 2,
+      "gradsae_patch_shift": 8.951222116593271e-05,
+      "gradsae_n_patchable": 2
+    },
+    {
+      "layer": 5,
+      "neuron": 1161,
+      "language": "de",
+      "target_layer": 5,
+      "is_last_layer_forced": true,
+      "weight_vs_correlational_jaccard": 0.0,
+      "weight_vs_gradsae_jaccard": 0.0,
+      "correlational_vs_gradsae_jaccard": 0.0,
+      "weight_patch_shift": 7.301480770111084,
+      "weight_n_patchable": 5,
+      "correlational_patch_shift": 0.0,
+      "correlational_n_patchable": 1,
+      "gradsae_patch_shift": null
+    },
+    {
+      "layer": 5,
+      "neuron": 1681,
+      "language": "zh",
+      "target_layer": 5,
+      "is_last_layer_forced": true,
+      "weight_vs_correlational_jaccard": 0.0,
+      "weight_vs_gradsae_jaccard": 0.0,
+      "correlational_vs_gradsae_jaccard": 0.0,
+      "weight_patch_shift": 11.588467597961426,
+      "weight_n_patchable": 1,
+      "correlational_patch_shift": null,
+      "gradsae_patch_shift": null
+    },
+    {
+      "layer": 5,
+      "neuron": 752,
+      "language": "zh",
+      "target_layer": 5,
+      "is_last_layer_forced": true,
+      "weight_vs_correlational_jaccard": 0.0,
+      "weight_vs_gradsae_jaccard": 0.0,
+      "correlational_vs_gradsae_jaccard": 0.0,
+      "weight_patch_shift": 0.0,
+      "weight_n_patchable": 1,
+      "correlational_patch_shift": null,
+      "gradsae_patch_shift": 0.0,
+      "gradsae_n_patchable": 3
+    }
+  ]
+}

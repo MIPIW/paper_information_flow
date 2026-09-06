@@ -1,0 +1,146 @@
+/home/hyohyeongjang/.conda/envs/commonRegion/lib/python3.10/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.3) doesn't match a supported version!
+  warnings.warn(
+[pythia-70m] Loading model on cuda:0...
+MLSAE: n_inputs=512, n_latents=32768, k=32
+Streaming probe corpus: ['en', 'fr', 'de', 'es', 'it', 'nl', 'pt', 'ru', 'zh', 'ja'], 1500 examples/language...
+  en: 1500 examples
+  fr: 1500 examples
+  de: 1500 examples
+  es: 1500 examples
+  it: 1500 examples
+  nl: 1500 examples
+  pt: 1500 examples
+  ru: 1500 examples
+  zh: 1500 examples
+  ja: 1500 examples
+  corpus streamed in 97s
+Pass 1/2: streaming through every example, accumulating LAPE statistics only...
+  2000/15000 examples processed, 12s elapsed
+  4000/15000 examples processed, 24s elapsed
+  6000/15000 examples processed, 36s elapsed
+  8000/15000 examples processed, 48s elapsed
+  10000/15000 examples processed, 61s elapsed
+  12000/15000 examples processed, 73s elapsed
+  14000/15000 examples processed, 86s elapsed
+  LAPE accumulation done in 93s
+  115 language-specific neurons found (percentile cutoff)
+Pass 2/2: re-streaming each language's examples, this time caching only the residual stream plus the 115 target neurons' own activation columns...
+  selective caching done in 118s
+Analyzing top 115 neurons (attribution + patching)...
+  [1/115] L3N329 (en): overlap=1.00, n_patchable=10, attributed/neuron=1.337/0.424, random=0.010 (1s)
+  [2/115] L4N1820 (en): overlap=0.90, n_patchable=10, attributed/neuron=0.831/0.598, random=0.000 (1s)
+  [3/115] L5N1161 (de): overlap=0.60, n_patchable=7, attributed/neuron=2.761/1.607, random=0.000 (1s)
+  [4/115] L5N1681 (zh): overlap=0.38, n_patchable=1, attributed/neuron=9.935/1.384, random=0.000 (1s)
+  [5/115] L5N752 (zh): overlap=0.82, n_patchable=1, attributed/neuron=0.251/6.175, random=0.000 (1s)
+  [6/115] L5N1182 (en): overlap=0.33, n_patchable=3, attributed/neuron=17.698/0.409, random=0.000 (1s)
+  [7/115] L5N1810 (ja): overlap=0.82, n_patchable=2, attributed/neuron=14.734/1.005, random=0.000 (1s)
+  [8/115] L5N1665 (ja): overlap=0.90, n_patchable=0, no patchable latents (0s)
+  [9/115] L5N1780 (zh): overlap=0.29, n_patchable=37, attributed/neuron=93.405/110.596, random=0.000 (1s)
+  [10/115] L5N511 (ru): overlap=0.60, n_patchable=3, attributed/neuron=5.176/4.375, random=0.000 (1s)
+  [11/115] L5N1497 (pt): overlap=0.90, n_patchable=3, attributed/neuron=1.442/0.806, random=0.000 (1s)
+  [12/115] L5N751 (ja): overlap=0.33, n_patchable=18, attributed/neuron=10.920/5.659, random=0.234 (1s)
+  [13/115] L5N524 (ja): overlap=1.00, n_patchable=1, attributed/neuron=1.122/4.801, random=0.000 (1s)
+  [14/115] L5N257 (zh): overlap=0.82, n_patchable=4, attributed/neuron=1.886/1.395, random=0.000 (1s)
+  [15/115] L3N12 (de): overlap=0.48, n_patchable=3, attributed/neuron=1.380/0.399, random=0.000 (1s)
+  [16/115] L3N661 (ja): overlap=0.60, n_patchable=2, attributed/neuron=0.911/31.226, random=0.000 (1s)
+  [17/115] L5N1238 (en): overlap=0.33, n_patchable=10, attributed/neuron=8.032/0.433, random=0.000 (1s)
+  [18/115] L2N565 (fr): overlap=0.90, n_patchable=7, attributed/neuron=0.116/4.628, random=0.000 (1s)
+  [19/115] L5N305 (zh): overlap=0.60, n_patchable=0, no patchable latents (0s)
+  [20/115] L5N1219 (en): overlap=0.74, n_patchable=2, attributed/neuron=0.763/0.177, random=0.000 (1s)
+  [21/115] L5N670 (fr): overlap=0.82, n_patchable=2, attributed/neuron=1.020/0.879, random=0.000 (1s)
+  [22/115] L5N677 (en): overlap=0.33, n_patchable=4, attributed/neuron=12.659/0.216, random=0.000 (1s)
+  [23/115] L5N1831 (ja): overlap=0.67, n_patchable=1, attributed/neuron=0.886/2.465, random=0.000 (1s)
+  [24/115] L0N1949 (zh): overlap=0.90, n_patchable=18, attributed/neuron=56.394/16.918, random=0.083 (1s)
+  [25/115] L5N1595 (de): overlap=0.90, n_patchable=1, attributed/neuron=3.599/0.281, random=0.000 (1s)
+  [26/115] L5N1392 (en): overlap=0.48, n_patchable=5, attributed/neuron=5.526/0.387, random=0.000 (1s)
+  [27/115] L5N1839 (ru): overlap=1.00, n_patchable=2, attributed/neuron=5.078/8.949, random=0.000 (1s)
+  [28/115] L3N981 (en): overlap=0.82, n_patchable=8, attributed/neuron=0.814/0.290, random=0.001 (1s)
+  [29/115] L5N324 (ja): overlap=0.90, n_patchable=3, attributed/neuron=11.938/0.820, random=0.000 (1s)
+  [30/115] L5N357 (en): overlap=0.43, n_patchable=4, attributed/neuron=4.986/0.249, random=0.000 (1s)
+  [31/115] L2N987 (en): overlap=0.90, n_patchable=8, attributed/neuron=1.017/0.146, random=0.000 (1s)
+  [32/115] L2N169 (zh): overlap=1.00, n_patchable=6, attributed/neuron=1.155/2.577, random=0.000 (1s)
+  [33/115] L5N1358 (nl): overlap=0.90, n_patchable=3, attributed/neuron=21.613/0.841, random=0.000 (1s)
+  [34/115] L3N1586 (it): overlap=0.67, n_patchable=7, attributed/neuron=1.792/0.795, random=0.005 (1s)
+  [35/115] L2N1779 (fr): overlap=0.74, n_patchable=7, attributed/neuron=1.727/1.392, random=0.000 (1s)
+  [36/115] L3N609 (fr): overlap=0.60, n_patchable=5, attributed/neuron=1.513/2.006, random=0.000 (1s)
+  [37/115] L5N69 (zh): overlap=1.00, n_patchable=1, attributed/neuron=8.177/0.526, random=0.000 (1s)
+  [38/115] L5N307 (de): overlap=0.82, n_patchable=8, attributed/neuron=30.099/0.505, random=0.000 (1s)
+  [39/115] L1N510 (ja): overlap=0.67, n_patchable=3, attributed/neuron=12.711/3.677, random=0.000 (1s)
+  [40/115] L4N461 (zh): overlap=1.00, n_patchable=4, attributed/neuron=26.735/2.395, random=0.000 (1s)
+  [41/115] L2N193 (es): overlap=0.74, n_patchable=8, attributed/neuron=1.102/5.254, random=0.001 (1s)
+  [42/115] L5N953 (en): overlap=0.43, n_patchable=4, attributed/neuron=26.972/0.278, random=0.000 (1s)
+  [43/115] L3N1298 (en): overlap=0.67, n_patchable=13, attributed/neuron=0.621/0.257, random=0.000 (1s)
+  [44/115] L4N2001 (ja): overlap=0.82, n_patchable=2, attributed/neuron=3.432/10.362, random=0.000 (1s)
+  [45/115] L5N1634 (en): overlap=0.25, n_patchable=3, attributed/neuron=0.000/0.368, random=0.000 (1s)
+  [46/115] L5N1705 (en): overlap=0.48, n_patchable=0, no patchable latents (0s)
+  [47/115] L5N1138 (ru): overlap=0.67, n_patchable=6, attributed/neuron=3.976/2.493, random=0.000 (1s)
+  [48/115] L2N1054 (nl): overlap=1.00, n_patchable=3, attributed/neuron=0.233/0.312, random=0.000 (1s)
+  [49/115] L3N948 (nl): overlap=0.90, n_patchable=7, attributed/neuron=3.700/1.003, random=0.000 (1s)
+  [50/115] L5N1929 (ja): overlap=0.90, n_patchable=2, attributed/neuron=0.261/0.734, random=0.000 (1s)
+  [51/115] L5N977 (ja): overlap=0.67, n_patchable=6, attributed/neuron=7.438/1.343, random=0.000 (1s)
+  [52/115] L5N796 (en): overlap=0.25, n_patchable=2, attributed/neuron=6.656/0.159, random=0.000 (1s)
+  [53/115] L5N1120 (en): overlap=0.74, n_patchable=1, attributed/neuron=4.491/0.205, random=0.000 (1s)
+  [54/115] L5N959 (ja): overlap=0.74, n_patchable=2, attributed/neuron=0.236/2.654, random=0.000 (1s)
+  [55/115] L5N285 (ja): overlap=0.29, n_patchable=20, attributed/neuron=40.699/2.028, random=0.000 (1s)
+  [56/115] L5N1143 (en): overlap=0.25, n_patchable=2, attributed/neuron=5.263/0.199, random=0.000 (1s)
+  [57/115] L3N1464 (zh): overlap=0.54, n_patchable=19, attributed/neuron=127.110/73.836, random=0.000 (1s)
+  [58/115] L5N692 (en): overlap=0.60, n_patchable=1, attributed/neuron=4.646/0.344, random=0.000 (1s)
+  [59/115] L5N522 (zh): overlap=0.90, n_patchable=4, attributed/neuron=7.276/1.315, random=0.000 (1s)
+  [60/115] L4N513 (ja): overlap=0.74, n_patchable=6, attributed/neuron=4.430/2.914, random=0.083 (1s)
+  [61/115] L4N1176 (en): overlap=0.82, n_patchable=3, attributed/neuron=0.468/1.102, random=0.000 (1s)
+  [62/115] L5N974 (pt): overlap=0.90, n_patchable=2, attributed/neuron=1.658/1.316, random=0.000 (1s)
+  [63/115] L4N482 (de): overlap=0.67, n_patchable=8, attributed/neuron=1.571/0.331, random=0.000 (1s)
+  [64/115] L5N155 (ru): overlap=0.38, n_patchable=2, attributed/neuron=0.819/0.883, random=0.000 (1s)
+  [65/115] L5N1389 (en): overlap=1.00, n_patchable=1, attributed/neuron=4.590/0.288, random=0.000 (1s)
+  [66/115] L3N1788 (ja): overlap=0.54, n_patchable=3, attributed/neuron=0.192/1.054, random=0.000 (1s)
+  [67/115] L4N1523 (zh): overlap=0.60, n_patchable=2, attributed/neuron=23.858/145.957, random=0.000 (1s)
+  [68/115] L5N745 (fr): overlap=0.67, n_patchable=1, attributed/neuron=1.961/0.196, random=0.000 (1s)
+  [69/115] L2N322 (en): overlap=1.00, n_patchable=9, attributed/neuron=0.444/0.296, random=0.000 (1s)
+  [70/115] L5N1019 (ru): overlap=0.54, n_patchable=0, no patchable latents (0s)
+  [71/115] L4N1448 (en): overlap=0.82, n_patchable=9, attributed/neuron=1.153/0.337, random=0.000 (1s)
+  [72/115] L5N1769 (ja): overlap=1.00, n_patchable=0, no patchable latents (0s)
+  [73/115] L3N294 (en): overlap=0.60, n_patchable=12, attributed/neuron=0.256/0.232, random=0.000 (1s)
+  [74/115] L2N33 (en): overlap=0.90, n_patchable=5, attributed/neuron=0.069/0.298, random=0.000 (1s)
+  [75/115] L2N1410 (pt): overlap=0.74, n_patchable=2, attributed/neuron=0.442/1.009, random=0.000 (1s)
+  [76/115] L4N411 (en): overlap=0.82, n_patchable=15, attributed/neuron=0.584/0.629, random=0.003 (1s)
+  [77/115] L5N1523 (zh): overlap=0.82, n_patchable=3, attributed/neuron=8.168/0.724, random=0.000 (1s)
+  [78/115] L0N1006 (ru): overlap=0.82, n_patchable=20, attributed/neuron=25.075/15.135, random=2.556 (1s)
+  [79/115] L5N213 (zh): overlap=0.14, n_patchable=0, no patchable latents (0s)
+  [80/115] L5N1011 (nl): overlap=0.74, n_patchable=2, attributed/neuron=5.592/0.810, random=0.000 (1s)
+  [81/115] L5N1536 (fr): overlap=0.74, n_patchable=0, no patchable latents (0s)
+  [82/115] L5N1713 (en): overlap=0.54, n_patchable=5, attributed/neuron=7.827/0.238, random=0.000 (1s)
+  [83/115] L5N546 (es): overlap=0.74, n_patchable=2, attributed/neuron=0.731/0.434, random=0.000 (1s)
+  [84/115] L5N1693 (nl): overlap=0.82, n_patchable=2, attributed/neuron=13.754/1.236, random=0.000 (1s)
+  [85/115] L5N1508 (ru): overlap=0.90, n_patchable=5, attributed/neuron=2.100/1.104, random=0.000 (1s)
+  [86/115] L3N524 (ja): overlap=0.38, n_patchable=1, attributed/neuron=0.001/4.954, random=0.000 (1s)
+  [87/115] L5N233 (zh): overlap=0.90, n_patchable=0, no patchable latents (0s)
+  [88/115] L5N2 (ja): overlap=0.60, n_patchable=9, attributed/neuron=7.164/1.318, random=0.000 (1s)
+  [89/115] L4N1586 (en): overlap=0.60, n_patchable=7, attributed/neuron=0.450/0.686, random=0.001 (1s)
+  [90/115] L3N219 (zh): overlap=0.54, n_patchable=4, attributed/neuron=1.260/2.763, random=0.000 (1s)
+  [91/115] L4N1023 (en): overlap=0.54, n_patchable=2, attributed/neuron=1.540/0.790, random=0.000 (1s)
+  [92/115] L0N2007 (ja): overlap=0.82, n_patchable=19, attributed/neuron=13.308/6.235, random=0.003 (1s)
+  [93/115] L5N1447 (it): overlap=0.82, n_patchable=2, attributed/neuron=0.850/0.648, random=0.000 (1s)
+  [94/115] L5N812 (zh): overlap=0.25, n_patchable=3, attributed/neuron=11.947/56.936, random=0.000 (1s)
+  [95/115] L4N1434 (de): overlap=0.82, n_patchable=10, attributed/neuron=2.099/3.957, random=0.000 (1s)
+  [96/115] L3N1943 (zh): overlap=0.67, n_patchable=2, attributed/neuron=17.150/8.431, random=0.000 (1s)
+  [97/115] L2N1421 (en): overlap=0.90, n_patchable=3, attributed/neuron=1.489/0.272, random=0.000 (1s)
+  [98/115] L1N353 (zh): overlap=0.60, n_patchable=7, attributed/neuron=63.560/15.646, random=1.711 (1s)
+  [99/115] L5N1956 (en): overlap=0.21, n_patchable=7, attributed/neuron=22.444/0.303, random=0.000 (1s)
+  [100/115] L2N810 (nl): overlap=0.82, n_patchable=1, attributed/neuron=0.000/0.716, random=0.000 (1s)
+  [101/115] L2N1180 (pt): overlap=0.74, n_patchable=10, attributed/neuron=3.860/12.687, random=0.234 (1s)
+  [102/115] L3N2014 (ja): overlap=0.82, n_patchable=3, attributed/neuron=17.800/5.935, random=0.000 (1s)
+  [103/115] L5N366 (en): overlap=0.74, n_patchable=1, attributed/neuron=0.000/0.368, random=0.000 (1s)
+  [104/115] L5N394 (fr): overlap=0.60, n_patchable=0, no patchable latents (0s)
+  [105/115] L2N645 (en): overlap=0.90, n_patchable=6, attributed/neuron=0.968/0.344, random=0.046 (1s)
+  [106/115] L5N596 (nl): overlap=0.82, n_patchable=0, no patchable latents (0s)
+  [107/115] L4N1150 (en): overlap=0.54, n_patchable=5, attributed/neuron=0.596/0.358, random=0.000 (1s)
+  [108/115] L3N719 (nl): overlap=0.48, n_patchable=6, attributed/neuron=2.569/3.609, random=0.000 (1s)
+  [109/115] L5N826 (nl): overlap=0.08, n_patchable=27, attributed/neuron=72.149/1.835, random=0.000 (1s)
+  [110/115] L4N1446 (en): overlap=0.74, n_patchable=8, attributed/neuron=0.613/0.346, random=0.000 (1s)
+  [111/115] L3N478 (zh): overlap=0.82, n_patchable=4, attributed/neuron=23.490/3.859, random=0.000 (1s)
+  [112/115] L5N1108 (ja): overlap=0.82, n_patchable=3, attributed/neuron=3.150/1.848, random=0.000 (1s)
+  [113/115] L5N919 (en): overlap=0.21, n_patchable=18, attributed/neuron=56.222/1.293, random=0.000 (1s)
+  [114/115] L3N613 (zh): overlap=0.90, n_patchable=7, attributed/neuron=8.340/2.532, random=0.000 (1s)
+  [115/115] L5N1437 (ja): overlap=0.90, n_patchable=3, attributed/neuron=7.868/0.480, random=0.000 (1s)
+
+Done. Results saved to results/flow1_pythia70m_realscale.json

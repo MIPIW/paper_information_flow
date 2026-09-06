@@ -1,0 +1,20 @@
+/home/hyohyeongjang/.conda/envs/commonRegion/lib/python3.10/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.3) doesn't match a supported version!
+  warnings.warn(
+[bloom-1b7] Loading model + trained MLSAE on cuda:1...
+Selected 44 neurons, own_layer distribution: [(0, 1), (1, 5), (2, 4), (3, 2), (11, 1), (13, 1), (14, 3), (15, 2), (16, 3), (17, 4), (18, 3), (19, 3), (20, 3), (21, 3), (22, 3), (23, 3)]
+Streaming probe corpus: ['en', 'fr', 'es', 'pt', 'zh', 'ar', 'vi', 'hi', 'id', 'bn', 'sw'], 1500 examples/language...
+  corpus streamed in 104s
+Selectively caching FULL residual stream (all layers) + target neuron columns...
+  selective caching done in 489s
+
+Sweeping steering effect on 44 neurons x 24 layers...
+  5/44 neurons swept, 14s elapsed (checkpointed to results/steer_heatmap_bloom1b7.json)
+  10/44 neurons swept, 29s elapsed (checkpointed to results/steer_heatmap_bloom1b7.json)
+  15/44 neurons swept, 44s elapsed (checkpointed to results/steer_heatmap_bloom1b7.json)
+  20/44 neurons swept, 58s elapsed (checkpointed to results/steer_heatmap_bloom1b7.json)
+  25/44 neurons swept, 71s elapsed (checkpointed to results/steer_heatmap_bloom1b7.json)
+  30/44 neurons swept, 84s elapsed (checkpointed to results/steer_heatmap_bloom1b7.json)
+  35/44 neurons swept, 97s elapsed (checkpointed to results/steer_heatmap_bloom1b7.json)
+  40/44 neurons swept, 110s elapsed (checkpointed to results/steer_heatmap_bloom1b7.json)
+
+Done. 44 neurons saved to results/steer_heatmap_bloom1b7.json

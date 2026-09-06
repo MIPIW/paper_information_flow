@@ -1,0 +1,29 @@
+/home/hyohyeongjang/.conda/envs/commonRegion/lib/python3.10/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.3) doesn't match a supported version!
+  warnings.warn(
+Loading bloom-560m and its trained MLSAE on cuda:0...
+Computing per-layer FVU to screen out layers with unreliable SAE reconstruction...
+  per-layer FVU: [0.19, 0.166, 0.174, 0.179, 0.019, 0.016, 0.014, 0.013, 0.013, 0.013, 0.013, 0.013, 0.014, 0.016, 0.017, 0.019, 0.022, 0.025, 0.028, 0.032, 0.036, 0.027, 0.021, 0.024]
+  reliable layers (FVU <= median 0.021): [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 22]
+Streaming English prompts and 30 marker texts per target language...
+  fr: neuron=L21N2933, target_layer=22, 20 attributed latents, 15 marker tokens
+    neuron steer shift=-0.0080, latent steer shift=3.6961, fraction=-460.4728423965319
+  es: neuron=L22N871, target_layer=22, 20 attributed latents, 15 marker tokens
+    neuron steer shift=2.9383, latent steer shift=-8.2294, fraction=-2.8007814374102993
+  pt: neuron=L21N3608, target_layer=22, 20 attributed latents, 15 marker tokens
+    neuron steer shift=0.1180, latent steer shift=-28.1371, fraction=-238.35713835712252
+  zh: neuron=L22N381, target_layer=22, 20 attributed latents, 15 marker tokens
+    neuron steer shift=27.1967, latent steer shift=67.9230, fraction=2.4974725875154657
+  ar: neuron=L22N1862, target_layer=22, 20 attributed latents, 15 marker tokens
+    neuron steer shift=117.4972, latent steer shift=117.8179, fraction=1.0027298041411663
+  vi: neuron=L22N2912, target_layer=22, 20 attributed latents, 15 marker tokens
+    neuron steer shift=2.6636, latent steer shift=0.1774, fraction=0.06659736320638275
+  hi: neuron=L22N967, target_layer=22, 20 attributed latents, 15 marker tokens
+    neuron steer shift=128.4220, latent steer shift=132.3958, fraction=1.0309434055016582
+  id: neuron=L2N2104, target_layer=4, 20 attributed latents, 15 marker tokens
+    neuron steer shift=57.2527, latent steer shift=58.8511, fraction=1.0279180013534506
+  bn: neuron=L2N3636, target_layer=4, 20 attributed latents, 15 marker tokens
+    neuron steer shift=409.2151, latent steer shift=409.3761, fraction=1.0003934623520614
+  sw: neuron=L20N2337, target_layer=22, 20 attributed latents, 15 marker tokens
+    neuron steer shift=1.3345, latent steer shift=3.9680, fraction=2.973375621174237
+
+Done. Results saved to results/steering_bloom560m.json

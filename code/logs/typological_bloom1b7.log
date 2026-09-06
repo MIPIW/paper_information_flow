@@ -1,0 +1,65 @@
+Languages with attributed latents: ['ar', 'bn', 'en', 'es', 'fr', 'hi', 'id', 'pt', 'sw', 'vi', 'zh']
+
+55 language pairs compared.
+Sorted by typological distance (closest first):
+  es-pt: typological_distance=0.050, latent_overlap=0.0473
+  id-vi: typological_distance=0.096, latent_overlap=0.1033
+  fr-pt: typological_distance=0.135, latent_overlap=0.0627
+  es-fr: typological_distance=0.157, latent_overlap=0.0277
+  en-pt: typological_distance=0.158, latent_overlap=0.0343
+  en-es: typological_distance=0.178, latent_overlap=0.0313
+  bn-hi: typological_distance=0.181, latent_overlap=0.1491
+  en-fr: typological_distance=0.188, latent_overlap=0.0447
+  ar-es: typological_distance=0.247, latent_overlap=0.0412
+  ar-pt: typological_distance=0.252, latent_overlap=0.0666
+  en-id: typological_distance=0.273, latent_overlap=0.0499
+  ar-fr: typological_distance=0.279, latent_overlap=0.0409
+  en-zh: typological_distance=0.288, latent_overlap=0.0320
+  fr-id: typological_distance=0.291, latent_overlap=0.0703
+  id-pt: typological_distance=0.292, latent_overlap=0.0682
+  hi-zh: typological_distance=0.297, latent_overlap=0.1502
+  bn-zh: typological_distance=0.306, latent_overlap=0.1249
+  es-hi: typological_distance=0.317, latent_overlap=0.0444
+  id-zh: typological_distance=0.322, latent_overlap=0.1055
+  hi-pt: typological_distance=0.325, latent_overlap=0.0680
+  pt-zh: typological_distance=0.333, latent_overlap=0.0814
+  es-id: typological_distance=0.337, latent_overlap=0.0327
+  en-vi: typological_distance=0.340, latent_overlap=0.0314
+  ar-hi: typological_distance=0.341, latent_overlap=0.1195
+  ar-sw: typological_distance=0.348, latent_overlap=0.0853
+  fr-hi: typological_distance=0.349, latent_overlap=0.0639
+  ar-en: typological_distance=0.356, latent_overlap=0.0308
+  pt-vi: typological_distance=0.357, latent_overlap=0.0507
+  vi-zh: typological_distance=0.361, latent_overlap=0.0939
+  es-zh: typological_distance=0.375, latent_overlap=0.0403
+  fr-vi: typological_distance=0.380, latent_overlap=0.0506
+  fr-zh: typological_distance=0.383, latent_overlap=0.0608
+  en-hi: typological_distance=0.384, latent_overlap=0.0337
+  ar-id: typological_distance=0.387, latent_overlap=0.0923
+  es-vi: typological_distance=0.401, latent_overlap=0.0292
+  bn-fr: typological_distance=0.405, latent_overlap=0.0446
+  fr-sw: typological_distance=0.407, latent_overlap=0.0406
+  bn-en: typological_distance=0.417, latent_overlap=0.0229
+  es-sw: typological_distance=0.425, latent_overlap=0.0304
+  bn-pt: typological_distance=0.432, latent_overlap=0.0547
+  id-sw: typological_distance=0.434, latent_overlap=0.0576
+  pt-sw: typological_distance=0.436, latent_overlap=0.0568
+  sw-vi: typological_distance=0.445, latent_overlap=0.0528
+  bn-es: typological_distance=0.446, latent_overlap=0.0285
+  ar-vi: typological_distance=0.450, latent_overlap=0.0728
+  ar-bn: typological_distance=0.465, latent_overlap=0.1040
+  ar-zh: typological_distance=0.472, latent_overlap=0.1277
+  hi-id: typological_distance=0.475, latent_overlap=0.0833
+  hi-sw: typological_distance=0.525, latent_overlap=0.0960
+  en-sw: typological_distance=0.526, latent_overlap=0.0229
+  bn-id: typological_distance=0.564, latent_overlap=0.0658
+  hi-vi: typological_distance=0.572, latent_overlap=0.0770
+  bn-sw: typological_distance=0.580, latent_overlap=0.0851
+  bn-vi: typological_distance=0.634, latent_overlap=0.0572
+  sw-zh: typological_distance=0.653, latent_overlap=0.1156
+
+Spearman correlation (typological distance vs. latent overlap): rho=0.099, p=0.4715
+A negative rho means typologically closer languages (smaller distance) share MORE attributed latents,
+matching Gurgurov et al.'s neuron-level finding.
+
+Done. Results saved to results/typological_bloom1b7.json

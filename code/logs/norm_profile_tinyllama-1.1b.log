@@ -1,0 +1,29 @@
+/home/hyohyeongjang/.conda/envs/commonRegion/lib/python3.10/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.3) doesn't match a supported version!
+  warnings.warn(
+The following generation flags are not valid and may be ignored: ['output_hidden_states']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[TinyLlama/TinyLlama_v1.1] loading (cpu, float32)...
+  en done (10 texts so far)
+  zh done (20 texts so far)
+  layer  0: mean_norm=    1.94  top1_frac=0.1435
+  layer  1: mean_norm=    2.47  top1_frac=0.0828
+  layer  2: mean_norm=    2.74  top1_frac=0.0799
+  layer  3: mean_norm=    2.94  top1_frac=0.0785
+  layer  4: mean_norm=    3.15  top1_frac=0.0755
+  layer  5: mean_norm=    3.40  top1_frac=0.0752
+  layer  6: mean_norm=    3.66  top1_frac=0.0715
+  layer  7: mean_norm=    3.99  top1_frac=0.0822
+  layer  8: mean_norm=    4.47  top1_frac=0.0554
+  layer  9: mean_norm=    6.54  top1_frac=0.0617
+  layer 10: mean_norm=    7.79  top1_frac=0.0689
+  layer 11: mean_norm=    8.20  top1_frac=0.0978
+  layer 12: mean_norm=    8.80  top1_frac=0.1120
+  layer 13: mean_norm=    9.62  top1_frac=0.1796
+  layer 14: mean_norm=    9.84  top1_frac=0.1715
+  layer 15: mean_norm=   10.61  top1_frac=0.1485
+  layer 16: mean_norm=   12.04  top1_frac=0.1273
+  layer 17: mean_norm=   13.40  top1_frac=0.0797
+  layer 18: mean_norm=   15.54  top1_frac=0.0606
+  layer 19: mean_norm=   18.51  top1_frac=0.0658
+  layer 20: mean_norm=   24.08  top1_frac=0.0644
+  layer 21: mean_norm=   83.46  top1_frac=0.0627
+saved results/norm_profile_tinyllama-1.1b.json

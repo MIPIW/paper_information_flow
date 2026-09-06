@@ -1,0 +1,222 @@
+{
+  "model": "bloom-1b7",
+  "n_layers": 24,
+  "results": [
+    {
+      "layer": 0,
+      "mean_resid_norm": 27.916863179598995,
+      "std_resid_norm": 4.626028173779321,
+      "mean_top1_dim_frac_of_norm_sq": 0.1769591587925712,
+      "sae_fraction_variance_unexplained": 0.2396861853203726,
+      "sae_fraction_variance_explained": 0.7603138146796273,
+      "n_tokens": 21097
+    },
+    {
+      "layer": 1,
+      "mean_resid_norm": 32.628483907664595,
+      "std_resid_norm": 5.765005391534439,
+      "mean_top1_dim_frac_of_norm_sq": 0.21590020759764422,
+      "sae_fraction_variance_unexplained": 0.22284579154269812,
+      "sae_fraction_variance_explained": 0.7771542084573019,
+      "n_tokens": 21097
+    },
+    {
+      "layer": 2,
+      "mean_resid_norm": 35.52543311845286,
+      "std_resid_norm": 5.33461174577779,
+      "mean_top1_dim_frac_of_norm_sq": 0.2651419262809878,
+      "sae_fraction_variance_unexplained": 0.23611359346164795,
+      "sae_fraction_variance_explained": 0.763886406538352,
+      "n_tokens": 21097
+    },
+    {
+      "layer": 3,
+      "mean_resid_norm": 36.68068030999668,
+      "std_resid_norm": 5.180629409688127,
+      "mean_top1_dim_frac_of_norm_sq": 0.2853279827996872,
+      "sae_fraction_variance_unexplained": 0.24051437424021793,
+      "sae_fraction_variance_explained": 0.7594856257597821,
+      "n_tokens": 21097
+    },
+    {
+      "layer": 4,
+      "mean_resid_norm": 61.5760653173437,
+      "std_resid_norm": 166.42015868052914,
+      "mean_top1_dim_frac_of_norm_sq": 0.2895512904308077,
+      "sae_fraction_variance_unexplained": 0.007243845592077643,
+      "sae_fraction_variance_explained": 0.9927561544079223,
+      "n_tokens": 21097
+    },
+    {
+      "layer": 5,
+      "mean_resid_norm": 65.6205680902498,
+      "std_resid_norm": 184.5331097843244,
+      "mean_top1_dim_frac_of_norm_sq": 0.2903398263452742,
+      "sae_fraction_variance_unexplained": 0.00634225129568679,
+      "sae_fraction_variance_explained": 0.9936577487043132,
+      "n_tokens": 21097
+    },
+    {
+      "layer": 6,
+      "mean_resid_norm": 69.70918258520169,
+      "std_resid_norm": 202.88313271773362,
+      "mean_top1_dim_frac_of_norm_sq": 0.29737425178194765,
+      "sae_fraction_variance_unexplained": 0.005630281177404592,
+      "sae_fraction_variance_explained": 0.9943697188225954,
+      "n_tokens": 21097
+    },
+    {
+      "layer": 7,
+      "mean_resid_norm": 73.18898421576527,
+      "std_resid_norm": 219.4210171372078,
+      "mean_top1_dim_frac_of_norm_sq": 0.2987692914721287,
+      "sae_fraction_variance_unexplained": 0.005139494840063808,
+      "sae_fraction_variance_explained": 0.9948605051599362,
+      "n_tokens": 21097
+    },
+    {
+      "layer": 8,
+      "mean_resid_norm": 74.71056903825189,
+      "std_resid_norm": 221.85592893625747,
+      "mean_top1_dim_frac_of_norm_sq": 0.2975832936480898,
+      "sae_fraction_variance_unexplained": 0.005406885133887953,
+      "sae_fraction_variance_explained": 0.994593114866112,
+      "n_tokens": 21097
+    },
+    {
+      "layer": 9,
+      "mean_resid_norm": 75.59557638526805,
+      "std_resid_norm": 221.95058954425176,
+      "mean_top1_dim_frac_of_norm_sq": 0.29684368538032657,
+      "sae_fraction_variance_unexplained": 0.005663414603381693,
+      "sae_fraction_variance_explained": 0.9943365853966183,
+      "n_tokens": 21097
+    },
+    {
+      "layer": 10,
+      "mean_resid_norm": 76.37342394653268,
+      "std_resid_norm": 221.6091314761165,
+      "mean_top1_dim_frac_of_norm_sq": 0.2986471343674456,
+      "sae_fraction_variance_unexplained": 0.005831013954171614,
+      "sae_fraction_variance_explained": 0.9941689860458284,
+      "n_tokens": 21097
+    },
+    {
+      "layer": 11,
+      "mean_resid_norm": 77.55812437787363,
+      "std_resid_norm": 221.25099680989467,
+      "mean_top1_dim_frac_of_norm_sq": 0.29745451719290655,
+      "sae_fraction_variance_unexplained": 0.006198113295201846,
+      "sae_fraction_variance_explained": 0.9938018867047982,
+      "n_tokens": 21097
+    },
+    {
+      "layer": 12,
+      "mean_resid_norm": 79.1339467696829,
+      "std_resid_norm": 220.82274982112557,
+      "mean_top1_dim_frac_of_norm_sq": 0.29306398995562166,
+      "sae_fraction_variance_unexplained": 0.006755732810459207,
+      "sae_fraction_variance_explained": 0.9932442671895408,
+      "n_tokens": 21097
+    },
+    {
+      "layer": 13,
+      "mean_resid_norm": 80.80701640043608,
+      "std_resid_norm": 220.2727521100827,
+      "mean_top1_dim_frac_of_norm_sq": 0.2866009348189316,
+      "sae_fraction_variance_unexplained": 0.0073314566327150055,
+      "sae_fraction_variance_explained": 0.992668543367285,
+      "n_tokens": 21097
+    },
+    {
+      "layer": 14,
+      "mean_resid_norm": 82.90002133004693,
+      "std_resid_norm": 219.77873229752717,
+      "mean_top1_dim_frac_of_norm_sq": 0.2728662454229274,
+      "sae_fraction_variance_unexplained": 0.008205251557006533,
+      "sae_fraction_variance_explained": 0.9917947484429934,
+      "n_tokens": 21097
+    },
+    {
+      "layer": 15,
+      "mean_resid_norm": 85.48698867137507,
+      "std_resid_norm": 219.20754427126846,
+      "mean_top1_dim_frac_of_norm_sq": 0.2583040677806679,
+      "sae_fraction_variance_unexplained": 0.009276828767166347,
+      "sae_fraction_variance_explained": 0.9907231712328336,
+      "n_tokens": 21097
+    },
+    {
+      "layer": 16,
+      "mean_resid_norm": 88.64576124567473,
+      "std_resid_norm": 218.43671854578622,
+      "mean_top1_dim_frac_of_norm_sq": 0.24469023939274542,
+      "sae_fraction_variance_unexplained": 0.010601369675342177,
+      "sae_fraction_variance_explained": 0.9893986303246578,
+      "n_tokens": 21097
+    },
+    {
+      "layer": 17,
+      "mean_resid_norm": 93.68941674171683,
+      "std_resid_norm": 217.3324624271077,
+      "mean_top1_dim_frac_of_norm_sq": 0.2202969375829502,
+      "sae_fraction_variance_unexplained": 0.012839182154258612,
+      "sae_fraction_variance_explained": 0.9871608178457414,
+      "n_tokens": 21097
+    },
+    {
+      "layer": 18,
+      "mean_resid_norm": 101.64070720955586,
+      "std_resid_norm": 215.67447506422488,
+      "mean_top1_dim_frac_of_norm_sq": 0.18670774938009552,
+      "sae_fraction_variance_unexplained": 0.01669863258556627,
+      "sae_fraction_variance_explained": 0.9833013674144337,
+      "n_tokens": 21097
+    },
+    {
+      "layer": 19,
+      "mean_resid_norm": 113.03263497179694,
+      "std_resid_norm": 212.31962563864064,
+      "mean_top1_dim_frac_of_norm_sq": 0.15785146621853818,
+      "sae_fraction_variance_unexplained": 0.021402419521884947,
+      "sae_fraction_variance_explained": 0.9785975804781151,
+      "n_tokens": 21097
+    },
+    {
+      "layer": 20,
+      "mean_resid_norm": 126.64548277006209,
+      "std_resid_norm": 191.2362255807119,
+      "mean_top1_dim_frac_of_norm_sq": 0.15692488444373015,
+      "sae_fraction_variance_unexplained": 0.0316472063261293,
+      "sae_fraction_variance_explained": 0.9683527936738707,
+      "n_tokens": 21097
+    },
+    {
+      "layer": 21,
+      "mean_resid_norm": 145.812923638432,
+      "std_resid_norm": 97.28373244580027,
+      "mean_top1_dim_frac_of_norm_sq": 0.2604035359737166,
+      "sae_fraction_variance_unexplained": 0.10044964027398118,
+      "sae_fraction_variance_explained": 0.8995503597260188,
+      "n_tokens": 21097
+    },
+    {
+      "layer": 22,
+      "mean_resid_norm": 146.31399014077832,
+      "std_resid_norm": 22.599600798259555,
+      "mean_top1_dim_frac_of_norm_sq": 0.28140310141104186,
+      "sae_fraction_variance_unexplained": 0.29011111832343733,
+      "sae_fraction_variance_explained": 0.7098888816765627,
+      "n_tokens": 21097
+    },
+    {
+      "layer": 23,
+      "mean_resid_norm": 153.0773806702375,
+      "std_resid_norm": 24.793765334309388,
+      "mean_top1_dim_frac_of_norm_sq": 0.268841240571823,
+      "sae_fraction_variance_unexplained": 0.31943202528534886,
+      "sae_fraction_variance_explained": 0.6805679747146511,
+      "n_tokens": 21097
+    }
+  ]
+}

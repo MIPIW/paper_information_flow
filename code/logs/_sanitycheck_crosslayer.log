@@ -1,0 +1,16 @@
+/home/hyohyeongjang/.conda/envs/commonRegion/lib/python3.10/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.3) doesn't match a supported version!
+  warnings.warn(
+[bloom-560m] Loading model + trained MLSAE on cuda:0...
+Selected 11 neurons across 11 languages (up to 1 per language)
+Streaming probe corpus: ['en', 'fr', 'es', 'pt', 'zh', 'ar', 'vi', 'hi', 'id', 'bn', 'sw'], 30 examples/language...
+  corpus streamed in 87s
+Selectively caching FULL residual stream (all layers) + target neuron columns...
+  selective caching done in 9s
+Precomputing background SAE encoding at all 24 layers (neuron-independent, done once)...
+  done in 1s
+
+Running cross-layer persistence sweep on 11 neurons, 24 layers each...
+  5/11 neurons swept, 7s elapsed
+  10/11 neurons swept, 13s elapsed
+
+Done. Results saved to results/_sanitycheck_crosslayer.json

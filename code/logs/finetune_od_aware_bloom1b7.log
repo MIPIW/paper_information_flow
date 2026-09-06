@@ -1,0 +1,55 @@
+/home/hyohyeongjang/.conda/envs/commonRegion/lib/python3.10/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.3) doesn't match a supported version!
+  warnings.warn(
+[bloom-1b7] OD dims excluded from standardization (fixed set, all layers): [20, 31, 203, 237, 283, 1044, 1369, 1440, 1625, 1853]
+step 20: tokens=975864/50000000 (2.0%), loss=4.3088, FVE=0.5111, dead_frac=0.000, throughput=3813 tok/s, ETA=3.57h
+step 40: tokens=1950936/50000000 (3.9%), loss=3.9966, FVE=0.5723, dead_frac=0.000, throughput=5326 tok/s, ETA=2.51h
+step 60: tokens=2928960/50000000 (5.9%), loss=3.3619, FVE=0.6315, dead_frac=0.000, throughput=6154 tok/s, ETA=2.12h
+step 80: tokens=3899976/50000000 (7.8%), loss=2.7951, FVE=0.6895, dead_frac=0.000, throughput=6653 tok/s, ETA=1.92h
+step 100: tokens=4873152/50000000 (9.7%), loss=2.4396, FVE=0.7389, dead_frac=0.000, throughput=7004 tok/s, ETA=1.79h
+step 120: tokens=5846736/50000000 (11.7%), loss=1.9145, FVE=0.7836, dead_frac=0.000, throughput=7182 tok/s, ETA=1.71h
+step 140: tokens=6823920/50000000 (13.6%), loss=1.7036, FVE=0.8154, dead_frac=0.000, throughput=7395 tok/s, ETA=1.62h
+step 160: tokens=7797360/50000000 (15.6%), loss=1.4871, FVE=0.8377, dead_frac=0.000, throughput=7562 tok/s, ETA=1.55h
+step 180: tokens=8769024/50000000 (17.5%), loss=1.2684, FVE=0.8549, dead_frac=0.000, throughput=7696 tok/s, ETA=1.49h
+step 200: tokens=9735480/50000000 (19.5%), loss=1.1832, FVE=0.8696, dead_frac=0.000, throughput=7777 tok/s, ETA=1.44h
+step 220: tokens=10709328/50000000 (21.4%), loss=1.0109, FVE=0.8849, dead_frac=0.000, throughput=7790 tok/s, ETA=1.40h
+step 240: tokens=11683560/50000000 (23.4%), loss=0.9315, FVE=0.8935, dead_frac=0.000, throughput=7830 tok/s, ETA=1.36h
+step 260: tokens=12645432/50000000 (25.3%), loss=0.8600, FVE=0.9045, dead_frac=0.000, throughput=7905 tok/s, ETA=1.31h
+step 280: tokens=13616736/50000000 (27.2%), loss=0.8140, FVE=0.9113, dead_frac=0.000, throughput=7987 tok/s, ETA=1.27h
+step 300: tokens=14575632/50000000 (29.2%), loss=0.6804, FVE=0.9249, dead_frac=0.000, throughput=8048 tok/s, ETA=1.22h
+step 320: tokens=15533592/50000000 (31.1%), loss=0.6475, FVE=0.9258, dead_frac=0.000, throughput=8077 tok/s, ETA=1.19h
+step 340: tokens=16501632/50000000 (33.0%), loss=0.5940, FVE=0.9330, dead_frac=0.000, throughput=8138 tok/s, ETA=1.14h
+step 360: tokens=17464320/50000000 (34.9%), loss=0.5452, FVE=0.9374, dead_frac=0.000, throughput=8195 tok/s, ETA=1.10h
+step 380: tokens=18441072/50000000 (36.9%), loss=0.5259, FVE=0.9404, dead_frac=0.000, throughput=8242 tok/s, ETA=1.06h
+step 400: tokens=19403280/50000000 (38.8%), loss=0.5123, FVE=0.9438, dead_frac=0.000, throughput=8287 tok/s, ETA=1.03h
+step 420: tokens=20367096/50000000 (40.7%), loss=0.5116, FVE=0.9432, dead_frac=0.000, throughput=8307 tok/s, ETA=0.99h
+step 440: tokens=21323784/50000000 (42.6%), loss=0.4734, FVE=0.9480, dead_frac=0.000, throughput=8340 tok/s, ETA=0.96h
+step 460: tokens=22284768/50000000 (44.6%), loss=0.4815, FVE=0.9460, dead_frac=0.000, throughput=8362 tok/s, ETA=0.92h
+step 480: tokens=23229264/50000000 (46.5%), loss=0.4705, FVE=0.9478, dead_frac=0.000, throughput=8394 tok/s, ETA=0.89h
+step 500: tokens=24195528/50000000 (48.4%), loss=0.4451, FVE=0.9495, dead_frac=0.000, throughput=8402 tok/s, ETA=0.85h
+step 520: tokens=25165632/50000000 (50.3%), loss=0.4254, FVE=0.9533, dead_frac=0.000, throughput=8396 tok/s, ETA=0.82h
+step 540: tokens=26125512/50000000 (52.3%), loss=0.4262, FVE=0.9527, dead_frac=0.000, throughput=8421 tok/s, ETA=0.79h
+step 560: tokens=27090528/50000000 (54.2%), loss=0.3959, FVE=0.9550, dead_frac=0.000, throughput=8448 tok/s, ETA=0.75h
+step 580: tokens=28062720/50000000 (56.1%), loss=0.3850, FVE=0.9573, dead_frac=0.000, throughput=8471 tok/s, ETA=0.72h
+step 600: tokens=29035824/50000000 (58.1%), loss=0.4027, FVE=0.9549, dead_frac=0.000, throughput=8496 tok/s, ETA=0.69h
+step 620: tokens=30003432/50000000 (60.0%), loss=0.3826, FVE=0.9581, dead_frac=0.000, throughput=8504 tok/s, ETA=0.65h
+step 640: tokens=30964464/50000000 (61.9%), loss=0.3931, FVE=0.9570, dead_frac=0.000, throughput=8523 tok/s, ETA=0.62h
+step 660: tokens=31933656/50000000 (63.9%), loss=0.3763, FVE=0.9570, dead_frac=0.000, throughput=8538 tok/s, ETA=0.59h
+step 680: tokens=32913336/50000000 (65.8%), loss=0.3758, FVE=0.9570, dead_frac=0.000, throughput=8558 tok/s, ETA=0.55h
+step 700: tokens=33891576/50000000 (67.8%), loss=0.3740, FVE=0.9584, dead_frac=0.000, throughput=8578 tok/s, ETA=0.52h
+step 720: tokens=34871472/50000000 (69.7%), loss=0.3705, FVE=0.9578, dead_frac=0.000, throughput=8578 tok/s, ETA=0.49h
+step 740: tokens=35840184/50000000 (71.7%), loss=0.3899, FVE=0.9563, dead_frac=0.000, throughput=8597 tok/s, ETA=0.46h
+step 760: tokens=36807456/50000000 (73.6%), loss=0.3631, FVE=0.9600, dead_frac=0.000, throughput=8615 tok/s, ETA=0.43h
+step 780: tokens=37776480/50000000 (75.6%), loss=0.3703, FVE=0.9593, dead_frac=0.000, throughput=8626 tok/s, ETA=0.39h
+step 800: tokens=38746992/50000000 (77.5%), loss=0.3713, FVE=0.9599, dead_frac=0.000, throughput=8634 tok/s, ETA=0.36h
+step 820: tokens=39700872/50000000 (79.4%), loss=0.3841, FVE=0.9580, dead_frac=0.000, throughput=8636 tok/s, ETA=0.33h
+step 840: tokens=40667448/50000000 (81.3%), loss=0.3741, FVE=0.9604, dead_frac=0.000, throughput=8650 tok/s, ETA=0.30h
+step 860: tokens=41637144/50000000 (83.3%), loss=0.3573, FVE=0.9591, dead_frac=0.000, throughput=8659 tok/s, ETA=0.27h
+step 880: tokens=42610512/50000000 (85.2%), loss=0.3618, FVE=0.9591, dead_frac=0.000, throughput=8664 tok/s, ETA=0.24h
+step 900: tokens=43582248/50000000 (87.2%), loss=0.3956, FVE=0.9555, dead_frac=0.000, throughput=8674 tok/s, ETA=0.21h
+step 920: tokens=44542368/50000000 (89.1%), loss=0.3448, FVE=0.9621, dead_frac=0.000, throughput=8676 tok/s, ETA=0.17h
+step 940: tokens=45508416/50000000 (91.0%), loss=0.3670, FVE=0.9597, dead_frac=0.000, throughput=8687 tok/s, ETA=0.14h
+step 960: tokens=46472880/50000000 (92.9%), loss=0.3612, FVE=0.9590, dead_frac=0.000, throughput=8699 tok/s, ETA=0.11h
+step 980: tokens=47444352/50000000 (94.9%), loss=0.3618, FVE=0.9590, dead_frac=0.000, throughput=8705 tok/s, ETA=0.08h
+step 1000: tokens=48419736/50000000 (96.8%), loss=0.3594, FVE=0.9595, dead_frac=0.000, throughput=8716 tok/s, ETA=0.05h
+step 1020: tokens=49392000/50000000 (98.8%), loss=0.3686, FVE=0.9606, dead_frac=0.163, throughput=8715 tok/s, ETA=0.02h
+Fine-tuning complete: 1033 steps, 50026056 tokens. Saved to checkpoints_od_aware/mlsae_bloom1b7_odaware.pt

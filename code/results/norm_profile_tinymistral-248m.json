@@ -1,0 +1,66 @@
+{
+  "model_name": "Locutusque/TinyMistral-248M-v2",
+  "n_layers": 12,
+  "results": [
+    {
+      "layer": 0,
+      "mean_resid_norm": 26.078470865885418,
+      "mean_top1_dim_frac_of_norm_sq": 0.012258861462275188
+    },
+    {
+      "layer": 1,
+      "mean_resid_norm": 34.07560628255208,
+      "mean_top1_dim_frac_of_norm_sq": 0.01201712985833486
+    },
+    {
+      "layer": 2,
+      "mean_resid_norm": 40.155948893229166,
+      "mean_top1_dim_frac_of_norm_sq": 0.011710251371065775
+    },
+    {
+      "layer": 3,
+      "mean_resid_norm": 46.14231770833333,
+      "mean_top1_dim_frac_of_norm_sq": 0.01162613828976949
+    },
+    {
+      "layer": 4,
+      "mean_resid_norm": 51.82921549479167,
+      "mean_top1_dim_frac_of_norm_sq": 0.011584290862083435
+    },
+    {
+      "layer": 5,
+      "mean_resid_norm": 57.08511149088542,
+      "mean_top1_dim_frac_of_norm_sq": 0.011635301510492961
+    },
+    {
+      "layer": 6,
+      "mean_resid_norm": 63.933675130208336,
+      "mean_top1_dim_frac_of_norm_sq": 0.011226682861646017
+    },
+    {
+      "layer": 7,
+      "mean_resid_norm": 70.51958821614583,
+      "mean_top1_dim_frac_of_norm_sq": 0.011320494612058004
+    },
+    {
+      "layer": 8,
+      "mean_resid_norm": 78.86034342447917,
+      "mean_top1_dim_frac_of_norm_sq": 0.011206059654553732
+    },
+    {
+      "layer": 9,
+      "mean_resid_norm": 89.71160481770833,
+      "mean_top1_dim_frac_of_norm_sq": 0.01116601824760437
+    },
+    {
+      "layer": 10,
+      "mean_resid_norm": 100.88636881510416,
+      "mean_top1_dim_frac_of_norm_sq": 0.011237044135729473
+    },
+    {
+      "layer": 11,
+      "mean_resid_norm": 44.47512613932292,
+      "mean_top1_dim_frac_of_norm_sq": 0.011203988393147787
+    }
+  ]
+}

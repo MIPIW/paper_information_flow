@@ -1,0 +1,18 @@
+=== qwen2.5-0.5b (Qwen/Qwen2.5-0.5B) ===
+  OK -- results/norm_profile_qwen2.5-0.5b.json
+=== qwen2.5-1.5b (Qwen/Qwen2.5-1.5B) ===
+  OK -- results/norm_profile_qwen2.5-1.5b.json
+=== gemma-2b (google/gemma-2b) ===
+  OK -- results/norm_profile_gemma-2b.json
+=== gemma2-2b (google/gemma-2-2b) ===
+  OK -- results/norm_profile_gemma2-2b.json
+=== tinyllama-1.1b (TinyLlama/TinyLlama_v1.1) ===
+  OK -- results/norm_profile_tinyllama-1.1b.json
+=== llama3.2-1b (meta-llama/Llama-3.2-1B) ===
+  OK -- results/norm_profile_llama3.2-1b.json
+=== tinymistral-248m (Locutusque/TinyMistral-248M-v2) ===
+  OK -- results/norm_profile_tinymistral-248m.json
+=== minueza-32m (Felladrin/Minueza-32M-Base) ===
+scripts/run_generic_norm_sweep.sh: line 21: 3927673 Killed                  $PY scripts/generic_norm_profile.py --model-name "$name" --languages en,zh --n-examples-per-lang 10 --max-length 48 --out "results/norm_profile_${key}.json" > "logs/norm_profile_${key}.log" 2>&1
+  FAILED (exit 137) -- see logs/norm_profile_minueza-32m.log
+ALL_DONE

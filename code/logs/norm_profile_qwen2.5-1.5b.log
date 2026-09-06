@@ -1,0 +1,35 @@
+/home/hyohyeongjang/.conda/envs/commonRegion/lib/python3.10/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.3) doesn't match a supported version!
+  warnings.warn(
+The following generation flags are not valid and may be ignored: ['output_hidden_states']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[Qwen/Qwen2.5-1.5B] loading (cpu, float32)...
+  en done (10 texts so far)
+  zh done (20 texts so far)
+  layer  0: mean_norm=   20.09  top1_frac=0.0604
+  layer  1: mean_norm=  132.12  top1_frac=0.0811
+  layer  2: mean_norm=  258.02  top1_frac=0.0791
+  layer  3: mean_norm=  267.83  top1_frac=0.0903
+  layer  4: mean_norm=  274.49  top1_frac=0.0994
+  layer  5: mean_norm=  277.43  top1_frac=0.1249
+  layer  6: mean_norm=  279.92  top1_frac=0.1372
+  layer  7: mean_norm=  282.46  top1_frac=0.1252
+  layer  8: mean_norm=  284.46  top1_frac=0.1235
+  layer  9: mean_norm=  287.19  top1_frac=0.1366
+  layer 10: mean_norm=  289.49  top1_frac=0.1674
+  layer 11: mean_norm=  290.11  top1_frac=0.1499
+  layer 12: mean_norm=  290.68  top1_frac=0.1415
+  layer 13: mean_norm=  292.87  top1_frac=0.1489
+  layer 14: mean_norm=  293.41  top1_frac=0.1561
+  layer 15: mean_norm=  296.30  top1_frac=0.1835
+  layer 16: mean_norm=  297.07  top1_frac=0.1656
+  layer 17: mean_norm=  300.14  top1_frac=0.1552
+  layer 18: mean_norm=  304.88  top1_frac=0.1616
+  layer 19: mean_norm=  315.22  top1_frac=0.1694
+  layer 20: mean_norm=  323.54  top1_frac=0.1520
+  layer 21: mean_norm=  343.15  top1_frac=0.1488
+  layer 22: mean_norm=  364.75  top1_frac=0.1516
+  layer 23: mean_norm=  394.72  top1_frac=0.1686
+  layer 24: mean_norm=  430.65  top1_frac=0.2011
+  layer 25: mean_norm=  464.56  top1_frac=0.2270
+  layer 26: mean_norm=  290.34  top1_frac=0.2736
+  layer 27: mean_norm=  163.57  top1_frac=0.2946
+saved results/norm_profile_qwen2.5-1.5b.json

@@ -1,0 +1,889 @@
+{
+  "model": "bloom-1b7",
+  "primary_od": 1044,
+  "global_top30_boosted": [
+    [
+      "維爾",
+      5.614
+    ],
+    [
+      " Cooperació",
+      5.474
+    ],
+    [
+      " Promoció",
+      5.318
+    ],
+    [
+      "金",
+      5.299
+    ],
+    [
+      "高",
+      5.217
+    ],
+    [
+      "香",
+      5.211
+    ],
+    [
+      "大",
+      5.203
+    ],
+    [
+      "豪",
+      5.164
+    ],
+    [
+      "新",
+      5.145
+    ],
+    [
+      "花",
+      5.136
+    ],
+    [
+      " l'exili",
+      5.127
+    ],
+    [
+      " nghẹn",
+      5.108
+    ],
+    [
+      "李",
+      5.084
+    ],
+    [
+      "舒",
+      5.079
+    ],
+    [
+      "洗",
+      5.071
+    ],
+    [
+      "朱",
+      5.07
+    ],
+    [
+      "雷",
+      5.068
+    ],
+    [
+      "餐",
+      5.05
+    ],
+    [
+      "老",
+      5.036
+    ],
+    [
+      "平",
+      5.028
+    ],
+    [
+      "保",
+      5.018
+    ],
+    [
+      "安",
+      5.015
+    ],
+    [
+      "出",
+      5.011
+    ],
+    [
+      "日",
+      5.01
+    ],
+    [
+      "爆",
+      5.008
+    ],
+    [
+      "Obres",
+      5.006
+    ],
+    [
+      "打",
+      5.002
+    ],
+    [
+      "拉",
+      4.99
+    ],
+    [
+      "快",
+      4.986
+    ],
+    [
+      "黑",
+      4.986
+    ]
+  ],
+  "signed_mag_by_lang": {
+    "en": 62.202484130859375,
+    "fr": 52.16655731201172,
+    "es": 53.01003646850586,
+    "pt": 49.29561233520508,
+    "zh": 97.39971923828125,
+    "ar": 0.24804005026817322,
+    "vi": 60.49528121948242,
+    "hi": 1.7004979848861694,
+    "id": -3.5382466316223145,
+    "bn": -4.299379348754883,
+    "sw": 2.9399845600128174
+  },
+  "lang_analysis": {
+    "en": {
+      "signed_od_magnitude": 62.202484130859375,
+      "boosted_tokens_freq_in_this_lang": [
+        {
+          "token": "維爾",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": " Cooperació",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": " Promoció",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "金",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "高",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "香",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "大",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "豪",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "新",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "花",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        }
+      ],
+      "top10_boosted_at_own_magnitude": [
+        " Cooperació",
+        "維爾",
+        " Promoció",
+        "Obres",
+        " nghẹn",
+        " l'exili",
+        "金",
+        "香",
+        " l'Àrea",
+        "豪"
+      ],
+      "jaccard_vs_global_boosted_set": 0.6
+    },
+    "fr": {
+      "signed_od_magnitude": 52.16655731201172,
+      "boosted_tokens_freq_in_this_lang": [
+        {
+          "token": "維爾",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": " Cooperació",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": " Promoció",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "金",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "高",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "香",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "大",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "豪",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "新",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "花",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        }
+      ],
+      "top10_boosted_at_own_magnitude": [
+        "維爾",
+        " Cooperació",
+        " Promoció",
+        " nghẹn",
+        " l'exili",
+        "Obres",
+        "金",
+        "香",
+        "豪",
+        "高"
+      ],
+      "jaccard_vs_global_boosted_set": 0.7
+    },
+    "es": {
+      "signed_od_magnitude": 53.01003646850586,
+      "boosted_tokens_freq_in_this_lang": [
+        {
+          "token": "維爾",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": " Cooperació",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": " Promoció",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "金",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "高",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "香",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "大",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "豪",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "新",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "花",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        }
+      ],
+      "top10_boosted_at_own_magnitude": [
+        "維爾",
+        " Cooperació",
+        " Promoció",
+        " nghẹn",
+        " l'exili",
+        "Obres",
+        "金",
+        "香",
+        "豪",
+        "高"
+      ],
+      "jaccard_vs_global_boosted_set": 0.7
+    },
+    "pt": {
+      "signed_od_magnitude": 49.29561233520508,
+      "boosted_tokens_freq_in_this_lang": [
+        {
+          "token": "維爾",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": " Cooperació",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": " Promoció",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "金",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "高",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "香",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "大",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "豪",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "新",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "花",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        }
+      ],
+      "top10_boosted_at_own_magnitude": [
+        "維爾",
+        " Cooperació",
+        " Promoció",
+        " nghẹn",
+        " l'exili",
+        "金",
+        "Obres",
+        "香",
+        "豪",
+        "高"
+      ],
+      "jaccard_vs_global_boosted_set": 0.7
+    },
+    "zh": {
+      "signed_od_magnitude": 97.39971923828125,
+      "boosted_tokens_freq_in_this_lang": [
+        {
+          "token": "維爾",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": " Cooperació",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": " Promoció",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "金",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "高",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "香",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "大",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "豪",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "新",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "花",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        }
+      ],
+      "top10_boosted_at_own_magnitude": [
+        " Cooperació",
+        "維爾",
+        " Promoció",
+        "Obres",
+        " nghẹn",
+        " l'exili",
+        " l'Àrea",
+        " rưng",
+        "Edifici",
+        "香"
+      ],
+      "jaccard_vs_global_boosted_set": 0.4
+    },
+    "ar": {
+      "signed_od_magnitude": 0.24804005026817322,
+      "boosted_tokens_freq_in_this_lang": [
+        {
+          "token": "維爾",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": " Cooperació",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": " Promoció",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "金",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "高",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "香",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "大",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "豪",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "新",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "花",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        }
+      ],
+      "top10_boosted_at_own_magnitude": [
+        "大",
+        "金",
+        "高",
+        "新",
+        "維爾",
+        "花",
+        "安",
+        "平",
+        "李",
+        "香"
+      ],
+      "jaccard_vs_global_boosted_set": 0.7
+    },
+    "vi": {
+      "signed_od_magnitude": 60.49528121948242,
+      "boosted_tokens_freq_in_this_lang": [
+        {
+          "token": "維爾",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": " Cooperació",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": " Promoció",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "金",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "高",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "香",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "大",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "豪",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "新",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "花",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        }
+      ],
+      "top10_boosted_at_own_magnitude": [
+        " Cooperació",
+        "維爾",
+        " Promoció",
+        "Obres",
+        " nghẹn",
+        " l'exili",
+        "金",
+        "香",
+        " l'Àrea",
+        "豪"
+      ],
+      "jaccard_vs_global_boosted_set": 0.6
+    },
+    "hi": {
+      "signed_od_magnitude": 1.7004979848861694,
+      "boosted_tokens_freq_in_this_lang": [
+        {
+          "token": "維爾",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": " Cooperació",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": " Promoció",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "金",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "高",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "香",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "大",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "豪",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "新",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "花",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        }
+      ],
+      "top10_boosted_at_own_magnitude": [
+        "大",
+        "金",
+        "高",
+        "維爾",
+        "新",
+        "花",
+        "安",
+        "香",
+        "平",
+        "李"
+      ],
+      "jaccard_vs_global_boosted_set": 0.7
+    },
+    "id": {
+      "signed_od_magnitude": -3.5382466316223145,
+      "boosted_tokens_freq_in_this_lang": [
+        {
+          "token": "維爾",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": " Cooperació",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": " Promoció",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "金",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "高",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "香",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "大",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "豪",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "新",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "花",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        }
+      ],
+      "top10_boosted_at_own_magnitude": [
+        "包括通过",
+        "以及关于",
+        "同时考虑到",
+        "设立了一个",
+        "加强其",
+        "并就此",
+        "提议的",
+        "开展的活动",
+        "中所载",
+        "以协助"
+      ],
+      "jaccard_vs_global_boosted_set": 0.0
+    },
+    "bn": {
+      "signed_od_magnitude": -4.299379348754883,
+      "boosted_tokens_freq_in_this_lang": [
+        {
+          "token": "維爾",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": " Cooperació",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": " Promoció",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "金",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "高",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "香",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "大",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "豪",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "新",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "花",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        }
+      ],
+      "top10_boosted_at_own_magnitude": [
+        "包括通过",
+        "以及关于",
+        "同时考虑到",
+        "设立了一个",
+        "加强其",
+        "并就此",
+        "提议的",
+        "开展的活动",
+        "中所载",
+        "以协助"
+      ],
+      "jaccard_vs_global_boosted_set": 0.0
+    },
+    "sw": {
+      "signed_od_magnitude": 2.9399845600128174,
+      "boosted_tokens_freq_in_this_lang": [
+        {
+          "token": "維爾",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": " Cooperació",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": " Promoció",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "金",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "高",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "香",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "大",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "豪",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "新",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "花",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        }
+      ],
+      "top10_boosted_at_own_magnitude": [
+        "大",
+        "金",
+        "高",
+        "維爾",
+        "新",
+        "花",
+        "香",
+        "安",
+        "李",
+        "平"
+      ],
+      "jaccard_vs_global_boosted_set": 0.7
+    }
+  }
+}

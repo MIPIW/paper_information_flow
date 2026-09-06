@@ -1,0 +1,889 @@
+{
+  "model": "bloom-560m",
+  "primary_od": 833,
+  "global_top30_boosted": [
+    [
+      "ాలన్న",
+      17.281
+    ],
+    [
+      "Masa",
+      16.49
+    ],
+    [
+      "ాలనే",
+      16.479
+    ],
+    [
+      "\"Dia",
+      16.097
+    ],
+    [
+      "\"Di",
+      15.966
+    ],
+    [
+      "Raja",
+      15.766
+    ],
+    [
+      "Empat",
+      15.725
+    ],
+    [
+      "Demi",
+      15.701
+    ],
+    [
+      "Istr",
+      15.583
+    ],
+    [
+      "Keh",
+      15.561
+    ],
+    [
+      "Kali",
+      15.528
+    ],
+    [
+      "Bek",
+      15.508
+    ],
+    [
+      "ాలన",
+      15.476
+    ],
+    [
+      "Kud",
+      15.463
+    ],
+    [
+      "వచ్చ",
+      15.295
+    ],
+    [
+      "ాలంటే",
+      15.242
+    ],
+    [
+      "ాల్సింద",
+      15.074
+    ],
+    [
+      "డమే",
+      15.025
+    ],
+    [
+      "డంలో",
+      15.016
+    ],
+    [
+      "Kak",
+      14.937
+    ],
+    [
+      "او",
+      14.935
+    ],
+    [
+      "ాల్సిన",
+      14.925
+    ],
+    [
+      "Rek",
+      14.911
+    ],
+    [
+      "Tuan",
+      14.889
+    ],
+    [
+      "ాల్సి",
+      14.882
+    ],
+    [
+      "కుండా",
+      14.855
+    ],
+    [
+      "چ",
+      14.837
+    ],
+    [
+      "Tata",
+      14.807
+    ],
+    [
+      "టానికి",
+      14.8
+    ],
+    [
+      "డానికి",
+      14.797
+    ]
+  ],
+  "signed_mag_by_lang": {
+    "en": 35.561431884765625,
+    "fr": 34.78429412841797,
+    "es": 35.56553649902344,
+    "pt": 35.5788459777832,
+    "zh": 35.564090728759766,
+    "ar": -1.7313686609268188,
+    "vi": 34.83412551879883,
+    "hi": 0.4852779507637024,
+    "id": -49.82852554321289,
+    "bn": -1.4811482429504395,
+    "sw": 25.9720458984375
+  },
+  "lang_analysis": {
+    "en": {
+      "signed_od_magnitude": 35.561431884765625,
+      "boosted_tokens_freq_in_this_lang": [
+        {
+          "token": "ాలన్న",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Masa",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "ాలనే",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "\"Dia",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "\"Di",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Raja",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Empat",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Demi",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Istr",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Keh",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        }
+      ],
+      "top10_boosted_at_own_magnitude": [
+        "ాలన్న",
+        "ాలనే",
+        "ాలన",
+        "اسلام",
+        "వచ్చ",
+        "او",
+        "నున్న",
+        " குர",
+        "است",
+        " ದ"
+      ],
+      "jaccard_vs_global_boosted_set": 0.2
+    },
+    "fr": {
+      "signed_od_magnitude": 34.78429412841797,
+      "boosted_tokens_freq_in_this_lang": [
+        {
+          "token": "ాలన్న",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Masa",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "ాలనే",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "\"Dia",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "\"Di",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Raja",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Empat",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Demi",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Istr",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Keh",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        }
+      ],
+      "top10_boosted_at_own_magnitude": [
+        "ాలన్న",
+        "ాలనే",
+        "ాలన",
+        "వచ్చ",
+        "اسلام",
+        "او",
+        "నున్న",
+        " குர",
+        "است",
+        " ದ"
+      ],
+      "jaccard_vs_global_boosted_set": 0.2
+    },
+    "es": {
+      "signed_od_magnitude": 35.56553649902344,
+      "boosted_tokens_freq_in_this_lang": [
+        {
+          "token": "ాలన్న",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Masa",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "ాలనే",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "\"Dia",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "\"Di",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Raja",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Empat",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Demi",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Istr",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Keh",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        }
+      ],
+      "top10_boosted_at_own_magnitude": [
+        "ాలన్న",
+        "ాలనే",
+        "ాలన",
+        "اسلام",
+        "వచ్చ",
+        "او",
+        "నున్న",
+        " குர",
+        "است",
+        " ದ"
+      ],
+      "jaccard_vs_global_boosted_set": 0.2
+    },
+    "pt": {
+      "signed_od_magnitude": 35.5788459777832,
+      "boosted_tokens_freq_in_this_lang": [
+        {
+          "token": "ాలన్న",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Masa",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "ాలనే",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "\"Dia",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "\"Di",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Raja",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Empat",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Demi",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Istr",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Keh",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        }
+      ],
+      "top10_boosted_at_own_magnitude": [
+        "ాలన్న",
+        "ాలనే",
+        "ాలన",
+        "اسلام",
+        "వచ్చ",
+        "او",
+        "నున్న",
+        " குர",
+        "است",
+        " ದ"
+      ],
+      "jaccard_vs_global_boosted_set": 0.2
+    },
+    "zh": {
+      "signed_od_magnitude": 35.564090728759766,
+      "boosted_tokens_freq_in_this_lang": [
+        {
+          "token": "ాలన్న",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Masa",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "ాలనే",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "\"Dia",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "\"Di",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Raja",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Empat",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Demi",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Istr",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Keh",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        }
+      ],
+      "top10_boosted_at_own_magnitude": [
+        "ాలన్న",
+        "ాలనే",
+        "ాలన",
+        "اسلام",
+        "వచ్చ",
+        "او",
+        "నున్న",
+        " குர",
+        "است",
+        " ದ"
+      ],
+      "jaccard_vs_global_boosted_set": 0.2
+    },
+    "ar": {
+      "signed_od_magnitude": -1.7313686609268188,
+      "boosted_tokens_freq_in_this_lang": [
+        {
+          "token": "ాలన్న",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Masa",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "ాలనే",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "\"Dia",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "\"Di",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Raja",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Empat",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Demi",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Istr",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Keh",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        }
+      ],
+      "top10_boosted_at_own_magnitude": [
+        " prosesnya",
+        " sekelompok",
+        " kebanyakan",
+        " rekan-re",
+        " penghuni",
+        " sedikitnya",
+        " rekan",
+        " kadang-kadang",
+        " pesaing",
+        " siapapun"
+      ],
+      "jaccard_vs_global_boosted_set": 0.0
+    },
+    "vi": {
+      "signed_od_magnitude": 34.83412551879883,
+      "boosted_tokens_freq_in_this_lang": [
+        {
+          "token": "ాలన్న",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Masa",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "ాలనే",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "\"Dia",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "\"Di",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Raja",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Empat",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Demi",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Istr",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Keh",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        }
+      ],
+      "top10_boosted_at_own_magnitude": [
+        "ాలన్న",
+        "ాలనే",
+        "ాలన",
+        "వచ్చ",
+        "اسلام",
+        "او",
+        "నున్న",
+        " குர",
+        "است",
+        " ದ"
+      ],
+      "jaccard_vs_global_boosted_set": 0.2
+    },
+    "hi": {
+      "signed_od_magnitude": 0.4852779507637024,
+      "boosted_tokens_freq_in_this_lang": [
+        {
+          "token": "ాలన్న",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Masa",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "ాలనే",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "\"Dia",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "\"Di",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Raja",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Empat",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Demi",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Istr",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Keh",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        }
+      ],
+      "top10_boosted_at_own_magnitude": [
+        "Masa",
+        "\"Dia",
+        "\"Di",
+        "Raja",
+        "Empat",
+        "Demi",
+        "Istr",
+        "Kali",
+        "Bek",
+        "Kud"
+      ],
+      "jaccard_vs_global_boosted_set": 0.7
+    },
+    "id": {
+      "signed_od_magnitude": -49.82852554321289,
+      "boosted_tokens_freq_in_this_lang": [
+        {
+          "token": "ాలన్న",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Masa",
+          "count_in_lang": 2,
+          "freq_per_10k": 13.889
+        },
+        {
+          "token": "ాలనే",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "\"Dia",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "\"Di",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Raja",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Empat",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Demi",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Istr",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Keh",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        }
+      ],
+      "top10_boosted_at_own_magnitude": [
+        "തു",
+        "ത്തിനു",
+        "പ്പെട്ട",
+        "ത്തും",
+        "ത്തിന",
+        "വെ",
+        "പ്പെട",
+        "ത്തോട",
+        "വുമായി",
+        "ത്തിലും"
+      ],
+      "jaccard_vs_global_boosted_set": 0.0
+    },
+    "bn": {
+      "signed_od_magnitude": -1.4811482429504395,
+      "boosted_tokens_freq_in_this_lang": [
+        {
+          "token": "ాలన్న",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Masa",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "ాలనే",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "\"Dia",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "\"Di",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Raja",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Empat",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Demi",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Istr",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Keh",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        }
+      ],
+      "top10_boosted_at_own_magnitude": [
+        " prosesnya",
+        " sekelompok",
+        " kebanyakan",
+        " rekan-re",
+        " penghuni",
+        " rekan",
+        " sedikitnya",
+        " kadang-kadang",
+        " pesaing",
+        " siapapun"
+      ],
+      "jaccard_vs_global_boosted_set": 0.0
+    },
+    "sw": {
+      "signed_od_magnitude": 25.9720458984375,
+      "boosted_tokens_freq_in_this_lang": [
+        {
+          "token": "ాలన్న",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Masa",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "ాలనే",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "\"Dia",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "\"Di",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Raja",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Empat",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Demi",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Istr",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        },
+        {
+          "token": "Keh",
+          "count_in_lang": 0,
+          "freq_per_10k": 0.0
+        }
+      ],
+      "top10_boosted_at_own_magnitude": [
+        "ాలన్న",
+        "ాలనే",
+        "ాలన",
+        "వచ్చ",
+        "او",
+        "اسلام",
+        "నున్న",
+        "است",
+        " குர",
+        "چ"
+      ],
+      "jaccard_vs_global_boosted_set": 0.2
+    }
+  }
+}

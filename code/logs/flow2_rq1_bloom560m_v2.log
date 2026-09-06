@@ -1,0 +1,48 @@
+/home/hyohyeongjang/.conda/envs/commonRegion/lib/python3.10/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.3) doesn't match a supported version!
+  warnings.warn(
+Loading bloom-560m and its trained MLSAE on cuda:0...
+MLSAE: n_inputs=1024, n_latents=65536, k=32
+Streaming probe corpus: ['en', 'fr', 'es', 'pt', 'zh', 'ar', 'vi', 'hi', 'id', 'bn', 'sw'], 1500 examples/language...
+  corpus streamed in 128s
+Single pass over the corpus: accumulating LAPE (neuron), SAE-LAPE (latent),
+and monolinguality (latent) statistics, and caching activations on CPU for
+the attribution step that follows.
+  2000/16500 examples processed, 153s elapsed
+  4000/16500 examples processed, 306s elapsed
+  6000/16500 examples processed, 459s elapsed
+  8000/16500 examples processed, 614s elapsed
+  10000/16500 examples processed, 770s elapsed
+  12000/16500 examples processed, 939s elapsed
+  14000/16500 examples processed, 1118s elapsed
+  16000/16500 examples processed, 1300s elapsed
+  accumulation pass done in 1345s
+Finalizing LAPE (neuron), SAE-LAPE (latent), and monolinguality (latent) scores...
+  760 language-specific neurons found
+  SAE-LAPE: 10 language-specific latents found
+  Monolinguality: 550 language-specific latents found
+  raw per-latent scores saved to results/flow2_bloom560m_rq1_raw_scores.pt for future re-tuning
+
+Running attribution on top 150 neurons to get attributed latent sets...
+  25/150 neurons attributed
+  50/150 neurons attributed
+  75/150 neurons attributed
+  100/150 neurons attributed
+  125/150 neurons attributed
+  150/150 neurons attributed
+
+Computing RQ1 overlap: attributed latents vs. SAE-LAPE and monolinguality reference sets...
+  en: attributed=497, SAE-LAPE overlap=0 (p=None), monolinguality overlap=26 (p=4.002139552757559e-42)
+  fr: attributed=754, SAE-LAPE overlap=0 (p=None), monolinguality overlap=23 (p=1.4538677422184434e-31)
+  es: attributed=855, SAE-LAPE overlap=0 (p=None), monolinguality overlap=24 (p=3.7880454118497034e-32)
+  pt: attributed=1507, SAE-LAPE overlap=0 (p=None), monolinguality overlap=38 (p=3.2471071785226873e-52)
+  zh: attributed=838, SAE-LAPE overlap=1 (p=0.012786865234375), monolinguality overlap=32 (p=2.0995550253449725e-48)
+  ar: attributed=1148, SAE-LAPE overlap=0 (p=None), monolinguality overlap=34 (p=4.401800499827368e-48)
+  vi: attributed=547, SAE-LAPE overlap=0 (p=None), monolinguality overlap=24 (p=7.82606003180078e-37)
+  hi: attributed=835, SAE-LAPE overlap=4 (p=2.6166214237176765e-08), monolinguality overlap=28 (p=3.831184458913564e-40)
+  id: attributed=747, SAE-LAPE overlap=3 (p=1.47501280594737e-06), monolinguality overlap=36 (p=3.8529593850846154e-59)
+  bn: attributed=958, SAE-LAPE overlap=1 (p=0.014617919921875), monolinguality overlap=29 (p=1.9987843192552774e-40)
+  sw: attributed=1218, SAE-LAPE overlap=1 (p=0.018585205078125), monolinguality overlap=20 (p=5.7673826813474255e-22)
+
+Pooled (language-agnostic): {'n_attributed': 4998, 'n_sae_lape_reference': 10, 'n_monolinguality_reference': 461, 'sae_lape_jaccard': 0.0020008003201280513, 'sae_lape_overlap_count': 10, 'sae_lape_enrichment_pvalue': 6.600072986678617e-12, 'monolinguality_jaccard': 0.07060207883898803, 'monolinguality_overlap_count': 360, 'monolinguality_enrichment_pvalue': 9.767484528186436e-308}
+
+Done. Results saved to results/flow2_bloom560m_rq1.json

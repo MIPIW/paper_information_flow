@@ -1,0 +1,19 @@
+/home/hyohyeongjang/.conda/envs/commonRegion/lib/python3.10/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.3) doesn't match a supported version!
+  warnings.warn(
+The following generation flags are not valid and may be ignored: ['output_hidden_states']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[Locutusque/TinyMistral-248M-v2] loading (cpu, float32)...
+  en done (10 texts so far)
+  zh done (20 texts so far)
+  layer  0: mean_norm=   26.08  top1_frac=0.0123
+  layer  1: mean_norm=   34.08  top1_frac=0.0120
+  layer  2: mean_norm=   40.16  top1_frac=0.0117
+  layer  3: mean_norm=   46.14  top1_frac=0.0116
+  layer  4: mean_norm=   51.83  top1_frac=0.0116
+  layer  5: mean_norm=   57.09  top1_frac=0.0116
+  layer  6: mean_norm=   63.93  top1_frac=0.0112
+  layer  7: mean_norm=   70.52  top1_frac=0.0113
+  layer  8: mean_norm=   78.86  top1_frac=0.0112
+  layer  9: mean_norm=   89.71  top1_frac=0.0112
+  layer 10: mean_norm=  100.89  top1_frac=0.0112
+  layer 11: mean_norm=   44.48  top1_frac=0.0112
+saved results/norm_profile_tinymistral-248m.json

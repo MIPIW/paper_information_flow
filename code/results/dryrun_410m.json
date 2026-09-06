@@ -1,0 +1,1506 @@
+{
+  "model": "pythia-410m",
+  "languages": [
+    "en",
+    "fr",
+    "de",
+    "es",
+    "it",
+    "nl",
+    "pt",
+    "ru",
+    "zh",
+    "ja"
+  ],
+  "n_examples_per_lang": 20,
+  "n_language_neurons_found": 870,
+  "lape_top": [
+    {
+      "layer": 23,
+      "neuron": 4037,
+      "language": "nl",
+      "entropy": 0.5139400362968445,
+      "firing_rate": 0.5484374761581421
+    },
+    {
+      "layer": 16,
+      "neuron": 2698,
+      "language": "it",
+      "entropy": 0.8594376444816589,
+      "firing_rate": 0.875781238079071
+    },
+    {
+      "layer": 9,
+      "neuron": 3507,
+      "language": "en",
+      "entropy": 0.888006329536438,
+      "firing_rate": 0.4296875
+    },
+    {
+      "layer": 18,
+      "neuron": 2584,
+      "language": "pt",
+      "entropy": 0.9410872459411621,
+      "firing_rate": 0.8695312738418579
+    },
+    {
+      "layer": 20,
+      "neuron": 1311,
+      "language": "it",
+      "entropy": 0.9632242321968079,
+      "firing_rate": 0.9437500238418579
+    },
+    {
+      "layer": 1,
+      "neuron": 3877,
+      "language": "it",
+      "entropy": 0.969677746295929,
+      "firing_rate": 0.5523437261581421
+    },
+    {
+      "layer": 16,
+      "neuron": 2287,
+      "language": "fr",
+      "entropy": 0.9760100841522217,
+      "firing_rate": 0.921875
+    },
+    {
+      "layer": 22,
+      "neuron": 2088,
+      "language": "ru",
+      "entropy": 0.9878391027450562,
+      "firing_rate": 0.7578125
+    },
+    {
+      "layer": 17,
+      "neuron": 2938,
+      "language": "en",
+      "entropy": 1.051373839378357,
+      "firing_rate": 0.47187501192092896
+    },
+    {
+      "layer": 10,
+      "neuron": 1071,
+      "language": "en",
+      "entropy": 1.066314697265625,
+      "firing_rate": 0.7523437738418579
+    },
+    {
+      "layer": 19,
+      "neuron": 2536,
+      "language": "it",
+      "entropy": 1.0782181024551392,
+      "firing_rate": 0.6781250238418579
+    },
+    {
+      "layer": 16,
+      "neuron": 3634,
+      "language": "nl",
+      "entropy": 1.0800191164016724,
+      "firing_rate": 0.753125011920929
+    },
+    {
+      "layer": 1,
+      "neuron": 876,
+      "language": "nl",
+      "entropy": 1.0833773612976074,
+      "firing_rate": 0.4515624940395355
+    },
+    {
+      "layer": 13,
+      "neuron": 531,
+      "language": "en",
+      "entropy": 1.091096043586731,
+      "firing_rate": 0.5210937261581421
+    },
+    {
+      "layer": 16,
+      "neuron": 3121,
+      "language": "ja",
+      "entropy": 1.1087455749511719,
+      "firing_rate": 0.8531249761581421
+    },
+    {
+      "layer": 14,
+      "neuron": 2509,
+      "language": "zh",
+      "entropy": 1.1164963245391846,
+      "firing_rate": 0.47265625
+    },
+    {
+      "layer": 17,
+      "neuron": 1064,
+      "language": "en",
+      "entropy": 1.118569016456604,
+      "firing_rate": 0.34296876192092896
+    },
+    {
+      "layer": 14,
+      "neuron": 3155,
+      "language": "en",
+      "entropy": 1.1516914367675781,
+      "firing_rate": 0.40156251192092896
+    },
+    {
+      "layer": 19,
+      "neuron": 2344,
+      "language": "zh",
+      "entropy": 1.1642682552337646,
+      "firing_rate": 0.7320312261581421
+    },
+    {
+      "layer": 1,
+      "neuron": 519,
+      "language": "ja",
+      "entropy": 1.1794803142547607,
+      "firing_rate": 0.3421874940395355
+    },
+    {
+      "layer": 4,
+      "neuron": 3180,
+      "language": "nl",
+      "entropy": 1.1816749572753906,
+      "firing_rate": 0.4664062559604645
+    },
+    {
+      "layer": 20,
+      "neuron": 3537,
+      "language": "nl",
+      "entropy": 1.1867766380310059,
+      "firing_rate": 0.606249988079071
+    },
+    {
+      "layer": 23,
+      "neuron": 120,
+      "language": "fr",
+      "entropy": 1.1871675252914429,
+      "firing_rate": 0.31953126192092896
+    },
+    {
+      "layer": 8,
+      "neuron": 236,
+      "language": "en",
+      "entropy": 1.2066885232925415,
+      "firing_rate": 0.6625000238418579
+    },
+    {
+      "layer": 18,
+      "neuron": 2280,
+      "language": "ja",
+      "entropy": 1.220581293106079,
+      "firing_rate": 0.758593738079071
+    },
+    {
+      "layer": 19,
+      "neuron": 1912,
+      "language": "zh",
+      "entropy": 1.2233054637908936,
+      "firing_rate": 0.2265625
+    },
+    {
+      "layer": 1,
+      "neuron": 547,
+      "language": "zh",
+      "entropy": 1.2350473403930664,
+      "firing_rate": 0.621874988079071
+    },
+    {
+      "layer": 7,
+      "neuron": 3055,
+      "language": "zh",
+      "entropy": 1.236160159111023,
+      "firing_rate": 0.28437501192092896
+    },
+    {
+      "layer": 20,
+      "neuron": 354,
+      "language": "nl",
+      "entropy": 1.2369894981384277,
+      "firing_rate": 0.6968749761581421
+    },
+    {
+      "layer": 1,
+      "neuron": 984,
+      "language": "it",
+      "entropy": 1.2376741170883179,
+      "firing_rate": 0.30156248807907104
+    },
+    {
+      "layer": 1,
+      "neuron": 1431,
+      "language": "fr",
+      "entropy": 1.2391058206558228,
+      "firing_rate": 0.3765625059604645
+    },
+    {
+      "layer": 18,
+      "neuron": 3533,
+      "language": "it",
+      "entropy": 1.2397716045379639,
+      "firing_rate": 0.918749988079071
+    },
+    {
+      "layer": 19,
+      "neuron": 107,
+      "language": "zh",
+      "entropy": 1.2409206628799438,
+      "firing_rate": 0.38593751192092896
+    },
+    {
+      "layer": 23,
+      "neuron": 2427,
+      "language": "ja",
+      "entropy": 1.243843913078308,
+      "firing_rate": 0.500781238079071
+    },
+    {
+      "layer": 16,
+      "neuron": 1186,
+      "language": "pt",
+      "entropy": 1.2462652921676636,
+      "firing_rate": 0.7242187261581421
+    },
+    {
+      "layer": 22,
+      "neuron": 3353,
+      "language": "fr",
+      "entropy": 1.2587316036224365,
+      "firing_rate": 0.5249999761581421
+    },
+    {
+      "layer": 20,
+      "neuron": 2970,
+      "language": "ja",
+      "entropy": 1.265546441078186,
+      "firing_rate": 0.5609375238418579
+    },
+    {
+      "layer": 1,
+      "neuron": 3287,
+      "language": "fr",
+      "entropy": 1.2740527391433716,
+      "firing_rate": 0.41718751192092896
+    },
+    {
+      "layer": 1,
+      "neuron": 63,
+      "language": "es",
+      "entropy": 1.284560203552246,
+      "firing_rate": 0.29609376192092896
+    },
+    {
+      "layer": 1,
+      "neuron": 1755,
+      "language": "fr",
+      "entropy": 1.2862895727157593,
+      "firing_rate": 0.35078126192092896
+    },
+    {
+      "layer": 1,
+      "neuron": 1338,
+      "language": "it",
+      "entropy": 1.2983883619308472,
+      "firing_rate": 0.3148437440395355
+    },
+    {
+      "layer": 18,
+      "neuron": 3915,
+      "language": "en",
+      "entropy": 1.3082367181777954,
+      "firing_rate": 0.7164062261581421
+    },
+    {
+      "layer": 22,
+      "neuron": 3121,
+      "language": "en",
+      "entropy": 1.3121243715286255,
+      "firing_rate": 0.507031261920929
+    },
+    {
+      "layer": 19,
+      "neuron": 2995,
+      "language": "it",
+      "entropy": 1.320599913597107,
+      "firing_rate": 0.5414062738418579
+    },
+    {
+      "layer": 16,
+      "neuron": 3813,
+      "language": "en",
+      "entropy": 1.3254220485687256,
+      "firing_rate": 0.8828125
+    },
+    {
+      "layer": 20,
+      "neuron": 3718,
+      "language": "es",
+      "entropy": 1.3262863159179688,
+      "firing_rate": 0.5062500238418579
+    },
+    {
+      "layer": 1,
+      "neuron": 126,
+      "language": "ja",
+      "entropy": 1.3285329341888428,
+      "firing_rate": 0.2109375
+    },
+    {
+      "layer": 19,
+      "neuron": 1067,
+      "language": "it",
+      "entropy": 1.3479468822479248,
+      "firing_rate": 0.48046875
+    },
+    {
+      "layer": 16,
+      "neuron": 3423,
+      "language": "nl",
+      "entropy": 1.3557231426239014,
+      "firing_rate": 0.7437499761581421
+    },
+    {
+      "layer": 1,
+      "neuron": 315,
+      "language": "zh",
+      "entropy": 1.3576751947402954,
+      "firing_rate": 0.37890625
+    },
+    {
+      "layer": 1,
+      "neuron": 272,
+      "language": "it",
+      "entropy": 1.3595982789993286,
+      "firing_rate": 0.29765623807907104
+    },
+    {
+      "layer": 19,
+      "neuron": 3943,
+      "language": "es",
+      "entropy": 1.3608043193817139,
+      "firing_rate": 0.520312488079071
+    },
+    {
+      "layer": 20,
+      "neuron": 2314,
+      "language": "nl",
+      "entropy": 1.3625025749206543,
+      "firing_rate": 0.538281261920929
+    },
+    {
+      "layer": 21,
+      "neuron": 3950,
+      "language": "it",
+      "entropy": 1.3648911714553833,
+      "firing_rate": 0.2867187559604645
+    },
+    {
+      "layer": 21,
+      "neuron": 53,
+      "language": "nl",
+      "entropy": 1.3741121292114258,
+      "firing_rate": 0.8226562738418579
+    },
+    {
+      "layer": 15,
+      "neuron": 3844,
+      "language": "ja",
+      "entropy": 1.3769112825393677,
+      "firing_rate": 0.27656251192092896
+    },
+    {
+      "layer": 22,
+      "neuron": 860,
+      "language": "nl",
+      "entropy": 1.3816719055175781,
+      "firing_rate": 0.38671875
+    },
+    {
+      "layer": 19,
+      "neuron": 256,
+      "language": "it",
+      "entropy": 1.3820664882659912,
+      "firing_rate": 0.48124998807907104
+    },
+    {
+      "layer": 18,
+      "neuron": 1209,
+      "language": "es",
+      "entropy": 1.3887693881988525,
+      "firing_rate": 0.9085937738418579
+    },
+    {
+      "layer": 19,
+      "neuron": 3563,
+      "language": "en",
+      "entropy": 1.3888661861419678,
+      "firing_rate": 0.33281248807907104
+    },
+    {
+      "layer": 23,
+      "neuron": 2585,
+      "language": "en",
+      "entropy": 1.3916621208190918,
+      "firing_rate": 0.3671875
+    },
+    {
+      "layer": 20,
+      "neuron": 1273,
+      "language": "it",
+      "entropy": 1.3952847719192505,
+      "firing_rate": 0.684374988079071
+    },
+    {
+      "layer": 1,
+      "neuron": 2219,
+      "language": "fr",
+      "entropy": 1.3955641984939575,
+      "firing_rate": 0.38749998807907104
+    },
+    {
+      "layer": 15,
+      "neuron": 1971,
+      "language": "zh",
+      "entropy": 1.3961108922958374,
+      "firing_rate": 0.571093738079071
+    },
+    {
+      "layer": 20,
+      "neuron": 3753,
+      "language": "it",
+      "entropy": 1.3984050750732422,
+      "firing_rate": 0.4703125059604645
+    },
+    {
+      "layer": 1,
+      "neuron": 3480,
+      "language": "fr",
+      "entropy": 1.4004132747650146,
+      "firing_rate": 0.42109376192092896
+    },
+    {
+      "layer": 18,
+      "neuron": 166,
+      "language": "nl",
+      "entropy": 1.4004759788513184,
+      "firing_rate": 0.6187499761581421
+    },
+    {
+      "layer": 18,
+      "neuron": 434,
+      "language": "it",
+      "entropy": 1.4069666862487793,
+      "firing_rate": 0.928906261920929
+    },
+    {
+      "layer": 20,
+      "neuron": 1765,
+      "language": "fr",
+      "entropy": 1.4114230871200562,
+      "firing_rate": 0.703125
+    },
+    {
+      "layer": 18,
+      "neuron": 146,
+      "language": "pt",
+      "entropy": 1.4154995679855347,
+      "firing_rate": 0.31171876192092896
+    },
+    {
+      "layer": 19,
+      "neuron": 1991,
+      "language": "it",
+      "entropy": 1.4183671474456787,
+      "firing_rate": 0.47578126192092896
+    },
+    {
+      "layer": 20,
+      "neuron": 2061,
+      "language": "fr",
+      "entropy": 1.4214725494384766,
+      "firing_rate": 0.3304687440395355
+    },
+    {
+      "layer": 1,
+      "neuron": 2605,
+      "language": "zh",
+      "entropy": 1.422629952430725,
+      "firing_rate": 0.7171875238418579
+    },
+    {
+      "layer": 1,
+      "neuron": 3560,
+      "language": "fr",
+      "entropy": 1.4232745170593262,
+      "firing_rate": 0.25
+    },
+    {
+      "layer": 10,
+      "neuron": 476,
+      "language": "en",
+      "entropy": 1.4240738153457642,
+      "firing_rate": 0.296875
+    },
+    {
+      "layer": 19,
+      "neuron": 4058,
+      "language": "fr",
+      "entropy": 1.4241896867752075,
+      "firing_rate": 0.6117187738418579
+    },
+    {
+      "layer": 20,
+      "neuron": 1203,
+      "language": "nl",
+      "entropy": 1.4243823289871216,
+      "firing_rate": 0.524218738079071
+    },
+    {
+      "layer": 20,
+      "neuron": 1752,
+      "language": "it",
+      "entropy": 1.424558401107788,
+      "firing_rate": 0.2874999940395355
+    },
+    {
+      "layer": 15,
+      "neuron": 293,
+      "language": "ja",
+      "entropy": 1.42558753490448,
+      "firing_rate": 0.3343749940395355
+    },
+    {
+      "layer": 19,
+      "neuron": 3005,
+      "language": "it",
+      "entropy": 1.428154468536377,
+      "firing_rate": 0.2945312559604645
+    },
+    {
+      "layer": 19,
+      "neuron": 2893,
+      "language": "nl",
+      "entropy": 1.4301831722259521,
+      "firing_rate": 0.6578124761581421
+    },
+    {
+      "layer": 21,
+      "neuron": 2186,
+      "language": "pt",
+      "entropy": 1.4317469596862793,
+      "firing_rate": 0.47968751192092896
+    },
+    {
+      "layer": 1,
+      "neuron": 1035,
+      "language": "it",
+      "entropy": 1.432555913925171,
+      "firing_rate": 0.4320312440395355
+    },
+    {
+      "layer": 10,
+      "neuron": 3770,
+      "language": "de",
+      "entropy": 1.4369045495986938,
+      "firing_rate": 0.3890624940395355
+    },
+    {
+      "layer": 21,
+      "neuron": 2016,
+      "language": "nl",
+      "entropy": 1.4372467994689941,
+      "firing_rate": 0.5921875238418579
+    },
+    {
+      "layer": 22,
+      "neuron": 2670,
+      "language": "en",
+      "entropy": 1.4392387866973877,
+      "firing_rate": 0.484375
+    },
+    {
+      "layer": 1,
+      "neuron": 1539,
+      "language": "it",
+      "entropy": 1.444846510887146,
+      "firing_rate": 0.2421875
+    },
+    {
+      "layer": 1,
+      "neuron": 2441,
+      "language": "fr",
+      "entropy": 1.4468019008636475,
+      "firing_rate": 0.27656251192092896
+    },
+    {
+      "layer": 23,
+      "neuron": 944,
+      "language": "ja",
+      "entropy": 1.4495539665222168,
+      "firing_rate": 0.7906249761581421
+    },
+    {
+      "layer": 20,
+      "neuron": 1749,
+      "language": "fr",
+      "entropy": 1.4534265995025635,
+      "firing_rate": 0.5914062261581421
+    },
+    {
+      "layer": 1,
+      "neuron": 2884,
+      "language": "fr",
+      "entropy": 1.4580719470977783,
+      "firing_rate": 0.3499999940395355
+    },
+    {
+      "layer": 19,
+      "neuron": 3346,
+      "language": "fr",
+      "entropy": 1.4609014987945557,
+      "firing_rate": 0.3515625
+    },
+    {
+      "layer": 23,
+      "neuron": 3273,
+      "language": "en",
+      "entropy": 1.4609456062316895,
+      "firing_rate": 0.4765625
+    },
+    {
+      "layer": 20,
+      "neuron": 4033,
+      "language": "ja",
+      "entropy": 1.4610660076141357,
+      "firing_rate": 0.2953124940395355
+    },
+    {
+      "layer": 1,
+      "neuron": 3834,
+      "language": "fr",
+      "entropy": 1.4615797996520996,
+      "firing_rate": 0.35468751192092896
+    },
+    {
+      "layer": 19,
+      "neuron": 2299,
+      "language": "it",
+      "entropy": 1.4625147581100464,
+      "firing_rate": 0.551562488079071
+    },
+    {
+      "layer": 20,
+      "neuron": 1608,
+      "language": "nl",
+      "entropy": 1.4626656770706177,
+      "firing_rate": 0.6703125238418579
+    },
+    {
+      "layer": 20,
+      "neuron": 3944,
+      "language": "it",
+      "entropy": 1.468018889427185,
+      "firing_rate": 0.5414062738418579
+    },
+    {
+      "layer": 15,
+      "neuron": 827,
+      "language": "zh",
+      "entropy": 1.4708491563796997,
+      "firing_rate": 0.44453126192092896
+    },
+    {
+      "layer": 20,
+      "neuron": 1257,
+      "language": "nl",
+      "entropy": 1.4739233255386353,
+      "firing_rate": 0.5015624761581421
+    },
+    {
+      "layer": 22,
+      "neuron": 673,
+      "language": "nl",
+      "entropy": 1.474321722984314,
+      "firing_rate": 0.3226562440395355
+    },
+    {
+      "layer": 19,
+      "neuron": 2733,
+      "language": "it",
+      "entropy": 1.4781484603881836,
+      "firing_rate": 0.772656261920929
+    },
+    {
+      "layer": 19,
+      "neuron": 2044,
+      "language": "it",
+      "entropy": 1.4782911539077759,
+      "firing_rate": 0.4664062559604645
+    },
+    {
+      "layer": 19,
+      "neuron": 2665,
+      "language": "es",
+      "entropy": 1.4785205125808716,
+      "firing_rate": 0.49921876192092896
+    },
+    {
+      "layer": 1,
+      "neuron": 2979,
+      "language": "fr",
+      "entropy": 1.4794455766677856,
+      "firing_rate": 0.33906251192092896
+    },
+    {
+      "layer": 23,
+      "neuron": 1967,
+      "language": "en",
+      "entropy": 1.4800935983657837,
+      "firing_rate": 0.28125
+    },
+    {
+      "layer": 23,
+      "neuron": 2312,
+      "language": "ja",
+      "entropy": 1.4820973873138428,
+      "firing_rate": 0.83984375
+    },
+    {
+      "layer": 1,
+      "neuron": 292,
+      "language": "it",
+      "entropy": 1.483562707901001,
+      "firing_rate": 0.39765626192092896
+    },
+    {
+      "layer": 1,
+      "neuron": 1436,
+      "language": "pt",
+      "entropy": 1.484326958656311,
+      "firing_rate": 0.21640625596046448
+    },
+    {
+      "layer": 19,
+      "neuron": 135,
+      "language": "pt",
+      "entropy": 1.484480857849121,
+      "firing_rate": 0.7398437261581421
+    },
+    {
+      "layer": 22,
+      "neuron": 1400,
+      "language": "it",
+      "entropy": 1.4845870733261108,
+      "firing_rate": 0.41328126192092896
+    },
+    {
+      "layer": 22,
+      "neuron": 3702,
+      "language": "fr",
+      "entropy": 1.4875133037567139,
+      "firing_rate": 0.58984375
+    },
+    {
+      "layer": 20,
+      "neuron": 1924,
+      "language": "nl",
+      "entropy": 1.4895236492156982,
+      "firing_rate": 0.557812511920929
+    },
+    {
+      "layer": 1,
+      "neuron": 1666,
+      "language": "fr",
+      "entropy": 1.4896851778030396,
+      "firing_rate": 0.29374998807907104
+    },
+    {
+      "layer": 22,
+      "neuron": 2183,
+      "language": "fr",
+      "entropy": 1.4897106885910034,
+      "firing_rate": 0.81640625
+    },
+    {
+      "layer": 16,
+      "neuron": 3882,
+      "language": "en",
+      "entropy": 1.4925384521484375,
+      "firing_rate": 0.31953126192092896
+    },
+    {
+      "layer": 18,
+      "neuron": 2018,
+      "language": "fr",
+      "entropy": 1.4934462308883667,
+      "firing_rate": 0.542187511920929
+    },
+    {
+      "layer": 20,
+      "neuron": 1161,
+      "language": "nl",
+      "entropy": 1.495835781097412,
+      "firing_rate": 0.57421875
+    },
+    {
+      "layer": 23,
+      "neuron": 3919,
+      "language": "ja",
+      "entropy": 1.4959356784820557,
+      "firing_rate": 0.8492187261581421
+    },
+    {
+      "layer": 19,
+      "neuron": 1034,
+      "language": "es",
+      "entropy": 1.49894118309021,
+      "firing_rate": 0.28984373807907104
+    },
+    {
+      "layer": 20,
+      "neuron": 1193,
+      "language": "nl",
+      "entropy": 1.4994566440582275,
+      "firing_rate": 0.5609375238418579
+    },
+    {
+      "layer": 18,
+      "neuron": 312,
+      "language": "fr",
+      "entropy": 1.5019313097000122,
+      "firing_rate": 0.5218750238418579
+    },
+    {
+      "layer": 3,
+      "neuron": 318,
+      "language": "zh",
+      "entropy": 1.5026392936706543,
+      "firing_rate": 0.538281261920929
+    },
+    {
+      "layer": 20,
+      "neuron": 4060,
+      "language": "fr",
+      "entropy": 1.505364179611206,
+      "firing_rate": 0.7085937261581421
+    },
+    {
+      "layer": 21,
+      "neuron": 3223,
+      "language": "it",
+      "entropy": 1.5074150562286377,
+      "firing_rate": 0.46015626192092896
+    },
+    {
+      "layer": 1,
+      "neuron": 2393,
+      "language": "ja",
+      "entropy": 1.5076521635055542,
+      "firing_rate": 0.3046875
+    },
+    {
+      "layer": 20,
+      "neuron": 3623,
+      "language": "it",
+      "entropy": 1.5124266147613525,
+      "firing_rate": 0.637499988079071
+    },
+    {
+      "layer": 20,
+      "neuron": 1759,
+      "language": "nl",
+      "entropy": 1.5133845806121826,
+      "firing_rate": 0.698437511920929
+    },
+    {
+      "layer": 21,
+      "neuron": 1867,
+      "language": "it",
+      "entropy": 1.515816330909729,
+      "firing_rate": 0.44999998807907104
+    },
+    {
+      "layer": 18,
+      "neuron": 264,
+      "language": "de",
+      "entropy": 1.5160388946533203,
+      "firing_rate": 0.24921874701976776
+    },
+    {
+      "layer": 22,
+      "neuron": 3566,
+      "language": "zh",
+      "entropy": 1.5168946981430054,
+      "firing_rate": 0.7640625238418579
+    },
+    {
+      "layer": 1,
+      "neuron": 3990,
+      "language": "it",
+      "entropy": 1.517939567565918,
+      "firing_rate": 0.2953124940395355
+    },
+    {
+      "layer": 18,
+      "neuron": 2366,
+      "language": "pt",
+      "entropy": 1.5184575319290161,
+      "firing_rate": 0.34843748807907104
+    },
+    {
+      "layer": 18,
+      "neuron": 3735,
+      "language": "fr",
+      "entropy": 1.5192410945892334,
+      "firing_rate": 0.717968761920929
+    },
+    {
+      "layer": 20,
+      "neuron": 1180,
+      "language": "nl",
+      "entropy": 1.520039677619934,
+      "firing_rate": 0.49687498807907104
+    },
+    {
+      "layer": 21,
+      "neuron": 4027,
+      "language": "nl",
+      "entropy": 1.5208932161331177,
+      "firing_rate": 0.46171873807907104
+    },
+    {
+      "layer": 21,
+      "neuron": 1491,
+      "language": "nl",
+      "entropy": 1.5214747190475464,
+      "firing_rate": 0.6625000238418579
+    },
+    {
+      "layer": 22,
+      "neuron": 1486,
+      "language": "pt",
+      "entropy": 1.5217525959014893,
+      "firing_rate": 0.41484373807907104
+    },
+    {
+      "layer": 22,
+      "neuron": 3824,
+      "language": "it",
+      "entropy": 1.521817684173584,
+      "firing_rate": 0.592968761920929
+    },
+    {
+      "layer": 18,
+      "neuron": 1363,
+      "language": "zh",
+      "entropy": 1.5225119590759277,
+      "firing_rate": 0.46171873807907104
+    },
+    {
+      "layer": 22,
+      "neuron": 1720,
+      "language": "it",
+      "entropy": 1.5260648727416992,
+      "firing_rate": 0.612500011920929
+    },
+    {
+      "layer": 19,
+      "neuron": 160,
+      "language": "it",
+      "entropy": 1.5272384881973267,
+      "firing_rate": 0.6265624761581421
+    },
+    {
+      "layer": 17,
+      "neuron": 333,
+      "language": "en",
+      "entropy": 1.529474139213562,
+      "firing_rate": 0.26249998807907104
+    },
+    {
+      "layer": 18,
+      "neuron": 485,
+      "language": "es",
+      "entropy": 1.530823826789856,
+      "firing_rate": 0.3492187559604645
+    },
+    {
+      "layer": 20,
+      "neuron": 2389,
+      "language": "zh",
+      "entropy": 1.5320972204208374,
+      "firing_rate": 0.33671873807907104
+    },
+    {
+      "layer": 16,
+      "neuron": 2480,
+      "language": "zh",
+      "entropy": 1.5322375297546387,
+      "firing_rate": 0.40234375
+    },
+    {
+      "layer": 19,
+      "neuron": 2320,
+      "language": "de",
+      "entropy": 1.5328105688095093,
+      "firing_rate": 0.3695312440395355
+    },
+    {
+      "layer": 21,
+      "neuron": 2926,
+      "language": "fr",
+      "entropy": 1.5331858396530151,
+      "firing_rate": 0.555468738079071
+    },
+    {
+      "layer": 19,
+      "neuron": 3496,
+      "language": "zh",
+      "entropy": 1.534542441368103,
+      "firing_rate": 0.7796875238418579
+    },
+    {
+      "layer": 23,
+      "neuron": 2689,
+      "language": "it",
+      "entropy": 1.535879135131836,
+      "firing_rate": 0.30390626192092896
+    },
+    {
+      "layer": 19,
+      "neuron": 2982,
+      "language": "it",
+      "entropy": 1.5366284847259521,
+      "firing_rate": 0.578125
+    },
+    {
+      "layer": 20,
+      "neuron": 3921,
+      "language": "ru",
+      "entropy": 1.5370304584503174,
+      "firing_rate": 0.29218751192092896
+    },
+    {
+      "layer": 21,
+      "neuron": 3305,
+      "language": "it",
+      "entropy": 1.5382035970687866,
+      "firing_rate": 0.5234375
+    },
+    {
+      "layer": 18,
+      "neuron": 911,
+      "language": "zh",
+      "entropy": 1.5391920804977417,
+      "firing_rate": 0.37812501192092896
+    },
+    {
+      "layer": 19,
+      "neuron": 2557,
+      "language": "ja",
+      "entropy": 1.5397206544876099,
+      "firing_rate": 0.33671873807907104
+    },
+    {
+      "layer": 1,
+      "neuron": 2621,
+      "language": "nl",
+      "entropy": 1.5415446758270264,
+      "firing_rate": 0.2906250059604645
+    },
+    {
+      "layer": 21,
+      "neuron": 3367,
+      "language": "zh",
+      "entropy": 1.542315125465393,
+      "firing_rate": 0.43828123807907104
+    },
+    {
+      "layer": 20,
+      "neuron": 2265,
+      "language": "nl",
+      "entropy": 1.5424385070800781,
+      "firing_rate": 0.35546875
+    },
+    {
+      "layer": 21,
+      "neuron": 448,
+      "language": "it",
+      "entropy": 1.5429271459579468,
+      "firing_rate": 0.44999998807907104
+    },
+    {
+      "layer": 19,
+      "neuron": 605,
+      "language": "it",
+      "entropy": 1.5431091785430908,
+      "firing_rate": 0.3453125059604645
+    },
+    {
+      "layer": 20,
+      "neuron": 745,
+      "language": "nl",
+      "entropy": 1.5431995391845703,
+      "firing_rate": 0.5367187261581421
+    },
+    {
+      "layer": 19,
+      "neuron": 2774,
+      "language": "nl",
+      "entropy": 1.5443673133850098,
+      "firing_rate": 0.8335937261581421
+    },
+    {
+      "layer": 22,
+      "neuron": 3432,
+      "language": "fr",
+      "entropy": 1.5445222854614258,
+      "firing_rate": 0.801562488079071
+    },
+    {
+      "layer": 21,
+      "neuron": 3182,
+      "language": "nl",
+      "entropy": 1.5445506572723389,
+      "firing_rate": 0.359375
+    },
+    {
+      "layer": 16,
+      "neuron": 702,
+      "language": "zh",
+      "entropy": 1.5466454029083252,
+      "firing_rate": 0.632031261920929
+    },
+    {
+      "layer": 19,
+      "neuron": 4089,
+      "language": "nl",
+      "entropy": 1.5469821691513062,
+      "firing_rate": 0.44218748807907104
+    },
+    {
+      "layer": 8,
+      "neuron": 3453,
+      "language": "de",
+      "entropy": 1.5477700233459473,
+      "firing_rate": 0.26171875
+    },
+    {
+      "layer": 20,
+      "neuron": 595,
+      "language": "nl",
+      "entropy": 1.5483605861663818,
+      "firing_rate": 0.6312500238418579
+    },
+    {
+      "layer": 1,
+      "neuron": 2852,
+      "language": "fr",
+      "entropy": 1.5487369298934937,
+      "firing_rate": 0.28515625
+    },
+    {
+      "layer": 21,
+      "neuron": 3539,
+      "language": "en",
+      "entropy": 1.5494083166122437,
+      "firing_rate": 0.3890624940395355
+    },
+    {
+      "layer": 23,
+      "neuron": 3964,
+      "language": "ru",
+      "entropy": 1.549989104270935,
+      "firing_rate": 0.9820312261581421
+    },
+    {
+      "layer": 19,
+      "neuron": 1179,
+      "language": "zh",
+      "entropy": 1.5501792430877686,
+      "firing_rate": 0.46875
+    },
+    {
+      "layer": 21,
+      "neuron": 1458,
+      "language": "ru",
+      "entropy": 1.551491141319275,
+      "firing_rate": 0.96484375
+    },
+    {
+      "layer": 23,
+      "neuron": 2360,
+      "language": "fr",
+      "entropy": 1.5530956983566284,
+      "firing_rate": 0.4000000059604645
+    },
+    {
+      "layer": 1,
+      "neuron": 3030,
+      "language": "it",
+      "entropy": 1.5539815425872803,
+      "firing_rate": 0.23828125
+    },
+    {
+      "layer": 19,
+      "neuron": 3277,
+      "language": "it",
+      "entropy": 1.5541419982910156,
+      "firing_rate": 0.29609376192092896
+    },
+    {
+      "layer": 21,
+      "neuron": 2146,
+      "language": "fr",
+      "entropy": 1.5561275482177734,
+      "firing_rate": 0.41796875
+    },
+    {
+      "layer": 1,
+      "neuron": 1248,
+      "language": "it",
+      "entropy": 1.5579777956008911,
+      "firing_rate": 0.23749999701976776
+    },
+    {
+      "layer": 20,
+      "neuron": 2830,
+      "language": "fr",
+      "entropy": 1.5581679344177246,
+      "firing_rate": 0.4390625059604645
+    },
+    {
+      "layer": 17,
+      "neuron": 1252,
+      "language": "de",
+      "entropy": 1.5594899654388428,
+      "firing_rate": 0.24140624701976776
+    },
+    {
+      "layer": 18,
+      "neuron": 2451,
+      "language": "zh",
+      "entropy": 1.5609666109085083,
+      "firing_rate": 0.547656238079071
+    },
+    {
+      "layer": 20,
+      "neuron": 201,
+      "language": "nl",
+      "entropy": 1.5613943338394165,
+      "firing_rate": 0.43671876192092896
+    },
+    {
+      "layer": 18,
+      "neuron": 3571,
+      "language": "it",
+      "entropy": 1.5617153644561768,
+      "firing_rate": 0.4937500059604645
+    },
+    {
+      "layer": 1,
+      "neuron": 2361,
+      "language": "it",
+      "entropy": 1.5640097856521606,
+      "firing_rate": 0.37578123807907104
+    },
+    {
+      "layer": 17,
+      "neuron": 3234,
+      "language": "en",
+      "entropy": 1.5641353130340576,
+      "firing_rate": 0.4468750059604645
+    },
+    {
+      "layer": 22,
+      "neuron": 1338,
+      "language": "it",
+      "entropy": 1.5656243562698364,
+      "firing_rate": 0.44999998807907104
+    },
+    {
+      "layer": 21,
+      "neuron": 3535,
+      "language": "it",
+      "entropy": 1.5663738250732422,
+      "firing_rate": 0.5765625238418579
+    },
+    {
+      "layer": 1,
+      "neuron": 1031,
+      "language": "nl",
+      "entropy": 1.5673707723617554,
+      "firing_rate": 0.359375
+    },
+    {
+      "layer": 23,
+      "neuron": 3277,
+      "language": "fr",
+      "entropy": 1.5674329996109009,
+      "firing_rate": 0.6937500238418579
+    },
+    {
+      "layer": 19,
+      "neuron": 1862,
+      "language": "nl",
+      "entropy": 1.5679320096969604,
+      "firing_rate": 0.6484375
+    },
+    {
+      "layer": 19,
+      "neuron": 3965,
+      "language": "it",
+      "entropy": 1.568361759185791,
+      "firing_rate": 0.5335937738418579
+    },
+    {
+      "layer": 23,
+      "neuron": 488,
+      "language": "en",
+      "entropy": 1.5689079761505127,
+      "firing_rate": 0.578906238079071
+    },
+    {
+      "layer": 21,
+      "neuron": 1910,
+      "language": "nl",
+      "entropy": 1.5695080757141113,
+      "firing_rate": 0.6312500238418579
+    },
+    {
+      "layer": 1,
+      "neuron": 3681,
+      "language": "nl",
+      "entropy": 1.569870948791504,
+      "firing_rate": 0.24687500298023224
+    },
+    {
+      "layer": 19,
+      "neuron": 139,
+      "language": "nl",
+      "entropy": 1.5699609518051147,
+      "firing_rate": 0.696093738079071
+    },
+    {
+      "layer": 20,
+      "neuron": 2141,
+      "language": "nl",
+      "entropy": 1.5702224969863892,
+      "firing_rate": 0.3671875
+    },
+    {
+      "layer": 1,
+      "neuron": 1794,
+      "language": "fr",
+      "entropy": 1.5714718103408813,
+      "firing_rate": 0.3359375
+    },
+    {
+      "layer": 18,
+      "neuron": 517,
+      "language": "en",
+      "entropy": 1.571886420249939,
+      "firing_rate": 0.29296875
+    },
+    {
+      "layer": 14,
+      "neuron": 3743,
+      "language": "zh",
+      "entropy": 1.5733598470687866,
+      "firing_rate": 0.8882812261581421
+    },
+    {
+      "layer": 19,
+      "neuron": 1450,
+      "language": "nl",
+      "entropy": 1.574047565460205,
+      "firing_rate": 0.3539062440395355
+    }
+  ],
+  "neuron_analyses": [
+    {
+      "layer": 23,
+      "neuron": 4037,
+      "target_layer": 23,
+      "n_gathered_tokens": 40,
+      "weight_grad_jaccard_top20": 0.9047619047619048,
+      "hit_rate_top100": 1.0,
+      "n_patchable": 3,
+      "patching": {
+        "neuron_shift_mean": 0.1366648977001508,
+        "attributed_shift_mean": 0.708349327246348,
+        "random_shift_mean": 0.0,
+        "n_tokens_tested": 15
+      },
+      "language": "nl",
+      "entropy": 0.5139400362968445
+    },
+    {
+      "layer": 16,
+      "neuron": 2698,
+      "target_layer": 18,
+      "n_gathered_tokens": 40,
+      "weight_grad_jaccard_top20": 0.5384615384615384,
+      "hit_rate_top100": 1.0,
+      "n_patchable": 5,
+      "patching": {
+        "neuron_shift_mean": 0.9275767644246419,
+        "attributed_shift_mean": 1.8986462672551474,
+        "random_shift_mean": 0.0,
+        "n_tokens_tested": 15
+      },
+      "language": "it",
+      "entropy": 0.8594376444816589
+    },
+    {
+      "layer": 9,
+      "neuron": 3507,
+      "target_layer": 11,
+      "n_gathered_tokens": 40,
+      "weight_grad_jaccard_top20": 1.0,
+      "hit_rate_top100": 0.925000011920929,
+      "n_patchable": 1,
+      "patching": {
+        "neuron_shift_mean": 0.03178066561619441,
+        "attributed_shift_mean": 0.3988074421882629,
+        "random_shift_mean": 0.0,
+        "n_tokens_tested": 15
+      },
+      "language": "en",
+      "entropy": 0.888006329536438
+    },
+    {
+      "layer": 18,
+      "neuron": 2584,
+      "target_layer": 20,
+      "n_gathered_tokens": 40,
+      "weight_grad_jaccard_top20": 0.5384615384615384,
+      "hit_rate_top100": 1.0,
+      "n_patchable": 10,
+      "patching": {
+        "neuron_shift_mean": 0.5705365717411042,
+        "attributed_shift_mean": 1.3500343958536785,
+        "random_shift_mean": 0.0,
+        "n_tokens_tested": 15
+      },
+      "language": "pt",
+      "entropy": 0.9410872459411621
+    },
+    {
+      "layer": 20,
+      "neuron": 1311,
+      "target_layer": 22,
+      "n_gathered_tokens": 40,
+      "weight_grad_jaccard_top20": 0.6,
+      "hit_rate_top100": 1.0,
+      "n_patchable": 6,
+      "patching": {
+        "neuron_shift_mean": 0.5471155782540639,
+        "attributed_shift_mean": 3.0960161368052166,
+        "random_shift_mean": 0.015224507772654761,
+        "n_tokens_tested": 15
+      },
+      "language": "it",
+      "entropy": 0.9632242321968079
+    }
+  ]
+}

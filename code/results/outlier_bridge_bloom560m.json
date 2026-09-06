@@ -1,0 +1,616 @@
+{
+  "model": "bloom-560m",
+  "n_layers": 24,
+  "target_layers": [
+    12,
+    20,
+    21,
+    22,
+    23
+  ],
+  "results": [
+    {
+      "layer": 12,
+      "n_tokens": 15817,
+      "n_inputs": 1024,
+      "od_dims": [
+        12,
+        269,
+        391,
+        544,
+        728,
+        785
+      ],
+      "od_threshold": 1.8262488842010498,
+      "dominant_latents": [
+        29168,
+        49429
+      ],
+      "fve_standard": 0.9886099923132352,
+      "fve_robust_od_excluded": 0.9875183889067299,
+      "overlaps": [
+        {
+          "latent": 29168,
+          "frac_active": 0.5180501937866211,
+          "corr_with_primary_od": 0.19472387433052063,
+          "primary_od_encoder_weight_rank": 7,
+          "primary_od_decoder_weight_rank": 3,
+          "n_inputs": 1024
+        },
+        {
+          "latent": 49429,
+          "frac_active": 0.8715306520462036,
+          "corr_with_primary_od": -0.49749287962913513,
+          "primary_od_encoder_weight_rank": 0,
+          "primary_od_decoder_weight_rank": 0,
+          "n_inputs": 1024
+        }
+      ],
+      "primary_od": 544,
+      "primary_od_lang_breakdown": {
+        "en": {
+          "n_tokens": 1440,
+          "mean_abs": 5.750855922698975,
+          "median_abs": 5.655367851257324,
+          "frac_exceed_threshold": 0.9576388597488403
+        },
+        "fr": {
+          "n_tokens": 1440,
+          "mean_abs": 5.498489856719971,
+          "median_abs": 5.445425510406494,
+          "frac_exceed_threshold": 0.9472222328186035
+        },
+        "es": {
+          "n_tokens": 1440,
+          "mean_abs": 5.221808433532715,
+          "median_abs": 5.099020957946777,
+          "frac_exceed_threshold": 0.9375
+        },
+        "pt": {
+          "n_tokens": 1440,
+          "mean_abs": 5.495391845703125,
+          "median_abs": 5.421388149261475,
+          "frac_exceed_threshold": 0.9423611164093018
+        },
+        "zh": {
+          "n_tokens": 1440,
+          "mean_abs": 6.79308557510376,
+          "median_abs": 6.690156936645508,
+          "frac_exceed_threshold": 0.9895833134651184
+        },
+        "ar": {
+          "n_tokens": 1440,
+          "mean_abs": 5.161891460418701,
+          "median_abs": 5.092247009277344,
+          "frac_exceed_threshold": 0.9208333492279053
+        },
+        "vi": {
+          "n_tokens": 1440,
+          "mean_abs": 5.025713920593262,
+          "median_abs": 4.9749369621276855,
+          "frac_exceed_threshold": 0.9069444537162781
+        },
+        "hi": {
+          "n_tokens": 1440,
+          "mean_abs": 6.037214279174805,
+          "median_abs": 6.096664905548096,
+          "frac_exceed_threshold": 0.9770833253860474
+        },
+        "id": {
+          "n_tokens": 1440,
+          "mean_abs": 6.471313953399658,
+          "median_abs": 6.63157320022583,
+          "frac_exceed_threshold": 0.9756944179534912
+        },
+        "bn": {
+          "n_tokens": 1417,
+          "mean_abs": 5.428715229034424,
+          "median_abs": 5.407702445983887,
+          "frac_exceed_threshold": 0.9449541568756104
+        },
+        "sw": {
+          "n_tokens": 1440,
+          "mean_abs": 6.40006160736084,
+          "median_abs": 6.248929023742676,
+          "frac_exceed_threshold": 0.988194465637207
+        }
+      }
+    },
+    {
+      "layer": 20,
+      "n_tokens": 15817,
+      "n_inputs": 1024,
+      "od_dims": [
+        431,
+        544
+      ],
+      "od_threshold": 4.8170166015625,
+      "dominant_latents": [
+        49429,
+        49791
+      ],
+      "fve_standard": 0.9661582784048885,
+      "fve_robust_od_excluded": 0.9656405740324929,
+      "overlaps": [
+        {
+          "latent": 49429,
+          "frac_active": 0.7381298542022705,
+          "corr_with_primary_od": -0.6075324416160583,
+          "primary_od_encoder_weight_rank": 0,
+          "primary_od_decoder_weight_rank": 0,
+          "n_inputs": 1024
+        },
+        {
+          "latent": 49791,
+          "frac_active": 0.6102927327156067,
+          "corr_with_primary_od": -0.10698752850294113,
+          "primary_od_encoder_weight_rank": 53,
+          "primary_od_decoder_weight_rank": 19,
+          "n_inputs": 1024
+        }
+      ],
+      "primary_od": 544,
+      "primary_od_lang_breakdown": {
+        "en": {
+          "n_tokens": 1440,
+          "mean_abs": 11.069206237792969,
+          "median_abs": 10.819608688354492,
+          "frac_exceed_threshold": 0.9319444298744202
+        },
+        "fr": {
+          "n_tokens": 1440,
+          "mean_abs": 10.33907699584961,
+          "median_abs": 9.621576309204102,
+          "frac_exceed_threshold": 0.9194444417953491
+        },
+        "es": {
+          "n_tokens": 1440,
+          "mean_abs": 9.30620288848877,
+          "median_abs": 8.85935115814209,
+          "frac_exceed_threshold": 0.8604166507720947
+        },
+        "pt": {
+          "n_tokens": 1440,
+          "mean_abs": 9.830236434936523,
+          "median_abs": 9.16246509552002,
+          "frac_exceed_threshold": 0.8826388716697693
+        },
+        "zh": {
+          "n_tokens": 1440,
+          "mean_abs": 11.618134498596191,
+          "median_abs": 11.07276439666748,
+          "frac_exceed_threshold": 0.9909722208976746
+        },
+        "ar": {
+          "n_tokens": 1440,
+          "mean_abs": 9.891077995300293,
+          "median_abs": 9.352959632873535,
+          "frac_exceed_threshold": 0.8381944298744202
+        },
+        "vi": {
+          "n_tokens": 1440,
+          "mean_abs": 9.248018264770508,
+          "median_abs": 8.842698097229004,
+          "frac_exceed_threshold": 0.8743055462837219
+        },
+        "hi": {
+          "n_tokens": 1440,
+          "mean_abs": 9.429871559143066,
+          "median_abs": 9.165078163146973,
+          "frac_exceed_threshold": 0.8763889074325562
+        },
+        "id": {
+          "n_tokens": 1440,
+          "mean_abs": 8.594213485717773,
+          "median_abs": 8.235214233398438,
+          "frac_exceed_threshold": 0.8298611044883728
+        },
+        "bn": {
+          "n_tokens": 1417,
+          "mean_abs": 8.511439323425293,
+          "median_abs": 8.150548934936523,
+          "frac_exceed_threshold": 0.7826393842697144
+        },
+        "sw": {
+          "n_tokens": 1440,
+          "mean_abs": 9.720743179321289,
+          "median_abs": 9.324490547180176,
+          "frac_exceed_threshold": 0.925694465637207
+        }
+      }
+    },
+    {
+      "layer": 21,
+      "n_tokens": 15817,
+      "n_inputs": 1024,
+      "od_dims": [
+        105,
+        164,
+        188,
+        276,
+        431,
+        494,
+        544,
+        644,
+        721,
+        833,
+        927,
+        945,
+        1021
+      ],
+      "od_threshold": 12.609437942504883,
+      "dominant_latents": [
+        36205,
+        44265,
+        44917,
+        49791
+      ],
+      "fve_standard": 0.9569568339663689,
+      "fve_robust_od_excluded": 0.8818524234835909,
+      "overlaps": [
+        {
+          "latent": 36205,
+          "frac_active": 0.6082695722579956,
+          "corr_with_primary_od": 0.6313529014587402,
+          "primary_od_encoder_weight_rank": 8,
+          "primary_od_decoder_weight_rank": 5,
+          "n_inputs": 1024
+        },
+        {
+          "latent": 44265,
+          "frac_active": 0.5526964664459229,
+          "corr_with_primary_od": 0.5902877449989319,
+          "primary_od_encoder_weight_rank": 37,
+          "primary_od_decoder_weight_rank": 3,
+          "n_inputs": 1024
+        },
+        {
+          "latent": 44917,
+          "frac_active": 0.5971423387527466,
+          "corr_with_primary_od": 0.668516993522644,
+          "primary_od_encoder_weight_rank": 3,
+          "primary_od_decoder_weight_rank": 0,
+          "n_inputs": 1024
+        },
+        {
+          "latent": 49791,
+          "frac_active": 0.6439273953437805,
+          "corr_with_primary_od": 0.6838782429695129,
+          "primary_od_encoder_weight_rank": 10,
+          "primary_od_decoder_weight_rank": 1,
+          "n_inputs": 1024
+        }
+      ],
+      "primary_od": 833,
+      "primary_od_lang_breakdown": {
+        "en": {
+          "n_tokens": 1440,
+          "mean_abs": 23.06282615661621,
+          "median_abs": 23.341360092163086,
+          "frac_exceed_threshold": 0.9826388955116272
+        },
+        "fr": {
+          "n_tokens": 1440,
+          "mean_abs": 24.043527603149414,
+          "median_abs": 24.28668975830078,
+          "frac_exceed_threshold": 0.9958333373069763
+        },
+        "es": {
+          "n_tokens": 1440,
+          "mean_abs": 23.675525665283203,
+          "median_abs": 23.84499740600586,
+          "frac_exceed_threshold": 0.988194465637207
+        },
+        "pt": {
+          "n_tokens": 1440,
+          "mean_abs": 24.16246223449707,
+          "median_abs": 24.12273597717285,
+          "frac_exceed_threshold": 0.987500011920929
+        },
+        "zh": {
+          "n_tokens": 1440,
+          "mean_abs": 26.81960105895996,
+          "median_abs": 26.97994041442871,
+          "frac_exceed_threshold": 0.9993055462837219
+        },
+        "ar": {
+          "n_tokens": 1440,
+          "mean_abs": 2.6960933208465576,
+          "median_abs": 2.613783359527588,
+          "frac_exceed_threshold": 0.0069444444961845875
+        },
+        "vi": {
+          "n_tokens": 1440,
+          "mean_abs": 24.280778884887695,
+          "median_abs": 24.77121353149414,
+          "frac_exceed_threshold": 0.9770833253860474
+        },
+        "hi": {
+          "n_tokens": 1440,
+          "mean_abs": 2.6980485916137695,
+          "median_abs": 2.1983165740966797,
+          "frac_exceed_threshold": 0.01597222313284874
+        },
+        "id": {
+          "n_tokens": 1440,
+          "mean_abs": 53.669471740722656,
+          "median_abs": 65.08866119384766,
+          "frac_exceed_threshold": 0.8965277671813965
+        },
+        "bn": {
+          "n_tokens": 1417,
+          "mean_abs": 1.7663708925247192,
+          "median_abs": 1.6091896295547485,
+          "frac_exceed_threshold": 0.0
+        },
+        "sw": {
+          "n_tokens": 1440,
+          "mean_abs": 21.38695526123047,
+          "median_abs": 23.001670837402344,
+          "frac_exceed_threshold": 0.7666666507720947
+        }
+      }
+    },
+    {
+      "layer": 22,
+      "n_tokens": 15817,
+      "n_inputs": 1024,
+      "od_dims": [
+        35,
+        105,
+        164,
+        188,
+        431,
+        494,
+        644,
+        721,
+        833,
+        927,
+        945,
+        1021
+      ],
+      "od_threshold": 17.532024383544922,
+      "dominant_latents": [
+        36205,
+        44265,
+        44917,
+        49791
+      ],
+      "fve_standard": 0.9411725259458454,
+      "fve_robust_od_excluded": 0.8451239812282294,
+      "overlaps": [
+        {
+          "latent": 36205,
+          "frac_active": 0.6225579977035522,
+          "corr_with_primary_od": 0.7362396717071533,
+          "primary_od_encoder_weight_rank": 8,
+          "primary_od_decoder_weight_rank": 5,
+          "n_inputs": 1024
+        },
+        {
+          "latent": 44265,
+          "frac_active": 0.5644559860229492,
+          "corr_with_primary_od": 0.637797474861145,
+          "primary_od_encoder_weight_rank": 37,
+          "primary_od_decoder_weight_rank": 3,
+          "n_inputs": 1024
+        },
+        {
+          "latent": 44917,
+          "frac_active": 0.6164253354072571,
+          "corr_with_primary_od": 0.7519212365150452,
+          "primary_od_encoder_weight_rank": 3,
+          "primary_od_decoder_weight_rank": 0,
+          "n_inputs": 1024
+        },
+        {
+          "latent": 49791,
+          "frac_active": 0.6358981132507324,
+          "corr_with_primary_od": 0.7581890821456909,
+          "primary_od_encoder_weight_rank": 10,
+          "primary_od_decoder_weight_rank": 1,
+          "n_inputs": 1024
+        }
+      ],
+      "primary_od": 833,
+      "primary_od_lang_breakdown": {
+        "en": {
+          "n_tokens": 1440,
+          "mean_abs": 34.180091857910156,
+          "median_abs": 34.8599739074707,
+          "frac_exceed_threshold": 0.9819444417953491
+        },
+        "fr": {
+          "n_tokens": 1440,
+          "mean_abs": 33.82540512084961,
+          "median_abs": 34.25200653076172,
+          "frac_exceed_threshold": 0.9909722208976746
+        },
+        "es": {
+          "n_tokens": 1440,
+          "mean_abs": 34.7087287902832,
+          "median_abs": 35.31721878051758,
+          "frac_exceed_threshold": 0.9861111044883728
+        },
+        "pt": {
+          "n_tokens": 1440,
+          "mean_abs": 34.43238830566406,
+          "median_abs": 35.02015686035156,
+          "frac_exceed_threshold": 0.9888888597488403
+        },
+        "zh": {
+          "n_tokens": 1440,
+          "mean_abs": 34.6978874206543,
+          "median_abs": 34.643577575683594,
+          "frac_exceed_threshold": 0.9993055462837219
+        },
+        "ar": {
+          "n_tokens": 1440,
+          "mean_abs": 2.428406000137329,
+          "median_abs": 2.206146717071533,
+          "frac_exceed_threshold": 0.0069444444961845875
+        },
+        "vi": {
+          "n_tokens": 1440,
+          "mean_abs": 33.900394439697266,
+          "median_abs": 34.88242721557617,
+          "frac_exceed_threshold": 0.9750000238418579
+        },
+        "hi": {
+          "n_tokens": 1440,
+          "mean_abs": 3.522092342376709,
+          "median_abs": 2.546358585357666,
+          "frac_exceed_threshold": 0.02361111156642437
+        },
+        "id": {
+          "n_tokens": 1440,
+          "mean_abs": 59.13232421875,
+          "median_abs": 68.63525390625,
+          "frac_exceed_threshold": 0.9152777791023254
+        },
+        "bn": {
+          "n_tokens": 1417,
+          "mean_abs": 1.5878181457519531,
+          "median_abs": 1.4588444232940674,
+          "frac_exceed_threshold": 0.000705716316588223
+        },
+        "sw": {
+          "n_tokens": 1440,
+          "mean_abs": 28.52620506286621,
+          "median_abs": 31.860097885131836,
+          "frac_exceed_threshold": 0.7138888835906982
+        }
+      }
+    },
+    {
+      "layer": 23,
+      "n_tokens": 15817,
+      "n_inputs": 1024,
+      "od_dims": [
+        35,
+        105,
+        164,
+        188,
+        431,
+        494,
+        644,
+        721,
+        833,
+        945,
+        1021
+      ],
+      "od_threshold": 18.513948440551758,
+      "dominant_latents": [
+        36205,
+        44265,
+        44917,
+        49791
+      ],
+      "fve_standard": 0.9289235009312358,
+      "fve_robust_od_excluded": 0.8691039223195686,
+      "overlaps": [
+        {
+          "latent": 36205,
+          "frac_active": 0.6225579977035522,
+          "corr_with_primary_od": 0.7420886754989624,
+          "primary_od_encoder_weight_rank": 8,
+          "primary_od_decoder_weight_rank": 5,
+          "n_inputs": 1024
+        },
+        {
+          "latent": 44265,
+          "frac_active": 0.5640134215354919,
+          "corr_with_primary_od": 0.6502431035041809,
+          "primary_od_encoder_weight_rank": 37,
+          "primary_od_decoder_weight_rank": 3,
+          "n_inputs": 1024
+        },
+        {
+          "latent": 44917,
+          "frac_active": 0.5920844674110413,
+          "corr_with_primary_od": 0.7296938896179199,
+          "primary_od_encoder_weight_rank": 3,
+          "primary_od_decoder_weight_rank": 0,
+          "n_inputs": 1024
+        },
+        {
+          "latent": 49791,
+          "frac_active": 0.627236545085907,
+          "corr_with_primary_od": 0.7565325498580933,
+          "primary_od_encoder_weight_rank": 10,
+          "primary_od_decoder_weight_rank": 1,
+          "n_inputs": 1024
+        }
+      ],
+      "primary_od": 833,
+      "primary_od_lang_breakdown": {
+        "en": {
+          "n_tokens": 1440,
+          "mean_abs": 35.75177001953125,
+          "median_abs": 36.358612060546875,
+          "frac_exceed_threshold": 0.981249988079071
+        },
+        "fr": {
+          "n_tokens": 1440,
+          "mean_abs": 34.97633361816406,
+          "median_abs": 35.350406646728516,
+          "frac_exceed_threshold": 0.9854166507720947
+        },
+        "es": {
+          "n_tokens": 1440,
+          "mean_abs": 35.773406982421875,
+          "median_abs": 36.085296630859375,
+          "frac_exceed_threshold": 0.9840278029441833
+        },
+        "pt": {
+          "n_tokens": 1440,
+          "mean_abs": 35.750221252441406,
+          "median_abs": 36.190181732177734,
+          "frac_exceed_threshold": 0.9840278029441833
+        },
+        "zh": {
+          "n_tokens": 1440,
+          "mean_abs": 35.564090728759766,
+          "median_abs": 35.46907043457031,
+          "frac_exceed_threshold": 0.9993055462837219
+        },
+        "ar": {
+          "n_tokens": 1440,
+          "mean_abs": 2.3917038440704346,
+          "median_abs": 2.1023831367492676,
+          "frac_exceed_threshold": 0.0076388888992369175
+        },
+        "vi": {
+          "n_tokens": 1440,
+          "mean_abs": 34.96455764770508,
+          "median_abs": 35.61442565917969,
+          "frac_exceed_threshold": 0.9763888716697693
+        },
+        "hi": {
+          "n_tokens": 1440,
+          "mean_abs": 3.7642626762390137,
+          "median_abs": 2.5640981197357178,
+          "frac_exceed_threshold": 0.02361111156642437
+        },
+        "id": {
+          "n_tokens": 1440,
+          "mean_abs": 60.4494514465332,
+          "median_abs": 69.27751159667969,
+          "frac_exceed_threshold": 0.9159722328186035
+        },
+        "bn": {
+          "n_tokens": 1417,
+          "mean_abs": 1.8717297315597534,
+          "median_abs": 1.7391853332519531,
+          "frac_exceed_threshold": 0.000705716316588223
+        },
+        "sw": {
+          "n_tokens": 1440,
+          "mean_abs": 28.908185958862305,
+          "median_abs": 32.4004020690918,
+          "frac_exceed_threshold": 0.7048611044883728
+        }
+      }
+    }
+  ]
+}

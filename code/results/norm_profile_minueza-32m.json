@@ -1,0 +1,56 @@
+{
+  "model_name": "Felladrin/Minueza-32M-Base",
+  "n_layers": 10,
+  "results": [
+    {
+      "layer": 0,
+      "mean_resid_norm": 1.3513423919677734,
+      "mean_top1_dim_frac_of_norm_sq": 0.04110076824824015
+    },
+    {
+      "layer": 1,
+      "mean_resid_norm": 2.394080098470052,
+      "mean_top1_dim_frac_of_norm_sq": 0.060192859172821044
+    },
+    {
+      "layer": 2,
+      "mean_resid_norm": 2.8804041544596353,
+      "mean_top1_dim_frac_of_norm_sq": 0.05318523645401001
+    },
+    {
+      "layer": 3,
+      "mean_resid_norm": 3.590943145751953,
+      "mean_top1_dim_frac_of_norm_sq": 0.04788264036178589
+    },
+    {
+      "layer": 4,
+      "mean_resid_norm": 4.691026306152343,
+      "mean_top1_dim_frac_of_norm_sq": 0.03579209248224894
+    },
+    {
+      "layer": 5,
+      "mean_resid_norm": 6.417042541503906,
+      "mean_top1_dim_frac_of_norm_sq": 0.032629579305648804
+    },
+    {
+      "layer": 6,
+      "mean_resid_norm": 5.802990214029948,
+      "mean_top1_dim_frac_of_norm_sq": 0.03340938091278076
+    },
+    {
+      "layer": 7,
+      "mean_resid_norm": 7.322054036458334,
+      "mean_top1_dim_frac_of_norm_sq": 0.03345332145690918
+    },
+    {
+      "layer": 8,
+      "mean_resid_norm": 9.310244750976562,
+      "mean_top1_dim_frac_of_norm_sq": 0.0303268035252889
+    },
+    {
+      "layer": 9,
+      "mean_resid_norm": 46.66990966796875,
+      "mean_top1_dim_frac_of_norm_sq": 0.03920500278472901
+    }
+  ]
+}

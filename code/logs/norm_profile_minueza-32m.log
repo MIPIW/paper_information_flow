@@ -1,0 +1,17 @@
+/home/hyohyeongjang/.conda/envs/commonRegion/lib/python3.10/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.3) doesn't match a supported version!
+  warnings.warn(
+The following generation flags are not valid and may be ignored: ['output_hidden_states']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[Felladrin/Minueza-32M-Base] loading (cpu, float32)...
+  en done (10 texts so far)
+  zh done (20 texts so far)
+  layer  0: mean_norm=    1.35  top1_frac=0.0411
+  layer  1: mean_norm=    2.39  top1_frac=0.0602
+  layer  2: mean_norm=    2.88  top1_frac=0.0532
+  layer  3: mean_norm=    3.59  top1_frac=0.0479
+  layer  4: mean_norm=    4.69  top1_frac=0.0358
+  layer  5: mean_norm=    6.42  top1_frac=0.0326
+  layer  6: mean_norm=    5.80  top1_frac=0.0334
+  layer  7: mean_norm=    7.32  top1_frac=0.0335
+  layer  8: mean_norm=    9.31  top1_frac=0.0303
+  layer  9: mean_norm=   46.67  top1_frac=0.0392
+saved results/norm_profile_minueza-32m.json

@@ -1,0 +1,24 @@
+/home/hyohyeongjang/.conda/envs/commonRegion/lib/python3.10/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.3) doesn't match a supported version!
+  warnings.warn(
+[bloom-1b7] Loading model + trained MLSAE on cuda:1...
+Reusing 150 LAPE-selected neurons from results/flow1_bloom1b7_realscale.json
+Streaming probe corpus: ['en', 'fr', 'es', 'pt', 'zh', 'ar', 'vi', 'hi', 'id', 'bn', 'sw'], 1500 examples/language...
+  corpus streamed in 108s
+Selectively caching residual stream + target neuron columns...
+  selective caching done in 595s
+Building a 8-example shared background sample...
+
+Running dominant-latent check on 150 neurons...
+  10/150 neurons checked, 61s elapsed, 0 with >=1 flagged latent so far
+  20/150 neurons checked, 107s elapsed, 0 with >=1 flagged latent so far
+  30/150 neurons checked, 142s elapsed, 0 with >=1 flagged latent so far
+  40/150 neurons checked, 175s elapsed, 1 with >=1 flagged latent so far
+  80/150 neurons checked, 327s elapsed, 3 with >=1 flagged latent so far
+  90/150 neurons checked, 372s elapsed, 3 with >=1 flagged latent so far
+  110/150 neurons checked, 449s elapsed, 3 with >=1 flagged latent so far
+  120/150 neurons checked, 503s elapsed, 4 with >=1 flagged latent so far
+  130/150 neurons checked, 542s elapsed, 4 with >=1 flagged latent so far
+  150/150 neurons checked, 635s elapsed, 6 with >=1 flagged latent so far
+
+6/107 neurons had at least one dominant/context-independent latent flagged.
+Done. Results saved to results/dominant_latent_bloom1b7.json

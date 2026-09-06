@@ -1,0 +1,116 @@
+{
+  "model_name": "TinyLlama/TinyLlama_v1.1",
+  "n_layers": 22,
+  "results": [
+    {
+      "layer": 0,
+      "mean_resid_norm": 1.9386720021565755,
+      "mean_top1_dim_frac_of_norm_sq": 0.14352669715881347
+    },
+    {
+      "layer": 1,
+      "mean_resid_norm": 2.4658274332682293,
+      "mean_top1_dim_frac_of_norm_sq": 0.08279742399851481
+    },
+    {
+      "layer": 2,
+      "mean_resid_norm": 2.7400004069010415,
+      "mean_top1_dim_frac_of_norm_sq": 0.07990851402282714
+    },
+    {
+      "layer": 3,
+      "mean_resid_norm": 2.943029530843099,
+      "mean_top1_dim_frac_of_norm_sq": 0.07853213946024577
+    },
+    {
+      "layer": 4,
+      "mean_resid_norm": 3.1531326293945314,
+      "mean_top1_dim_frac_of_norm_sq": 0.07552522818247477
+    },
+    {
+      "layer": 5,
+      "mean_resid_norm": 3.3979563395182293,
+      "mean_top1_dim_frac_of_norm_sq": 0.07523367404937745
+    },
+    {
+      "layer": 6,
+      "mean_resid_norm": 3.6569610595703126,
+      "mean_top1_dim_frac_of_norm_sq": 0.07148682276407878
+    },
+    {
+      "layer": 7,
+      "mean_resid_norm": 3.993385823567708,
+      "mean_top1_dim_frac_of_norm_sq": 0.08224829037984212
+    },
+    {
+      "layer": 8,
+      "mean_resid_norm": 4.474067687988281,
+      "mean_top1_dim_frac_of_norm_sq": 0.05538208882013957
+    },
+    {
+      "layer": 9,
+      "mean_resid_norm": 6.538942972819011,
+      "mean_top1_dim_frac_of_norm_sq": 0.06173572540283203
+    },
+    {
+      "layer": 10,
+      "mean_resid_norm": 7.794640604654948,
+      "mean_top1_dim_frac_of_norm_sq": 0.06891695658365886
+    },
+    {
+      "layer": 11,
+      "mean_resid_norm": 8.19505360921224,
+      "mean_top1_dim_frac_of_norm_sq": 0.09784227212270101
+    },
+    {
+      "layer": 12,
+      "mean_resid_norm": 8.798337809244792,
+      "mean_top1_dim_frac_of_norm_sq": 0.1119604508082072
+    },
+    {
+      "layer": 13,
+      "mean_resid_norm": 9.617714436848958,
+      "mean_top1_dim_frac_of_norm_sq": 0.17956504821777344
+    },
+    {
+      "layer": 14,
+      "mean_resid_norm": 9.8428955078125,
+      "mean_top1_dim_frac_of_norm_sq": 0.17146108945210775
+    },
+    {
+      "layer": 15,
+      "mean_resid_norm": 10.611862182617188,
+      "mean_top1_dim_frac_of_norm_sq": 0.14854467709859212
+    },
+    {
+      "layer": 16,
+      "mean_resid_norm": 12.042238362630208,
+      "mean_top1_dim_frac_of_norm_sq": 0.12731505235036214
+    },
+    {
+      "layer": 17,
+      "mean_resid_norm": 13.400130208333334,
+      "mean_top1_dim_frac_of_norm_sq": 0.07973392804463704
+    },
+    {
+      "layer": 18,
+      "mean_resid_norm": 15.54048563639323,
+      "mean_top1_dim_frac_of_norm_sq": 0.06059760252634684
+    },
+    {
+      "layer": 19,
+      "mean_resid_norm": 18.505352783203126,
+      "mean_top1_dim_frac_of_norm_sq": 0.0657721757888794
+    },
+    {
+      "layer": 20,
+      "mean_resid_norm": 24.07672119140625,
+      "mean_top1_dim_frac_of_norm_sq": 0.06443822781244914
+    },
+    {
+      "layer": 21,
+      "mean_resid_norm": 83.45697428385417,
+      "mean_top1_dim_frac_of_norm_sq": 0.06266730229059855
+    }
+  ]
+}

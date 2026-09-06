@@ -1,0 +1,35 @@
+{
+  "model": "bloom-560m",
+  "languages": [
+    "zh",
+    "ar"
+  ],
+  "results": {
+    "zh": {
+      "neuron": [
+        1,
+        2644
+      ],
+      "target_layer": 3,
+      "n_attributed_latents": 20,
+      "n_marker_tokens": 15,
+      "neuron_steer_logprob_shift_mean": 0.14618518700202307,
+      "latent_steer_logprob_shift_mean": 95.05502573649089,
+      "latent_over_neuron_fraction": 650.2370567489537,
+      "n_prompts": 3
+    },
+    "ar": {
+      "neuron": [
+        22,
+        1862
+      ],
+      "target_layer": 22,
+      "n_attributed_latents": 20,
+      "n_marker_tokens": 15,
+      "neuron_steer_logprob_shift_mean": 14.153131167093912,
+      "latent_steer_logprob_shift_mean": 6.801743984222412,
+      "latent_over_neuron_fraction": 0.4805822756759645,
+      "n_prompts": 3
+    }
+  }
+}

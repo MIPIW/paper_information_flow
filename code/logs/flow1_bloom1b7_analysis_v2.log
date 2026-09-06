@@ -1,0 +1,39 @@
+/home/hyohyeongjang/.conda/envs/commonRegion/lib/python3.10/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.3) doesn't match a supported version!
+  warnings.warn(
+[bloom-1b7] Loading model on cuda:1...
+MLSAE: n_inputs=2048, n_latents=131072, k=32
+Streaming probe corpus: ['en', 'fr', 'es', 'pt', 'zh', 'ar', 'vi', 'hi', 'id', 'bn', 'sw'], 1500 examples/language...
+  en: 1500 examples
+  fr: 1500 examples
+  es: 1500 examples
+  pt: 1500 examples
+  zh: 1500 examples
+  ar: 1500 examples
+  vi: 1500 examples
+  hi: 1500 examples
+  id: 1500 examples
+  bn: 1500 examples
+  sw: 1500 examples
+  corpus streamed in 143s
+Pass 1/2: streaming through every example, accumulating LAPE statistics only...
+  2000/16500 examples processed, 43s elapsed
+  4000/16500 examples processed, 86s elapsed
+  6000/16500 examples processed, 130s elapsed
+  8000/16500 examples processed, 175s elapsed
+  10000/16500 examples processed, 219s elapsed
+  12000/16500 examples processed, 263s elapsed
+  14000/16500 examples processed, 307s elapsed
+  16000/16500 examples processed, 350s elapsed
+  LAPE accumulation done in 361s
+  1653 language-specific neurons found (percentile cutoff)
+Pass 2/2: re-streaming each language's examples, this time caching only the residual stream plus the 150 target neurons' own activation columns...
+Traceback (most recent call last):
+  File "/home/hyohyeongjang/paper_information_flow/code/scripts/flow1_analysis.py", line 263, in <module>
+    main()
+  File "/home/hyohyeongjang/paper_information_flow/code/scripts/flow1_analysis.py", line 206, in main
+    sel = run_with_selective_cache(model, tokens, mask, target_neurons=target_neurons)
+  File "/home/hyohyeongjang/.conda/envs/commonRegion/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/hyohyeongjang/paper_information_flow/code/src/langflow/models.py", line 158, in run_with_selective_cache
+    resid = torch.stack([layer_out[i] for i in range(n_layers)], dim=0)
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 12.00 MiB. GPU 1 has a total capacity of 79.27 GiB of which 11.19 MiB is free. Including non-PyTorch memory, this process has 79.25 GiB memory in use. Of the allocated memory 78.70 GiB is allocated by PyTorch, and 60.93 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

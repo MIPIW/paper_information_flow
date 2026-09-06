@@ -1,0 +1,47 @@
+/home/hyohyeongjang/.conda/envs/commonRegion/lib/python3.10/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.3) doesn't match a supported version!
+  warnings.warn(
+[bloom-1b7] loading model + fine-tuned SAE on cuda:0...
+target layers: [12, 20, 21, 22, 23], OD dims excluded: [20, 31, 203, 237, 283, 1044, 1369, 1440, 1625, 1853]
+streaming probe corpus: ['en', 'fr', 'es', 'pt', 'zh', 'ar', 'vi', 'hi', 'id', 'bn', 'sw'] x 30...
+  en done (30 texts so far)
+  fr done (60 texts so far)
+  es done (90 texts so far)
+  pt done (120 texts so far)
+  zh done (150 texts so far)
+  ar done (180 texts so far)
+  vi done (210 texts so far)
+  hi done (240 texts so far)
+  id done (270 texts so far)
+  bn done (300 texts so far)
+  sw done (330 texts so far)
+
+=== layer 12 ===
+  FVE: original(standard std)=0.9933  original(robust std, frozen weights)=0.26339628945890514  NEW(robust std, fine-tuned weights)=0.9864
+  dominant latents: original=[13057, 36475]  new=[13057, 36475]
+    latent 13057 (frac_active=0.539) per-language active-frac: {'en': 0.58, 'fr': 0.603, 'es': 0.531, 'pt': 0.551, 'zh': 0.528, 'ar': 0.517, 'vi': 0.533, 'hi': 0.512, 'id': 0.512, 'bn': 0.5, 'sw': 0.558}
+    latent 36475 (frac_active=0.979) per-language active-frac: {'en': 0.979, 'fr': 0.979, 'es': 0.979, 'pt': 0.978, 'zh': 0.979, 'ar': 0.976, 'vi': 0.978, 'hi': 0.979, 'id': 0.978, 'bn': 0.979, 'sw': 0.978}
+
+=== layer 20 ===
+  FVE: original(standard std)=0.9702  original(robust std, frozen weights)=0.9685145071146903  NEW(robust std, fine-tuned weights)=0.9634
+  dominant latents: original=[36475]  new=[36475]
+    latent 36475 (frac_active=0.974) per-language active-frac: {'en': 0.976, 'fr': 0.975, 'es': 0.965, 'pt': 0.956, 'zh': 0.979, 'ar': 0.978, 'vi': 0.975, 'hi': 0.978, 'id': 0.979, 'bn': 0.979, 'sw': 0.973}
+
+=== layer 21 ===
+  FVE: original(standard std)=0.9247  original(robust std, frozen weights)=0.9027144286331492  NEW(robust std, fine-tuned weights)=0.9163
+  dominant latents: original=[36475, 82678]  new=[36475, 82678]
+    latent 36475 (frac_active=0.968) per-language active-frac: {'en': 0.967, 'fr': 0.967, 'es': 0.944, 'pt': 0.938, 'zh': 0.98, 'ar': 0.979, 'vi': 0.963, 'hi': 0.99, 'id': 0.98, 'bn': 0.967, 'sw': 0.978}
+    latent 82678 (frac_active=0.524) per-language active-frac: {'en': 0.996, 'fr': 0.982, 'es': 0.915, 'pt': 0.853, 'zh': 0.476, 'ar': 0.05, 'vi': 0.731, 'hi': 0.063, 'id': 0.376, 'bn': 0.064, 'sw': 0.254}
+
+=== layer 22 ===
+  FVE: original(standard std)=0.8558  original(robust std, frozen weights)=0.8083397913651033  NEW(robust std, fine-tuned weights)=0.8583
+  dominant latents: original=[36475, 61298, 82678]  new=[36475, 61298, 82678]
+    latent 36475 (frac_active=0.735) per-language active-frac: {'en': 0.892, 'fr': 0.721, 'es': 0.699, 'pt': 0.64, 'zh': 0.867, 'ar': 0.983, 'vi': 0.857, 'hi': 0.301, 'id': 0.988, 'bn': 0.16, 'sw': 0.971}
+    latent 61298 (frac_active=0.522) per-language active-frac: {'en': 0.874, 'fr': 0.81, 'es': 0.833, 'pt': 0.798, 'zh': 0.706, 'ar': 0.023, 'vi': 0.838, 'hi': 0.134, 'id': 0.56, 'bn': 0.018, 'sw': 0.144}
+    latent 82678 (frac_active=0.524) per-language active-frac: {'en': 0.991, 'fr': 0.976, 'es': 0.939, 'pt': 0.85, 'zh': 0.611, 'ar': 0.019, 'vi': 0.768, 'hi': 0.042, 'id': 0.298, 'bn': 0.055, 'sw': 0.21}
+
+=== layer 23 ===
+  FVE: original(standard std)=0.8425  original(robust std, frozen weights)=0.8025289539776684  NEW(robust std, fine-tuned weights)=0.8462
+  dominant latents: original=[61298]  new=[61298]
+    latent 61298 (frac_active=0.533) per-language active-frac: {'en': 0.89, 'fr': 0.829, 'es': 0.842, 'pt': 0.823, 'zh': 0.692, 'ar': 0.033, 'vi': 0.869, 'hi': 0.142, 'id': 0.58, 'bn': 0.025, 'sw': 0.124}
+
+saved results/eval_od_aware_bloom1b7.json

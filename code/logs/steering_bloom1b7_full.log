@@ -1,0 +1,24 @@
+/home/hyohyeongjang/.conda/envs/commonRegion/lib/python3.10/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.3) doesn't match a supported version!
+  warnings.warn(
+Loading bloom-1b7 and its trained MLSAE on cuda:1...
+Computing per-layer FVU to screen out layers with unreliable SAE reconstruction...
+  per-layer FVU: [0.171, 0.155, 0.156, 0.152, 0.008, 0.008, 0.007, 0.006, 0.007, 0.007, 0.007, 0.008, 0.009, 0.01, 0.011, 0.013, 0.015, 0.018, 0.022, 0.027, 0.037, 0.073, 0.099, 0.114]
+  reliable layers (FVU <= median 0.015): [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+Streaming English prompts and 30 marker texts per target language...
+  fr: no candidate neuron with a reliable target_layer found, skipping
+  es: no candidate neuron with a reliable target_layer found, skipping
+  pt: no candidate neuron with a reliable target_layer found, skipping
+  zh: neuron=L14N6254, target_layer=16, 20 attributed latents, 15 marker tokens
+    neuron steer shift=0.2231, latent steer shift=10.4867, fraction=47.013932741264455
+  ar: no candidate neuron with a reliable target_layer found, skipping
+  vi: neuron=L2N7951, target_layer=4, 20 attributed latents, 15 marker tokens
+    neuron steer shift=0.1035, latent steer shift=12.0308, fraction=116.2086961608668
+  hi: neuron=L13N4894, target_layer=15, 20 attributed latents, 15 marker tokens
+    neuron steer shift=0.3641, latent steer shift=11.5398, fraction=31.692532988982975
+  id: no candidate neuron with a reliable target_layer found, skipping
+  bn: neuron=L2N4741, target_layer=4, 20 attributed latents, 15 marker tokens
+    neuron steer shift=17.4219, latent steer shift=18.1761, fraction=1.0432890480674972
+  sw: neuron=L2N3323, target_layer=4, 20 attributed latents, 15 marker tokens
+    neuron steer shift=8.9312, latent steer shift=11.0984, fraction=1.2426564401795832
+
+Done. Results saved to results/steering_bloom1b7.json

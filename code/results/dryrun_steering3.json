@@ -1,0 +1,63 @@
+{
+  "model": "bloom-560m",
+  "languages": [
+    "zh",
+    "ar",
+    "hi",
+    "sw"
+  ],
+  "results": {
+    "zh": {
+      "neuron": [
+        22,
+        381
+      ],
+      "target_layer": 22,
+      "n_attributed_latents": 20,
+      "n_marker_tokens": 15,
+      "neuron_steer_logprob_shift_mean": 4.692784150441487,
+      "latent_steer_logprob_shift_mean": 17.811946868896484,
+      "latent_over_neuron_fraction": 3.79560327044251,
+      "n_prompts": 3
+    },
+    "ar": {
+      "neuron": [
+        22,
+        1862
+      ],
+      "target_layer": 22,
+      "n_attributed_latents": 20,
+      "n_marker_tokens": 15,
+      "neuron_steer_logprob_shift_mean": 14.153131167093912,
+      "latent_steer_logprob_shift_mean": 6.801743984222412,
+      "latent_over_neuron_fraction": 0.4805822756759645,
+      "n_prompts": 3
+    },
+    "hi": {
+      "neuron": [
+        22,
+        967
+      ],
+      "target_layer": 22,
+      "n_attributed_latents": 20,
+      "n_marker_tokens": 15,
+      "neuron_steer_logprob_shift_mean": 18.619654337565105,
+      "latent_steer_logprob_shift_mean": 7.629284858703613,
+      "latent_over_neuron_fraction": 0.40974363542891074,
+      "n_prompts": 3
+    },
+    "sw": {
+      "neuron": [
+        20,
+        2337
+      ],
+      "target_layer": 22,
+      "n_attributed_latents": 20,
+      "n_marker_tokens": 15,
+      "neuron_steer_logprob_shift_mean": 0.196781724691391,
+      "latent_steer_logprob_shift_mean": 2.1530104875564575,
+      "latent_over_neuron_fraction": 10.941109957913941,
+      "n_prompts": 3
+    }
+  }
+}

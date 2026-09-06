@@ -1,0 +1,460 @@
+{
+  "feature_set": "syntax_knn",
+  "languages": [
+    "ar",
+    "bn",
+    "en",
+    "es",
+    "fr",
+    "hi",
+    "id",
+    "pt",
+    "sw",
+    "vi",
+    "zh"
+  ],
+  "pairs": [
+    {
+      "language_a": "ar",
+      "language_b": "bn",
+      "latent_jaccard_overlap": 0.19840637450199203,
+      "n_attributed_a": 843,
+      "n_attributed_b": 661,
+      "typological_distance": 0.46497157914533815
+    },
+    {
+      "language_a": "ar",
+      "language_b": "en",
+      "latent_jaccard_overlap": 0.11022044088176353,
+      "n_attributed_a": 843,
+      "n_attributed_b": 265,
+      "typological_distance": 0.3556139239341125
+    },
+    {
+      "language_a": "ar",
+      "language_b": "es",
+      "latent_jaccard_overlap": 0.13699753896636588,
+      "n_attributed_a": 843,
+      "n_attributed_b": 543,
+      "typological_distance": 0.24658942522056582
+    },
+    {
+      "language_a": "ar",
+      "language_b": "fr",
+      "latent_jaccard_overlap": 0.14311926605504588,
+      "n_attributed_a": 843,
+      "n_attributed_b": 403,
+      "typological_distance": 0.27887473710893407
+    },
+    {
+      "language_a": "ar",
+      "language_b": "hi",
+      "latent_jaccard_overlap": 0.24416666666666667,
+      "n_attributed_a": 843,
+      "n_attributed_b": 650,
+      "typological_distance": 0.3407657470679951
+    },
+    {
+      "language_a": "ar",
+      "language_b": "id",
+      "latent_jaccard_overlap": 0.17220279720279721,
+      "n_attributed_a": 843,
+      "n_attributed_b": 498,
+      "typological_distance": 0.38704794064097237
+    },
+    {
+      "language_a": "ar",
+      "language_b": "pt",
+      "latent_jaccard_overlap": 0.16274752475247525,
+      "n_attributed_a": 843,
+      "n_attributed_b": 1036,
+      "typological_distance": 0.25165294832348795
+    },
+    {
+      "language_a": "ar",
+      "language_b": "sw",
+      "latent_jaccard_overlap": 0.1522903033908388,
+      "n_attributed_a": 843,
+      "n_attributed_b": 1094,
+      "typological_distance": 0.3482138582172315
+    },
+    {
+      "language_a": "ar",
+      "language_b": "vi",
+      "latent_jaccard_overlap": 0.09990749306197964,
+      "n_attributed_a": 843,
+      "n_attributed_b": 346,
+      "typological_distance": 0.4495181175883348
+    },
+    {
+      "language_a": "ar",
+      "language_b": "zh",
+      "latent_jaccard_overlap": 0.17454545454545456,
+      "n_attributed_a": 843,
+      "n_attributed_b": 449,
+      "typological_distance": 0.4723551471214894
+    },
+    {
+      "language_a": "bn",
+      "language_b": "en",
+      "latent_jaccard_overlap": 0.10501193317422435,
+      "n_attributed_a": 661,
+      "n_attributed_b": 265,
+      "typological_distance": 0.4165517673013879
+    },
+    {
+      "language_a": "bn",
+      "language_b": "es",
+      "latent_jaccard_overlap": 0.11688311688311688,
+      "n_attributed_a": 661,
+      "n_attributed_b": 543,
+      "typological_distance": 0.44574290351490375
+    },
+    {
+      "language_a": "bn",
+      "language_b": "fr",
+      "latent_jaccard_overlap": 0.1235480464625132,
+      "n_attributed_a": 661,
+      "n_attributed_b": 403,
+      "typological_distance": 0.4047619049036282
+    },
+    {
+      "language_a": "bn",
+      "language_b": "hi",
+      "latent_jaccard_overlap": 0.2630057803468208,
+      "n_attributed_a": 661,
+      "n_attributed_b": 650,
+      "typological_distance": 0.1806634225872491
+    },
+    {
+      "language_a": "bn",
+      "language_b": "id",
+      "latent_jaccard_overlap": 0.15438247011952191,
+      "n_attributed_a": 661,
+      "n_attributed_b": 498,
+      "typological_distance": 0.5635642196470629
+    },
+    {
+      "language_a": "bn",
+      "language_b": "pt",
+      "latent_jaccard_overlap": 0.12013201320132014,
+      "n_attributed_a": 661,
+      "n_attributed_b": 1036,
+      "typological_distance": 0.43170885736690434
+    },
+    {
+      "language_a": "bn",
+      "language_b": "sw",
+      "latent_jaccard_overlap": 0.12861736334405144,
+      "n_attributed_a": 661,
+      "n_attributed_b": 1094,
+      "typological_distance": 0.5799587206624945
+    },
+    {
+      "language_a": "bn",
+      "language_b": "vi",
+      "latent_jaccard_overlap": 0.09934497816593886,
+      "n_attributed_a": 661,
+      "n_attributed_b": 346,
+      "typological_distance": 0.6337664897208175
+    },
+    {
+      "language_a": "bn",
+      "language_b": "zh",
+      "latent_jaccard_overlap": 0.14551083591331268,
+      "n_attributed_a": 661,
+      "n_attributed_b": 449,
+      "typological_distance": 0.3056349253491578
+    },
+    {
+      "language_a": "en",
+      "language_b": "es",
+      "latent_jaccard_overlap": 0.15925394548063126,
+      "n_attributed_a": 265,
+      "n_attributed_b": 543,
+      "typological_distance": 0.17840613466998767
+    },
+    {
+      "language_a": "en",
+      "language_b": "fr",
+      "latent_jaccard_overlap": 0.13798977853492334,
+      "n_attributed_a": 265,
+      "n_attributed_b": 403,
+      "typological_distance": 0.1882459371149745
+    },
+    {
+      "language_a": "en",
+      "language_b": "hi",
+      "latent_jaccard_overlap": 0.10240963855421686,
+      "n_attributed_a": 265,
+      "n_attributed_b": 650,
+      "typological_distance": 0.3838046010024907
+    },
+    {
+      "language_a": "en",
+      "language_b": "id",
+      "latent_jaccard_overlap": 0.12205882352941176,
+      "n_attributed_a": 265,
+      "n_attributed_b": 498,
+      "typological_distance": 0.27345225806227813
+    },
+    {
+      "language_a": "en",
+      "language_b": "pt",
+      "latent_jaccard_overlap": 0.10912190963341858,
+      "n_attributed_a": 265,
+      "n_attributed_b": 1036,
+      "typological_distance": 0.15760299783350995
+    },
+    {
+      "language_a": "en",
+      "language_b": "sw",
+      "latent_jaccard_overlap": 0.08028616852146264,
+      "n_attributed_a": 265,
+      "n_attributed_b": 1094,
+      "typological_distance": 0.5261516862813493
+    },
+    {
+      "language_a": "en",
+      "language_b": "vi",
+      "latent_jaccard_overlap": 0.11496350364963503,
+      "n_attributed_a": 265,
+      "n_attributed_b": 346,
+      "typological_distance": 0.33966975249176745
+    },
+    {
+      "language_a": "en",
+      "language_b": "zh",
+      "latent_jaccard_overlap": 0.16476345840130505,
+      "n_attributed_a": 265,
+      "n_attributed_b": 449,
+      "typological_distance": 0.287604388538647
+    },
+    {
+      "language_a": "es",
+      "language_b": "fr",
+      "latent_jaccard_overlap": 0.1780821917808219,
+      "n_attributed_a": 543,
+      "n_attributed_b": 403,
+      "typological_distance": 0.15656528795746227
+    },
+    {
+      "language_a": "es",
+      "language_b": "hi",
+      "latent_jaccard_overlap": 0.12866603595080417,
+      "n_attributed_a": 543,
+      "n_attributed_b": 650,
+      "typological_distance": 0.3170731708982748
+    },
+    {
+      "language_a": "es",
+      "language_b": "id",
+      "latent_jaccard_overlap": 0.13398692810457516,
+      "n_attributed_a": 543,
+      "n_attributed_b": 498,
+      "typological_distance": 0.33741084373384767
+    },
+    {
+      "language_a": "es",
+      "language_b": "pt",
+      "latent_jaccard_overlap": 0.18100224382946897,
+      "n_attributed_a": 543,
+      "n_attributed_b": 1036,
+      "typological_distance": 0.04970298600497325
+    },
+    {
+      "language_a": "es",
+      "language_b": "sw",
+      "latent_jaccard_overlap": 0.11969904240766074,
+      "n_attributed_a": 543,
+      "n_attributed_b": 1094,
+      "typological_distance": 0.4248202283714312
+    },
+    {
+      "language_a": "es",
+      "language_b": "vi",
+      "latent_jaccard_overlap": 0.11964735516372796,
+      "n_attributed_a": 543,
+      "n_attributed_b": 346,
+      "typological_distance": 0.4012207542329206
+    },
+    {
+      "language_a": "es",
+      "language_b": "zh",
+      "latent_jaccard_overlap": 0.17814726840855108,
+      "n_attributed_a": 543,
+      "n_attributed_b": 449,
+      "typological_distance": 0.3753049526081773
+    },
+    {
+      "language_a": "fr",
+      "language_b": "hi",
+      "latent_jaccard_overlap": 0.14705882352941177,
+      "n_attributed_a": 403,
+      "n_attributed_b": 650,
+      "typological_distance": 0.34935036499575656
+    },
+    {
+      "language_a": "fr",
+      "language_b": "id",
+      "latent_jaccard_overlap": 0.14050632911392405,
+      "n_attributed_a": 403,
+      "n_attributed_b": 498,
+      "typological_distance": 0.29079185692647724
+    },
+    {
+      "language_a": "fr",
+      "language_b": "pt",
+      "latent_jaccard_overlap": 0.13575374901341752,
+      "n_attributed_a": 403,
+      "n_attributed_b": 1036,
+      "typological_distance": 0.13520913077572394
+    },
+    {
+      "language_a": "fr",
+      "language_b": "sw",
+      "latent_jaccard_overlap": 0.10398230088495575,
+      "n_attributed_a": 403,
+      "n_attributed_b": 1094,
+      "typological_distance": 0.4070005468176393
+    },
+    {
+      "language_a": "fr",
+      "language_b": "vi",
+      "latent_jaccard_overlap": 0.10962962962962963,
+      "n_attributed_a": 403,
+      "n_attributed_b": 346,
+      "typological_distance": 0.38022021337369105
+    },
+    {
+      "language_a": "fr",
+      "language_b": "zh",
+      "latent_jaccard_overlap": 0.16712328767123288,
+      "n_attributed_a": 403,
+      "n_attributed_b": 449,
+      "typological_distance": 0.3827866003103625
+    },
+    {
+      "language_a": "hi",
+      "language_b": "id",
+      "latent_jaccard_overlap": 0.1750255885363357,
+      "n_attributed_a": 650,
+      "n_attributed_b": 498,
+      "typological_distance": 0.4754502512892961
+    },
+    {
+      "language_a": "hi",
+      "language_b": "pt",
+      "latent_jaccard_overlap": 0.1430508474576271,
+      "n_attributed_a": 650,
+      "n_attributed_b": 1036,
+      "typological_distance": 0.3247889637403758
+    },
+    {
+      "language_a": "hi",
+      "language_b": "sw",
+      "latent_jaccard_overlap": 0.1611185086551265,
+      "n_attributed_a": 650,
+      "n_attributed_b": 1094,
+      "typological_distance": 0.5248514930024866
+    },
+    {
+      "language_a": "hi",
+      "language_b": "vi",
+      "latent_jaccard_overlap": 0.10421286031042129,
+      "n_attributed_a": 650,
+      "n_attributed_b": 346,
+      "typological_distance": 0.5723005387378004
+    },
+    {
+      "language_a": "hi",
+      "language_b": "zh",
+      "latent_jaccard_overlap": 0.16666666666666666,
+      "n_attributed_a": 650,
+      "n_attributed_b": 449,
+      "typological_distance": 0.29721807168419956
+    },
+    {
+      "language_a": "id",
+      "language_b": "pt",
+      "latent_jaccard_overlap": 0.1287711552612215,
+      "n_attributed_a": 498,
+      "n_attributed_b": 1036,
+      "typological_distance": 0.2923268538599483
+    },
+    {
+      "language_a": "id",
+      "language_b": "sw",
+      "latent_jaccard_overlap": 0.14121863799283155,
+      "n_attributed_a": 498,
+      "n_attributed_b": 1094,
+      "typological_distance": 0.4338614830879586
+    },
+    {
+      "language_a": "id",
+      "language_b": "vi",
+      "latent_jaccard_overlap": 0.14208389715832206,
+      "n_attributed_a": 498,
+      "n_attributed_b": 346,
+      "typological_distance": 0.0963038861766028
+    },
+    {
+      "language_a": "id",
+      "language_b": "zh",
+      "latent_jaccard_overlap": 0.2002534854245881,
+      "n_attributed_a": 498,
+      "n_attributed_b": 449,
+      "typological_distance": 0.32235600156254485
+    },
+    {
+      "language_a": "pt",
+      "language_b": "sw",
+      "latent_jaccard_overlap": 0.136,
+      "n_attributed_a": 1036,
+      "n_attributed_b": 1094,
+      "typological_distance": 0.43589743604207765
+    },
+    {
+      "language_a": "pt",
+      "language_b": "vi",
+      "latent_jaccard_overlap": 0.09162717219589257,
+      "n_attributed_a": 1036,
+      "n_attributed_b": 346,
+      "typological_distance": 0.3568241193628795
+    },
+    {
+      "language_a": "pt",
+      "language_b": "zh",
+      "latent_jaccard_overlap": 0.14318706697459585,
+      "n_attributed_a": 1036,
+      "n_attributed_b": 449,
+      "typological_distance": 0.332799359323533
+    },
+    {
+      "language_a": "sw",
+      "language_b": "vi",
+      "latent_jaccard_overlap": 0.08679245283018867,
+      "n_attributed_a": 1094,
+      "n_attributed_b": 346,
+      "typological_distance": 0.44452992126794144
+    },
+    {
+      "language_a": "sw",
+      "language_b": "zh",
+      "latent_jaccard_overlap": 0.11811594202898551,
+      "n_attributed_a": 1094,
+      "n_attributed_b": 449,
+      "typological_distance": 0.6530556668482372
+    },
+    {
+      "language_a": "vi",
+      "language_b": "zh",
+      "latent_jaccard_overlap": 0.17429837518463812,
+      "n_attributed_a": 346,
+      "n_attributed_b": 449,
+      "typological_distance": 0.3609903497717506
+    }
+  ],
+  "spearman_rho": -0.33253968253968264,
+  "spearman_pvalue": 0.013117033428517388
+}

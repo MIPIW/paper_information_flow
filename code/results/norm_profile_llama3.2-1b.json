@@ -1,0 +1,86 @@
+{
+  "model_name": "meta-llama/Llama-3.2-1B",
+  "n_layers": 16,
+  "results": [
+    {
+      "layer": 0,
+      "mean_resid_norm": 2.4386990865071616,
+      "mean_top1_dim_frac_of_norm_sq": 0.03819024960199992
+    },
+    {
+      "layer": 1,
+      "mean_resid_norm": 11.068674723307291,
+      "mean_top1_dim_frac_of_norm_sq": 0.0520935853322347
+    },
+    {
+      "layer": 2,
+      "mean_resid_norm": 11.860396321614584,
+      "mean_top1_dim_frac_of_norm_sq": 0.05657331148783366
+    },
+    {
+      "layer": 3,
+      "mean_resid_norm": 12.451461791992188,
+      "mean_top1_dim_frac_of_norm_sq": 0.04931909640630086
+    },
+    {
+      "layer": 4,
+      "mean_resid_norm": 12.880491129557292,
+      "mean_top1_dim_frac_of_norm_sq": 0.04401277303695679
+    },
+    {
+      "layer": 5,
+      "mean_resid_norm": 13.217138671875,
+      "mean_top1_dim_frac_of_norm_sq": 0.045721697807312014
+    },
+    {
+      "layer": 6,
+      "mean_resid_norm": 13.45244140625,
+      "mean_top1_dim_frac_of_norm_sq": 0.0678393284479777
+    },
+    {
+      "layer": 7,
+      "mean_resid_norm": 13.851673380533855,
+      "mean_top1_dim_frac_of_norm_sq": 0.06971221764882406
+    },
+    {
+      "layer": 8,
+      "mean_resid_norm": 14.365110270182292,
+      "mean_top1_dim_frac_of_norm_sq": 0.07499971389770507
+    },
+    {
+      "layer": 9,
+      "mean_resid_norm": 15.56571553548177,
+      "mean_top1_dim_frac_of_norm_sq": 0.07452027002970378
+    },
+    {
+      "layer": 10,
+      "mean_resid_norm": 16.661941528320312,
+      "mean_top1_dim_frac_of_norm_sq": 0.06791063944498697
+    },
+    {
+      "layer": 11,
+      "mean_resid_norm": 18.39404296875,
+      "mean_top1_dim_frac_of_norm_sq": 0.06820264657338461
+    },
+    {
+      "layer": 12,
+      "mean_resid_norm": 20.570526123046875,
+      "mean_top1_dim_frac_of_norm_sq": 0.07363030115763346
+    },
+    {
+      "layer": 13,
+      "mean_resid_norm": 22.87815958658854,
+      "mean_top1_dim_frac_of_norm_sq": 0.07797583738962809
+    },
+    {
+      "layer": 14,
+      "mean_resid_norm": 26.07748819986979,
+      "mean_top1_dim_frac_of_norm_sq": 0.10114265282948812
+    },
+    {
+      "layer": 15,
+      "mean_resid_norm": 102.61153971354166,
+      "mean_top1_dim_frac_of_norm_sq": 0.026303996642430622
+    }
+  ]
+}

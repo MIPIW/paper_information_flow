@@ -1,0 +1,53 @@
+/home/hyohyeongjang/.conda/envs/commonRegion/lib/python3.10/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.3) doesn't match a supported version!
+  warnings.warn(
+Loading bloom-560m on cuda:0...
+Streaming probe corpus: ['en', 'fr', 'es', 'pt', 'zh', 'ar', 'vi', 'hi', 'id', 'bn', 'sw'], 1500 examples/language...
+  en: 1500 examples
+  fr: 1500 examples
+  es: 1500 examples
+  pt: 1500 examples
+  zh: 1500 examples
+  ar: 1500 examples
+  vi: 1500 examples
+  hi: 1500 examples
+  id: 1500 examples
+  bn: 1500 examples
+  sw: 1500 examples
+  corpus streamed in 97s
+Streaming through every example, accumulating LAPE statistics...
+  (each example's activations are discarded immediately after updating the running
+   sums, since materializing all of them at once OOMs at BLOOM-1.7B's width)
+  2000/16500 examples processed, 42s elapsed
+  4000/16500 examples processed, 83s elapsed
+  6000/16500 examples processed, 124s elapsed
+  8000/16500 examples processed, 166s elapsed
+  10000/16500 examples processed, 208s elapsed
+  12000/16500 examples processed, 250s elapsed
+  14000/16500 examples processed, 292s elapsed
+  16000/16500 examples processed, 333s elapsed
+  LAPE accumulation done in 343s
+Finalizing LAPE scores...
+  760 language-specific neurons found
+  language distribution: [('pt', 112), ('fr', 81), ('bn', 75), ('id', 73), ('zh', 72), ('sw', 71), ('es', 69), ('ar', 65), ('hi', 63), ('vi', 40), ('en', 39)]
+  layer distribution (of 24 layers):
+    layer 0: 10 (1.3%)
+    layer 1: 14 (1.8%)
+    layer 2: 6 (0.8%)
+    layer 3: 3 (0.4%)
+    layer 5: 3 (0.4%)
+    layer 6: 1 (0.1%)
+    layer 8: 1 (0.1%)
+    layer 10: 1 (0.1%)
+    layer 12: 5 (0.7%)
+    layer 13: 4 (0.5%)
+    layer 14: 8 (1.1%)
+    layer 15: 8 (1.1%)
+    layer 16: 12 (1.6%)
+    layer 17: 18 (2.4%)
+    layer 18: 30 (3.9%)
+    layer 19: 56 (7.4%)
+    layer 20: 81 (10.7%)
+    layer 21: 104 (13.7%)
+    layer 22: 192 (25.3%)
+    layer 23: 203 (26.7%)
+Done. Results saved to results/bloom560m_lape.json

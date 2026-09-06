@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# env / secrets — never commit these
+.env
+*.env
+**/secrets*
+
+# OS
+.DS_Store

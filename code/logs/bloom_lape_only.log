@@ -1,0 +1,54 @@
+/home/hyohyeongjang/.conda/envs/commonRegion/lib/python3.10/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.3) doesn't match a supported version!
+  warnings.warn(
+Loading BLOOM-1.7B on cuda:0...
+Streaming probe corpus: ['en', 'fr', 'es', 'pt', 'zh', 'ar', 'vi', 'hi', 'id', 'bn', 'sw'], 1500 examples/language...
+  en: 1500 examples
+  fr: 1500 examples
+  es: 1500 examples
+  pt: 1500 examples
+  zh: 1500 examples
+  ar: 1500 examples
+  vi: 1500 examples
+  hi: 1500 examples
+  id: 1500 examples
+  bn: 1500 examples
+  sw: 1500 examples
+  corpus streamed in 103s
+Streaming through every example, accumulating LAPE statistics...
+  (each example's activations are discarded immediately after updating the running
+   sums, since materializing all of them at once is what OOM'd at this model's scale)
+  2000/16500 examples processed, 41s elapsed
+  4000/16500 examples processed, 82s elapsed
+  6000/16500 examples processed, 123s elapsed
+  8000/16500 examples processed, 165s elapsed
+  10000/16500 examples processed, 207s elapsed
+  12000/16500 examples processed, 249s elapsed
+  14000/16500 examples processed, 291s elapsed
+  16000/16500 examples processed, 332s elapsed
+  LAPE accumulation done in 342s
+Finalizing LAPE scores...
+  1653 language-specific neurons found
+  language distribution: [('sw', 286), ('pt', 203), ('bn', 178), ('hi', 165), ('zh', 155), ('fr', 155), ('id', 141), ('es', 124), ('ar', 121), ('vi', 75), ('en', 50)]
+  layer distribution (of 24 layers):
+    layer 0: 7 (0.4%)
+    layer 1: 16 (1.0%)
+    layer 2: 11 (0.7%)
+    layer 3: 7 (0.4%)
+    layer 6: 3 (0.2%)
+    layer 7: 1 (0.1%)
+    layer 9: 1 (0.1%)
+    layer 10: 1 (0.1%)
+    layer 11: 1 (0.1%)
+    layer 12: 3 (0.2%)
+    layer 13: 3 (0.2%)
+    layer 14: 14 (0.8%)
+    layer 15: 8 (0.5%)
+    layer 16: 20 (1.2%)
+    layer 17: 37 (2.2%)
+    layer 18: 78 (4.7%)
+    layer 19: 131 (7.9%)
+    layer 20: 229 (13.9%)
+    layer 21: 320 (19.4%)
+    layer 22: 422 (25.5%)
+    layer 23: 340 (20.6%)
+Done. Results saved to results/bloom1b7_lape.json

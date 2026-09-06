@@ -1,0 +1,73 @@
+=== Baselines: Pythia-70M ===
+/home/hyohyeongjang/.conda/envs/commonRegion/lib/python3.10/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.3) doesn't match a supported version!
+  warnings.warn(
+[pythia-70m] Loading model on cuda:1...
+MLSAE: n_inputs=512, n_latents=32768, k=32
+Reusing 40 LAPE-selected neurons from results/flow1_pythia70m_realscale.json
+Streaming probe corpus: ['en', 'fr', 'de', 'es', 'it', 'nl', 'pt', 'ru', 'zh', 'ja'], 1500 examples/language...
+  corpus streamed in 92s
+Selectively caching the residual stream and target neuron columns...
+  selective caching done in 104s
+
+Comparing attribution methods on 40 neurons...
+  10/40 neurons compared
+  20/40 neurons compared
+  30/40 neurons compared
+  40/40 neurons compared
+
+Done. Results saved to results/baselines_pythia70m.json
+=== Baselines: Pythia-410M ===
+/home/hyohyeongjang/.conda/envs/commonRegion/lib/python3.10/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.3) doesn't match a supported version!
+  warnings.warn(
+[pythia-410m] Loading model on cuda:1...
+MLSAE: n_inputs=1024, n_latents=65536, k=32
+Reusing 40 LAPE-selected neurons from results/flow1_pythia410m_realscale.json
+Streaming probe corpus: ['en', 'fr', 'de', 'es', 'it', 'nl', 'pt', 'ru', 'zh', 'ja'], 1500 examples/language...
+  corpus streamed in 93s
+Selectively caching the residual stream and target neuron columns...
+  selective caching done in 385s
+
+Comparing attribution methods on 40 neurons...
+  10/40 neurons compared
+  20/40 neurons compared
+  30/40 neurons compared
+  40/40 neurons compared
+
+Done. Results saved to results/baselines_pythia410m.json
+=== Baselines: BLOOM-560M ===
+/home/hyohyeongjang/.conda/envs/commonRegion/lib/python3.10/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.3) doesn't match a supported version!
+  warnings.warn(
+[bloom-560m] Loading model on cuda:1...
+MLSAE: n_inputs=1024, n_latents=65536, k=32
+Reusing 40 LAPE-selected neurons from results/flow1_bloom560m_realscale.json
+Streaming probe corpus: ['en', 'fr', 'es', 'pt', 'zh', 'ar', 'vi', 'hi', 'id', 'bn', 'sw'], 1500 examples/language...
+  corpus streamed in 95s
+Selectively caching the residual stream and target neuron columns...
+  selective caching done in 394s
+
+Comparing attribution methods on 40 neurons...
+  10/40 neurons compared
+  20/40 neurons compared
+  30/40 neurons compared
+  40/40 neurons compared
+
+Done. Results saved to results/baselines_bloom560m.json
+=== Baselines: BLOOM-1.7B ===
+/home/hyohyeongjang/.conda/envs/commonRegion/lib/python3.10/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.3) doesn't match a supported version!
+  warnings.warn(
+[bloom-1b7] Loading model on cuda:1...
+MLSAE: n_inputs=2048, n_latents=131072, k=32
+Reusing 40 LAPE-selected neurons from results/flow1_bloom1b7_realscale.json
+Streaming probe corpus: ['en', 'fr', 'es', 'pt', 'zh', 'ar', 'vi', 'hi', 'id', 'bn', 'sw'], 1500 examples/language...
+  corpus streamed in 97s
+Selectively caching the residual stream and target neuron columns...
+  selective caching done in 420s
+
+Comparing attribution methods on 40 neurons...
+  10/40 neurons compared
+  20/40 neurons compared
+  30/40 neurons compared
+  40/40 neurons compared
+
+Done. Results saved to results/baselines_bloom1b7.json
+=== BASELINES CHAIN DONE ===

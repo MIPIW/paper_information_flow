@@ -1,0 +1,84 @@
+/home/hyohyeongjang/.conda/envs/commonRegion/lib/python3.10/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.3) doesn't match a supported version!
+  warnings.warn(
+[bloom-1b7] loading model on cuda:0...
+primary OD dim at last layer: 1044
+streaming probe corpus: ['en', 'fr', 'es', 'pt', 'zh', 'ar', 'vi', 'hi', 'id', 'bn', 'sw'] x 30...
+  en done (30 texts so far)
+  fr done (60 texts so far)
+  es done (90 texts so far)
+  pt done (120 texts so far)
+  zh done (150 texts so far)
+  ar done (180 texts so far)
+  vi done (210 texts so far)
+  hi done (240 texts so far)
+  id done (270 texts so far)
+  bn done (300 texts so far)
+  sw done (330 texts so far)
+signed OD mean activation by language: {'en': 62.2, 'fr': 52.17, 'es': 53.01, 'pt': 49.3, 'zh': 97.4, 'ar': 0.25, 'vi': 60.5, 'hi': 1.7, 'id': -3.54, 'bn': -4.3, 'sw': 2.94}
+
+top 30 tokens boosted by increasing the OD (global magnitude):
+    '維爾'                 logprob_shift=+5.614
+    ' Cooperació'        logprob_shift=+5.474
+    ' Promoció'          logprob_shift=+5.318
+    '金'                  logprob_shift=+5.299
+    '高'                  logprob_shift=+5.217
+    '香'                  logprob_shift=+5.211
+    '大'                  logprob_shift=+5.203
+    '豪'                  logprob_shift=+5.164
+    '新'                  logprob_shift=+5.145
+    '花'                  logprob_shift=+5.136
+    " l'exili"           logprob_shift=+5.127
+    ' nghẹn'             logprob_shift=+5.108
+    '李'                  logprob_shift=+5.084
+    '舒'                  logprob_shift=+5.079
+    '洗'                  logprob_shift=+5.071
+    '朱'                  logprob_shift=+5.070
+    '雷'                  logprob_shift=+5.068
+    '餐'                  logprob_shift=+5.050
+    '老'                  logprob_shift=+5.036
+    '平'                  logprob_shift=+5.028
+    '保'                  logprob_shift=+5.018
+    '安'                  logprob_shift=+5.015
+    '出'                  logprob_shift=+5.011
+    '日'                  logprob_shift=+5.010
+    '爆'                  logprob_shift=+5.008
+    'Obres'              logprob_shift=+5.006
+    '打'                  logprob_shift=+5.002
+    '拉'                  logprob_shift=+4.990
+    '快'                  logprob_shift=+4.986
+    '黑'                  logprob_shift=+4.986
+
+en: OD mag=+62.20  jaccard(own-mag top10, global top10)=0.60
+  global-boosted tokens' frequency in en text (per 10k tokens): [('維爾', 0.0), (' Cooperació', 0.0), (' Promoció', 0.0), ('金', 0.0), ('高', 0.0)]
+
+fr: OD mag=+52.17  jaccard(own-mag top10, global top10)=0.70
+  global-boosted tokens' frequency in fr text (per 10k tokens): [('維爾', 0.0), (' Cooperació', 0.0), (' Promoció', 0.0), ('金', 0.0), ('高', 0.0)]
+
+es: OD mag=+53.01  jaccard(own-mag top10, global top10)=0.70
+  global-boosted tokens' frequency in es text (per 10k tokens): [('維爾', 0.0), (' Cooperació', 0.0), (' Promoció', 0.0), ('金', 0.0), ('高', 0.0)]
+
+pt: OD mag=+49.30  jaccard(own-mag top10, global top10)=0.70
+  global-boosted tokens' frequency in pt text (per 10k tokens): [('維爾', 0.0), (' Cooperació', 0.0), (' Promoció', 0.0), ('金', 0.0), ('高', 0.0)]
+
+zh: OD mag=+97.40  jaccard(own-mag top10, global top10)=0.40
+  global-boosted tokens' frequency in zh text (per 10k tokens): [('維爾', 0.0), (' Cooperació', 0.0), (' Promoció', 0.0), ('金', 0.0), ('高', 0.0)]
+
+ar: OD mag=+0.25  jaccard(own-mag top10, global top10)=0.70
+  global-boosted tokens' frequency in ar text (per 10k tokens): [('維爾', 0.0), (' Cooperació', 0.0), (' Promoció', 0.0), ('金', 0.0), ('高', 0.0)]
+
+vi: OD mag=+60.50  jaccard(own-mag top10, global top10)=0.60
+  global-boosted tokens' frequency in vi text (per 10k tokens): [('維爾', 0.0), (' Cooperació', 0.0), (' Promoció', 0.0), ('金', 0.0), ('高', 0.0)]
+
+hi: OD mag=+1.70  jaccard(own-mag top10, global top10)=0.70
+  global-boosted tokens' frequency in hi text (per 10k tokens): [('維爾', 0.0), (' Cooperació', 0.0), (' Promoció', 0.0), ('金', 0.0), ('高', 0.0)]
+
+id: OD mag=-3.54  jaccard(own-mag top10, global top10)=0.00
+  global-boosted tokens' frequency in id text (per 10k tokens): [('維爾', 0.0), (' Cooperació', 0.0), (' Promoció', 0.0), ('金', 0.0), ('高', 0.0)]
+
+bn: OD mag=-4.30  jaccard(own-mag top10, global top10)=0.00
+  global-boosted tokens' frequency in bn text (per 10k tokens): [('維爾', 0.0), (' Cooperació', 0.0), (' Promoció', 0.0), ('金', 0.0), ('高', 0.0)]
+
+sw: OD mag=+2.94  jaccard(own-mag top10, global top10)=0.70
+  global-boosted tokens' frequency in sw text (per 10k tokens): [('維爾', 0.0), (' Cooperació', 0.0), (' Promoció', 0.0), ('金', 0.0), ('高', 0.0)]
+
+saved results/od_freq_bloom1b7.json
